@@ -20,7 +20,7 @@ body {
     font-weight: 300;
 }
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -352,7 +352,7 @@ Button
     color: #fff;
     background-color: #ffe13e;
     border-color: #fff;
-    transition: .6s;	
+    transition: .6s;
 }
 
 .pink-btn {
@@ -487,9 +487,9 @@ input:-ms-input-placeholder {
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0; 
-    left: 0; 
-    right: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -507,12 +507,13 @@ input:-ms-input-placeholder {
 .main_menu_bg{
     margin-top: 0px;
     background-color: #fff;
+    height: 80px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
+    background-color: transparent;
     border-color: transparent;
-    transition:.6s;
-    margin: 20px auto;
+    transition:.6s;*/
+    margin: 10px auto;
 }
 
 
@@ -539,7 +540,7 @@ input:-ms-input-placeholder {
 
 
 .navbar-brand>img {
-    max-width: 20%;
+    max-width: 13%;
 }
 .navbar-brand {
     padding: 2px 5px;
@@ -608,7 +609,7 @@ header_top_bar{
     background-size:cover;
 }
 .home_overlay{
-    background:rgba(176, 186, 186, 0.44);
+    background:rgba(176, 186, 186, 0.30);
 }
 
 .main_home_searce_domain_content{
@@ -625,7 +626,7 @@ header_top_bar{
     margin-bottom:40px;
 }
 .slider .single_slider p{
-    font-size:1.875rem;
+    font-size:2.5rem;
     color:#fff;
     font-family: 'ralewaylight';
     margin-bottom:40px;
@@ -681,7 +682,7 @@ header_top_bar{
 
 
 /*.single_slider{
-    overflow: hidden;	
+    overflow: hidden;
         text-align:center;
         padding:300px 0px;
 }
@@ -712,7 +713,6 @@ header_top_bar{
     padding: 250px 0px;
     text-align: center;
 }
-
 
 .main_slider_area .owl-theme .owl-dots {
     text-align: center;
@@ -779,7 +779,7 @@ header_top_bar{
 }
 .main_webhost_service_area .single_webhost_right .single_webhost_right_content p{
     font-size:1rem;
-    font-family: 'ralewayregular'; 
+    font-family: 'ralewayregular';
 }
 .main_webhost_service_area .single_webhost_right_img h1{
     font-size: 8.36rem;
@@ -790,7 +790,7 @@ header_top_bar{
 }
 
 
-/*our features section*/ 
+/*our features section*/
 .feature{
     background: #fbf8f1;
 }
@@ -841,7 +841,7 @@ header_top_bar{
 
 }
 .clients .main_clients_area .main_clients_top_content{
-    padding: 80px 0px; 
+    padding: 80px 0px;
 }
 .clients .main_clients_area .main_clients_top_content .client_left_content{
 
@@ -858,7 +858,7 @@ header_top_bar{
 }
 .main_clients_bottom_content{
     overflow: hidden;
-    padding-bottom:110px; 
+    padding-bottom:110px;
 }
 .main_clients_bottom_content .single_client_bottom{
     background: #faf9f9;
@@ -1005,7 +1005,8 @@ html {
 
 .column1 {
     float: left;
-    width: 33.3%;
+    width: 33.3s
+    %;
     /*margin-bottom: 16px;*/
     padding: 0 8px;
 }
