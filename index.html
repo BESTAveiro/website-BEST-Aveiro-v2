@@ -30,7 +30,7 @@
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body data-spy="scroll" data-target="#navmenu">
+    <body id="home" data-spy="scroll" data-target="#navmenu">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -53,7 +53,7 @@
                                           <span class="icon-bar"></span>
                                           <span class="icon-bar"></span>
                                       </button>
-                                      <a class="navbar-brand" href="#">
+                                      <a class="navbar-brand" href="#home">
                                           <img src="assets/images/logo.png"/>
                                       </a>
                                   </div>
@@ -66,7 +66,7 @@
                                   <!-- <div class="navbar-header header-position" > -->
                                       <ul class="nav navbar-nav navbar-right" style="position:absolute;top:15px;right:0px">
                                           <li><a href="#abouts">Quem Somos</a></li>
-                                          <li><a href="#events">Eventos</a></li>
+                                          <li><a href="#">Eventos</a></li>
                                           <li><a href="#news">Notícias</a></li>
                                           <li><a href="#clients">Parceiros</a></li>
                                           <li><a href="#contacts">Contactos</a></li>
@@ -107,7 +107,7 @@
                 </div>
         </section><!-- End of Banner Section -->
 
-        <section id="feature" class="feature" >
+        <section id="news" class="feature" >
             <div class="feature_overlay" >
                 <div class="container"   style="width:1500px" align="center">
                     <div class="row"  style="width:1500px" align="center">
@@ -116,8 +116,10 @@
                                 <div class="heading_title text-center">
                                     <h2>Newsletter</h2>
                                 </div>
+                                <!--seta esquerda--><a href="#" class="previous round">&#8249;</a>
                                     <a href="">
                                     <div class="column1">
+
                                         <div class="card1">
                                             <img src="assets/images/N1.jpg" alt="Jane" style="width:340px; height:250px;">
                                             <div class="container1" style="height:70px;width:340px">
@@ -174,6 +176,7 @@
                                     </div>
                                 </div>
                                 </a>
+                                <!--seta direita--><a href="#" class="next round">&#8250;</a>
                                 </div>
                             </div>
 
@@ -184,8 +187,8 @@
             </div>
         </section>
 
-        <section id="abouts" class="webhost_service">
-            <div class="container-fluid">
+        <section id="abouts"  class="webhost_service">
+            <div  class="container-fluid" >
                 <div class="row">
                     <div class="main_webhost_service_area text-center">
                         <div class="col-sm-6 no-padding">
