@@ -767,12 +767,18 @@ header_top_bar{
     font-size:1rem;
     font-family: 'ralewayregular';
 }
+.contacts_title{
+  font-size:2.25rem;
+  font-family: 'ralewaybold';
+  color: #202242
+}
 .main_webhost_service_area .single_webhost_right{
     background: #ffe13e;
     padding-top:115px;
     padding-bottom: 110px;
     height: 670px;
 }
+
 .main_webhost_service_area .single_webhost_right .single_webhost_right_content h2{
     font-size:2.25rem;
     font-family: 'ralewaybold';
@@ -1091,4 +1097,3 @@ html {
     background: #202242;
     color: white;
 }
-
