@@ -14,6 +14,7 @@ body {
     color: #565656;
     width: 100%;
     padding: 0;
+    /*margin:0;*/
     margin-left: 0;
     margin-right: 0;
     font-family: 'roboto', sans-serif;
@@ -606,12 +607,18 @@ header_top_bar{
 
 /* Home Section */
 .home{
-    background: url(../images/homebg.jpg) no-repeat center left;
+    /*background: url(../images/homebg.jpg) no-repeat center left;*/
+      background-image:url(../images/homebg.jpg);
     background-size:cover;
+    position: relative;
+    /*background-image: url("../img/salmonfarm.jpg");*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
 }
-.home_overlay{
+/*.home_overlay{
     background:rgba(176, 186, 186, 0.30);
-}
+}*/
 
 .main_home_searce_domain_content{
     background: #dddddd;
