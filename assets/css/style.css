@@ -1142,3 +1142,12 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+.banner{position: relative; width: 100%; margin: 0 auto;}
+.banner img{height:250px; width:1500px;}
+.heading{ position: absolute;
+    top: 50%; text-align: center;
+    font-size: 3rem; width:100%;
+    /*background-color: #000000; opacity:0.5;*/
+color:white;
+}
+.pages{text-align: justify; color:black;}
