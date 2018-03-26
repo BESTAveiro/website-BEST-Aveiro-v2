@@ -259,7 +259,7 @@
 											presente em 96 universidades de 33 países, que trabalham
 											cooperativamente para a prestação dos vários serviços
 											que a organização disponibiliza.</p>
-                                            <a href="" class="btn">Ler Mais</a>
+                                            <a id="Pt" class="btn">Ler Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -500,6 +500,45 @@
             </div>
 
         </div>
+        <div id="myPt" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div>
+                    <h2 class="heading1"> BEST Internacional </h2>
+
+                </div>
+                <div class="pages" ><br><br>
+                    O BEST (Board of European Students of Technology) é uma
+                    organização europeia sem fins lucrativos e apolítica de
+                    estudantes de Ciências, Engenharia e Tecnologia,
+                    presente em 96 universidades de 33 países, com cerca de
+                    3000 membros e abrangendo aproximadamente 1 milhão de estudantes.<br><br>
+                </div>
+                        <div class="pages1">
+                    <h4 style="color:white; background-color:#202242;">Missão</h4>
+                    A missão do BEST é desenvolver os estudantes, dando-lhes a oportunidade
+                    de complementar o seu percurso académico e desenvolver soft-skills,
+                    num ambiente multicultural para compreensão da sociedade e melhor
+                    adaptação a um mercado de trabalho globalizado. Assim, o BEST visa,
+                    através dos seus eventos, aproximar estudantes, universidades e <br><br>
+                    <h4 style="color:white; background-color:#202242;">Visão</h4>
+                    A visão do BEST é baseada na criação de um ambiente de diversidade,
+                    entre os estudantes, propício à aprendizagem, compreensão e respeito
+                    pelas diferentes culturas e backgrounds sociais, bem como à preparação dos
+                    estudantes para um mercado de trabalho global, fazendo com que apliquem
+                    todo o seu potencial e atuem de forma responsável.
+                    O BEST acredita que os ambientes culturalmente enriquecidos
+                    aumentam a probabilidade de sucesso de um grupo de trabalho.
+                        </div>
+
+
+
+
+            </div>
+
+        </div>
 
         <script>
             // Get the modal
@@ -507,6 +546,34 @@
 
             // Get the button that opens the modal
             var btn = document.getElementById("Inter");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myPt');
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("Pt");
 
             // Get the <span> element that closes the modal
             var span = document.getElementsByClassName("close")[0];

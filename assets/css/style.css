@@ -1144,10 +1144,11 @@ html {
 }
 .banner{position: relative; width: 100%; margin: 0 auto;}
 .banner img{height:250px; width:1500px;}
-.heading{ position: absolute;
-    top: 50%; text-align: center;
-    font-size: 3rem; width:100%;
+.heading1{ /*position: absolute;*/
+    /*top: 50%;*/ text-align: center;
+    font-size: 3rem; width:100%; color:#202242;
     /*background-color: #000000; opacity:0.5;*/
-color:white;
+
 }
-.pages{text-align: justify; color:black;}
+.pages{text-align: center; color:black; }
+.pages1 {text-align: justify; color:black;}
