@@ -1142,6 +1142,19 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 .banner{position: relative; width: 100%; margin: 0 auto;}
 .banner img{height:250px; width:1500px;}
 .heading1{ /*position: absolute;*/
@@ -1152,3 +1165,29 @@ html {
 }
 .pages{text-align: center; color:black; }
 .pages1 {text-align: justify; color:black;}
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
