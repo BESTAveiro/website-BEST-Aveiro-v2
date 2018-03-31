@@ -1286,5 +1286,9 @@ background: #333333;
     text-align: justify;
     font-size: 14px;
 }
-
-
+div.modal div.modal-backdrop {
+    z-index: 0;
+}
+body.modal-open div.modal-backdrop {
+    z-index: 0;
+}
