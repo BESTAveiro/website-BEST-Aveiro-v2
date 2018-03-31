@@ -810,7 +810,7 @@ header_top_bar{
 }
 .feature_overlay{
     padding: 90px 0px 100px 0px;
-    background: url(../images/featurebg.png) no-repeat center bottom;
+    background-color:#ffffe6 ;
 }
 .feature .main_feature_content_area{
 
@@ -1269,7 +1269,7 @@ background: #333333;
     color: black;
     display: table-cell;
     float: left;
-    width: 500px;
+    width: 400px;
     margin-top: 10px;
     margin-left: 20px;
     text-align: justify;
@@ -1279,8 +1279,8 @@ background: #333333;
     color: black;
     display: table-cell;
     float: left;
-    width: 500px;
-    margin-top: 10px;
+    width: 400px;
+    margin-top: -20px;
     margin-left: 0px;
     margin-right: 20px;
     text-align: justify;
@@ -1291,4 +1291,12 @@ div.modal div.modal-backdrop {
 }
 body.modal-open div.modal-backdrop {
     z-index: 0;
+}
+
+.imagem1{
+    display: table-cell;
+    float:left;
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
 }

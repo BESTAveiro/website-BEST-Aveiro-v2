@@ -100,7 +100,6 @@
                                   <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"style="position:relative;top:10px"> -->
                                   <!-- <div class="navbar-header header-position" > -->
                                       <ul class="nav navbar-nav navbar-right" style="position:absolute;top:15px;right:0px">
-                                          <li><a href="#">Eventos</a></li>
                                           <li><a href="#news">Notícias</a></li>
                                           <li><a href="#abouts">Quem Somos</a></li>
                                           <li><a href="#feature">Equipas</a></li>
@@ -146,9 +145,10 @@
         <section id="news" class="feature" >
             <div class="feature_overlay" >
               <div class="container"  style="width:1300px;">
+                  <div class="main_feature_content_area">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <div class="heading_title text-center">
-                                    <h2>Newsletter</h2>
+                      <h2>Newsletter</h2>
                   </div>
                   <div class="carousel-inner" style="height:500px;">
                     <div class="item active">
@@ -313,6 +313,7 @@
                   </a>
                 </div>
                 </div>
+              </div>
             </div>
         </section>
         <section id="abouts"  class="webhost_service">
@@ -456,12 +457,12 @@
                                 <div class="col-sm-8"> <br><br><br>
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <div class="single_right_client">
+                                            <div class="single_right_client" style="width: 200px; height: 50px; margin-left: 70px; ">
                                                 <img src="assets/images/c1.jpg" alt="" />
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
-                                            <div class="single_right_client">
+                                            <div class="single_right_client" style="width: 200px; height: 40px; margin-left: 200px; margin-top: -20px;">
                                                 <img src="assets/images/c2.png" alt=""  />
                                             </div>
                                         </div>
@@ -606,14 +607,15 @@
                 <img style="max-width: 100%; min-width:100%" src="assets/images/bestaveiromodal.jpg">
                 <h3 style="background-color: #202242; color:white; text-align: center;">BEST Aveiro</h3>
                 <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Organização</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Cidade</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Universidade</button>
+                    <button class="tablinks" onclick="openCity(event, 'Organização')" id="defaultOpen">Organização</button>
+                    <button class="tablinks" onclick="openCity(event, 'Cidade')">Cidade</button>
+                    <button class="tablinks" onclick="openCity(event, 'Universidade')">Universidade</button>
+                    <button class="tablinks" onclick="openCity(event, 'Eventos')">Eventos</button>
                 </div>
 
-                <div id="London" class="tabcontent">
+                <div id="Organização" class="tabcontent">
                     <h3>Organização</h3>
-                    <p style="text-align: justify; color:black;">
+                    <p style="text-align: justify; color:black; font-size: 14px">
                     O BEST Aveiro é um dos 96 grupos locais do BEST - Board of European Students of Technology,
                     uma organização europeia de estudantes de Ciências, Engenharia e Tecnologia, presente em 96 universidades
                     de 33 países, que trabalham cooperativamente para a prestação dos vários serviços que a organização disponibiliza.<br>
@@ -641,11 +643,13 @@
                             oferecendo diversas oportunidades de formação complementar e intercâmbio.
                             Para tal, o BEST Aveiro organiza anualmente:<br>
 
-                            Curso Sazonal;<br>
-                            Competição de engenharia EBEC Aveiro (European BEST Engineering Competition);<br>
-                            BEST Training Days, durante todo o ano;<br>
-                            Aveiro BEST Competititons (ABCs);<br>
-                            Workshops.
+                            <ul>
+                                <li>Curso Sazonal;</li>
+                                <li>Competição de engenharia EBEC Aveiro (European BEST Engineering Competition);</li>
+                                <li>BEST Training Days, durante todo o ano;</li>
+                                <li>Aveiro BEST Competititons (ABCs);</li>
+                                <li>Workshops.</li>
+                            </ul>
 
                         </div>
                         <div class="imagem">
@@ -654,19 +658,117 @@
                     </div>
                 </div>
 
-                <div id="Paris" class="tabcontent">
+                <div id="Cidade" class="tabcontent">
                     <h3>Cidade</h3>
-                    <p>Paris is the capital of France.</p>
+                    <p style="text-align: justify; color:black; font-size: 14px">
+                        Aveiro é uma pitoresca cidade portuguesa, conhecida como a "Veneza de Portugal".
+                        Capital do distrito de Aveiro, situa-se na região Centro, com cerca de
+                        60 000 habitantes. Foi elevada a cidade em 1759 por D.José I.</p>
+
                 </div>
 
-                <div id="Tokyo" class="tabcontent">
+                <div id="Universidade" class="tabcontent">
                     <h3>Universidade</h3>
+                    <p style="text-align: justify; color:black; font-size: 14px">
+                        A Universidade de Aveiro, com cerca de 15.000 alunos e fundada em 1973,
+                        é uma universidade de renome nacional, assim como de renome europeu, devido à
+                        alta qualidade da sua investigação em diversas áreas (sendo que, em média,
+                        cada docente publica 1,5 artigos científicos por ano), do seu corpo docente e das suas infraestruturas.<br><br>
+                        A área do seu campus é equivalente a cerca de 92 campos de futebol,
+                        com 65 edifícios (alguns dos quais grandes obras arquitetónicas) e
+                        15 blocos de residências. Incluem-se:</p>
+
+                    <div class="imagem1">
+                        <img src="assets/images/a3.jpg">
+                    </div>
+                    <div class="conteudo">
+                        <div class="texto">
+                            <!--A área do seu campus é equivalente a cerca de 92 campos de futebol,
+                            com 65 edifícios (alguns dos quais grandes obras arquitetónicas) e
+                            15 blocos de residências. Incluem-se:-->
+
+                            <ul>
+                                <li>Refeitórios;</li>
+                                <li>Bibliotecas;</li>
+                                <li>Livrarias;</li>
+                                <li>Salas para conferências e espetáculos;</li>
+                                <li>Galerias para exposições;</li>
+                                <li>Pavilhão desportivo;</li>
+                                <li>Pista de atletismo;</li>
+                                <li>Lavandarias;</li>
+                                <li>Correios;</li>
+                                <li>Banco;</li>
+                                <li>Lojas.</li>
+                            </ul>
+
+
+                        </div>
+                </div>
+
+                <div id="Eventos" class="tabcontent">
+                    <h3>Eventos</h3>
                     <p>Tokyo is the capital of Japan.</p>
                 </div>
-                <h3 style="color:white">.</h3>
             </div>
 
         </div>
+
+            <!--Modal Noticias-->
+            <div id="news" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close2">&times;</span>
+                    <img style="max-width: 100%; min-width:100%" src="assets/images/L1.jpg">
+                    <h3 style="background-color: #202242; color:white; text-align: center;">Training Weekend: Formações em Soft e Hard Skills</h3>
+                    <h6 style="color: grey;">01/02/2018</h6>
+                    <br><p style="text-align: justify; color:black;">
+                    O Training Weekend, organizado pelo BEST Aveiro, decorreu de 8 a 10 de
+                    dezembro na Universidade de Aveiro. O evento trata-se de um fim de semana em que os membros
+                    têm oportunidade de participar em sessões de formação preparadas por
+                    formadores e tutores certificados pelo BEST e membros experientes.<br><br>
+                    Os membros que estiveram presentes puderam usufruir das seguintes formações:<br><br>
+                    <b>Soft Skills:</b>
+                    <br>
+                    <ul style="text-align: justify; color:black;">
+                    <li>Gestão de tempo</li>
+                    <li>Como promover o BEST</li>
+                    <li>Planejamento Estratégico</li>
+                    <li>Feedback</li>
+                    <li>Persuação/Negociação</li>
+                    <li>Reuniões Eficazes e Facilitação</li>
+                </ul>
+                    <br>
+                    <b style="text-align: justify; color:black;">Informação e Tecnologia:</b>
+                    <br>
+                    <ul style="text-align: justify; color:black;">
+                        <li>JAVA</li>
+                        <li>Android</li>
+                    </ul>
+                    <b style="text-align: justify; color:black;">Design Gráfico:</b>
+                    <br>
+                    <ul style="text-align: justify; color:black;">
+                        <li>Adobe Premiere Pro</li>
+                        <li>Adobe Illustrator</li>
+                    </ul>
+                    <br>
+                    <font style="text-align: justify; color:black;">
+                        Para além destas sessões, o evento contou ainda com diversos momentos de
+                    descontração e atividades de team building. No evento também estiveram presentes membros de
+                    outros grupos BEST de Portugal, nomeadamente Coimbra, com o objetivo de promover
+                    a partilha de conhecimento entre os diferentes grupos da associação.
+                    </font>
+                    </p>
+                    <hr style="border-top: 1px solid #8c8b8b;">
+
+                    <!--<div class="container2">
+        <div class="inner">
+            <p>BEST Internacional</p>
+        </div>
+    </div>-->
+                </div>
+
+            </div>
 
         <script>
             // Get the modal
