@@ -809,21 +809,22 @@
 
         </div>
 
-        <div id="myPt" class="modal">
+        <div id="myPt" class="modal" >
 
             <!-- Modal content -->
             <!-- style="height:1500px" -->
-            <div class="modal-content" style="height:1500px" >
+            <div id="myPt1" class="modal-content" style="height: 1300px">
                 <span class="close">&times;</span>
                 <img style="max-width: 100%; min-width:100%" src="assets/images/bestaveiromodal.jpg">
                 <h3 style="background-color: #202242; color:white; text-align: center;">BEST Aveiro</h3>
                 <div class="tab">
                     <button class="tablinks" onclick="openCity(event, 'Organização')" id="defaultOpen">Organização</button>
-                    <button class="tablinks" onclick="openCity(event, 'Cidade')">Cidade</button>
-                    <button class="tablinks" onclick="openCity(event, 'Universidade')">Universidade</button>
-                    <button class="tablinks" onclick="openCity(event, 'Ebec')">EBEC</button>
-                    <button class="tablinks" onclick="openCity(event, 'Curso')">Cursos</button>
+                    <button class="tablinks" onclick="openCity(event, 'Cidade')" id="cidade1">Cidade</button>
+                    <button class="tablinks" onclick="openCity(event, 'Universidade' )" id="universidade1">Universidade</button>
+                    <button class="tablinks" onclick="openCity(event, 'Ebec')" id="ebec1">EBEC</button>
+                    <button class="tablinks" onclick="openCity(event, 'Curso')" id="curso1">Cursos</button>
                 </div>
+<!-- modify div size jquery-->
 
                 <div id="Organização" class="tabcontent" >
                     <h3>Organização</h3>
@@ -864,6 +865,7 @@
 
                     </div>
                 </div>
+
 
                 <div id="Cidade" class="tabcontent">
                     <h3>Cidade</h3>
@@ -912,6 +914,7 @@
                     </div>
 
                 </div>
+
 
                 <div id="Universidade" class="tabcontent">
                     <h3>Universidade</h3>
@@ -1173,6 +1176,40 @@
             // Get the element with id="defaultOpen" and click on it
             document.getElementById("defaultOpen").click();
         </script>
+<script>
+    $(document).ready(function(){
+        $('#curso1').click(function(){
+            $('#myPt1').height(1300);
+        })});
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#ebec1').click(function(){
+            $('#myPt1').height(2100);
+        })});
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#universidade1').click(function(){
+            $('#myPt1').height(1000);
+        })});
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#cidade1').click(function(){
+            $('#myPt1').height(1700);
+        })});
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#defaultOpen').click(function(){
+            $('#myPt1').height(1300);
+        })});
+</script>
 
 
 </html>
