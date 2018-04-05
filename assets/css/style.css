@@ -80,6 +80,14 @@ a span {
     outline: inherit;
 }
 
+.btn2.extra-width {
+    padding: 13px 40px;
+}
+.btn2:focus,
+.btn2:active {
+    outline: inherit;
+}
+
 *,
 *:before,
 *:after {
@@ -364,6 +372,7 @@ Button
     font-weight: 300;
     border-radius: 0;
     margin-top: 30px;
+    cursor: pointer;
 }
 .btn2:hover {
     background-color:rgba(32, 34, 66, 0.95);
@@ -1379,10 +1388,10 @@ body.modal-open div.modal-backdrop {
   .team-member p {
     margin-top: 0; }
 #map-container {
-    min-width: 320px;
-    min-height: 320px;
-    width: 100%;
-    height: 100%;
+
+    width: 525px;
+    height: 300px;
+
 }
 .contact2 {
     text-align: center;
