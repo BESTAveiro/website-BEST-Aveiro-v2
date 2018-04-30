@@ -359,18 +359,18 @@ Button
 }
 .btn:hover {
     background-color:rgba(228, 211, 0, 0.95);
-    color: #fff;
+    /*color: #fff;*/
     text-decoration: none;
     border: 1px solid #fff;
 }
 .btn2 {
-    border: 1px solid #fff;
+    border: 1px solid #202242;
     display: inline-block;
     min-width: 160px;
     padding: .9em;
     height: 57px;
     text-align: center;
-    color: #fff;
+    color: #202242;
     font-style: normal;
     letter-spacing: 1px;
     margin: 0;
@@ -382,9 +382,9 @@ Button
 }
 .btn2:hover {
     background-color:rgba(32, 34, 66, 0.95);
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid #202242;
 }
 
 .btn-primary {
@@ -1316,14 +1316,14 @@ background: #333333;
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    color:white;
-    background-color: #202242;
+    color:black;
+    background-color: #ffe13e;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-    color: white;
-    background-color: #202242;
+    color: black;
+    background-color: #ffe13e;
 }
 
 /* Style the tab content */
