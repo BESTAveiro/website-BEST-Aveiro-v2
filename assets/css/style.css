@@ -312,7 +312,7 @@ Separator
     background: #8d8d99;
 }
 .separator1 {
-    height: 3px;
+    height: 1px;
     width: 80%;
     margin:30px auto;
     background: #8d8d99;
@@ -545,7 +545,7 @@ input:-ms-input-placeholder {
 }
 .main_menu_bg{
     margin-top: 0px;
-    background-color: #fff;
+    background-color: #262626;
     height: 80px;
 }
 .main_menu_bg .navbar-default {
@@ -555,9 +555,11 @@ input:-ms-input-placeholder {
     margin: 10px auto;
 }
 
-
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
 .navbar-default .navbar-nav>li>a:hover{
-    color:#e84c3d;
+    color:#808080;/*#e84c3d;*/
 }
 
 
@@ -843,7 +845,7 @@ header_top_bar{
 
 /*our features section*/
 .feature{
-    /*background: #fbf8f1;*/
+    background: #fbf8f1;
 }
 .feature_overlay{
     padding: 90px 0px 100px 0px;
@@ -870,14 +872,16 @@ header_top_bar{
 .feature .main_feature_content_area .main_feature_content .single_feature{}
 .feature .main_feature_content_area .main_feature_content .single_feature .single_feature_img{}
 .feature .main_feature_content_area .main_feature_content .single_feature h3{
-    color:#f4d320;
-    font-size:1.4rem;
-    font-family: 'sanchezregular';
+    /*color:#f4d320;*/
+    font-weight: bolder;
+    color: black;
+    font-size:1.1rem;
+    /*font-family: 'sanchezregular';*/
 }
 .feature .main_feature_content_area .main_feature_content .single_feature p{
-    font-size:0.875rem;
-    font-family: 'ralewayregular';
-    color:#202242;
+    font-size: 1.0rem;
+    font-family: Book Antiqua;;
+    color:#808080;
 
 }
 
@@ -1387,12 +1391,18 @@ body.modal-open div.modal-backdrop {
     width: 225px;
     height: 225px;
      }
-  .team-member h4 {
+  .team-member h5 {
+      color: black;
     margin-top: 25px;
     margin-bottom: 0;
-    text-transform: none; }
+    text-transform: none;
+      font-size: 1.1rem;
+  font-weight: lighter;}
   .team-member p {
-    margin-top: 0; }
+      color: #808080;
+    margin-top: 0;
+  font-size: 1.0rem;
+  font-family: Book Antiqua;}
 #map-container {
 
     width: 525px;
