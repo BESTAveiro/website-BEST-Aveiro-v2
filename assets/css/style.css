@@ -546,7 +546,7 @@ input:-ms-input-placeholder {
 .main_menu_bg{
     margin-top: 0px;
     background-color: #262626;
-    height: 80px;
+    height: 70px;
 }
 .main_menu_bg .navbar-default {
     background-color: transparent;
@@ -581,7 +581,7 @@ input:-ms-input-placeholder {
 
 
 .navbar-brand>img {
-    max-width: 13%;
+    max-width: 11%;
 }
 .navbar-brand {
     padding: 2px 5px;
