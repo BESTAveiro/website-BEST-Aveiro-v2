@@ -870,13 +870,18 @@ header_top_bar{
 .feature .main_feature_content_area .main_feature_content{}
 .feature .main_feature_content_area .main_feature_content{}
 .feature .main_feature_content_area .main_feature_content .single_feature{}
-.feature .main_feature_content_area .main_feature_content .single_feature .single_feature_img{}
+.feature .main_feature_content_area .main_feature_content .single_feature .single_feature_img{ margin-left: 5px;}
 .feature .main_feature_content_area .main_feature_content .single_feature h3{
     /*color:#f4d320;*/
     font-weight: bolder;
     color: black;
     font-size:1.1rem;
     /*font-family: 'sanchezregular';*/
+}
+.feature .main_feature_content_area .main_feature_content .single_feature:hover{
+    background-color:#ffe13e;
+    opacity: 0.5;
+
 }
 .feature .main_feature_content_area .main_feature_content .single_feature p{
     font-size: 1.0rem;
