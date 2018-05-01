@@ -878,12 +878,55 @@ header_top_bar{
     font-size:1.1rem;
     /*font-family: 'sanchezregular';*/
 }
-.feature .main_feature_content_area .main_feature_content .single_feature:hover{
+
+.feature .main_feature_content_area .main_feature_content .single_feature p{
+    font-size: 1.0rem;
+    font-family: Book Antiqua;;
+    color:#808080;
+
+}
+
+.feature1{
+    background: #fbf8f1;
+}
+.feature_overlay1{
+    padding: 90px 0px 100px 0px;
+    background-color:#fdfdff ;
+}
+.feature1 .main_feature_content_area1{
+
+}
+.feature1 .main_feature_content_area1 .heading_title1{
+    margin-bottom:80px;
+}
+
+.feature1 .main_feature_content_area1 .heading_title1 h2{
+    font-family: 'ralewaybold';
+    font-size:3rem;
+    color:#202242;
+}
+.feature1 .main_feature_content_area1 .heading_title1 p{
+    font-family: 'ralewaylight';
+    font-size:1.5rem;
+    color:#202242;
+}
+.feature1 .main_feature_content_area1 .main_feature_content1{}
+.feature1 .main_feature_content_area1 .main_feature_content1{}
+.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1{}
+.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 .single_feature_img1{ margin-left: 5px;}
+.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 h3{
+    /*color:#f4d320;*/
+    font-weight: bolder;
+    color: black;
+    font-size:1.1rem;
+    /*font-family: 'sanchezregular';*/
+}
+.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1:hover{
     background-color:#ffe13e;
     opacity: 0.5;
 
 }
-.feature .main_feature_content_area .main_feature_content .single_feature p{
+.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 p{
     font-size: 1.0rem;
     font-family: Book Antiqua;;
     color:#808080;
