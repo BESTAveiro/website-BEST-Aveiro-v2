@@ -1391,6 +1391,16 @@ body.modal-open div.modal-backdrop {
     width: 225px;
     height: 225px;
      }
+
+.team-member:hover  {
+
+    background-color:#ffe13e;
+    opacity: 0.5;
+
+}
+
+
+
   .team-member h5 {
       color: black;
     margin-top: 25px;
