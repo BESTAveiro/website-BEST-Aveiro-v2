@@ -563,6 +563,7 @@ input:-ms-input-placeholder {
 }
 
 
+
 .main_menu_bg .navbar {
     margin-bottom:10px;
 }
@@ -578,6 +579,8 @@ input:-ms-input-placeholder {
     font-size: 0.875rem;
     font-family: 'ralewaysemibold';
 }
+
+
 
 
 .navbar-brand>img {
