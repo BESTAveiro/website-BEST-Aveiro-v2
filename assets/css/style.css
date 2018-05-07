@@ -1172,26 +1172,32 @@ html {
 }
 
 .fa:hover {
-    opacity: 0.1;
+    background-color: #ffe13e;
+    /*opacity: 0.1;*/
 }
 .fa-facebook {
+    width:6%;
     background: white;
     color: black;
 }
 .fa-twitter {
+    width:6%;
     background: white;
     color: black;
 }
 .fa-google {
+    width:6%;
     background: white;
     color: black;
 }
 
 .fa-linkedin {
+    width:6%;
     background: white;
     color: black;
 }
 .fa-instagram {
+    width:6%;
     background: white;
     color: black;
 }
@@ -1482,4 +1488,3 @@ h5
     padding: 0px;
 }.close-heading {margin: 0px; padding: 0px;}
 .close-heading p { margin: 0px; padding: 0px;}
-
