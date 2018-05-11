@@ -651,7 +651,7 @@ header_top_bar{
 .home{
     /*background: url(../images/homebg.jpg) no-repeat center left;*/
       background-image:url(../images/homebg.jpg);
-    background-size:cover;
+    background-size: cover;
     position: relative;
     /*background-image: url("../img/salmonfarm.jpg");*/
     background-attachment: fixed;
@@ -786,7 +786,7 @@ header_top_bar{
 
 /* webhost_service section */
 .webhost_service{
-
+width: 100%;
 }
 .main_webhost_service_area{
     color:#fff;
@@ -891,6 +891,7 @@ header_top_bar{
 
 .feature1{
     background: #fbf8f1;
+    width: 100%;
 }
 .feature_overlay1{
     padding: 90px 0px 100px 0px;
