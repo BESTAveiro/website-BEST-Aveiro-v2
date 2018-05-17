@@ -559,18 +559,25 @@ input:-ms-input-placeholder {
     color:white;
 }
 .navbar-default .navbar-nav>li>a:hover{
-    color:#808080;/*#e84c3d;*/
+    color:yellow;/*#e84c3d;*/
 }
-
+.navbar-default .navbar-nav>li>a:focus{
+    color:white;/*#e84c3d;*/
+}
 
 
 .main_menu_bg .navbar {
     margin-bottom:10px;
 }
 
-.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
-    background-color:transparent;
-}
+/*.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+    color:transparent;
+}*/
+
+/*
+.main_menu_bg .navbar-default .navbar-nav>.active>a{
+    color:blue;
+}*/
 
 .main_menu_bg .navbar-nav>li>a {
     padding-top: 15px;
@@ -1446,19 +1453,54 @@ body.modal-open div.modal-backdrop {
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
-  .team-member img {
-    width: 225px;
-    height: 225px;
+  /*.team-member img {
+    width: 200px;
+    height: 205px;
+     }*/
+
+     .container_linkedin {
+       position: relative;
+       width: 100%;
+       height: 25%;
      }
 
-.team-member:hover  {
+     .image_linkedin {
+       display: block;
+       width: 80%;
+       height: 80%;
+       /*width: 150px;
+       height: 150px;*/
+       border-radius:50%;
+     }
 
-    background-color:#ffe13e;
-    opacity: 0.5;
+     .overlay_linkedin{
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       width: 80%;
+       height: 80%;
+       opacity: 0;
+       transition: .5s ease;
+       background-color: yellow;
+       border-radius:50%
+     }
 
-}
+     .container_linkedin:hover .overlay_linkedin {
+       opacity: 1;
+     }
 
-
+     .text_linkedin {
+       color: white;
+       font-size: 20px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       text-align: center;
+     }
 
   .team-member h5 {
       color: black;
@@ -1474,7 +1516,7 @@ body.modal-open div.modal-backdrop {
   font-family: Book Antiqua;}
 #map-container {
 
-    width: 525px;
+    width: 535px;
     height: 300px;
 
 }

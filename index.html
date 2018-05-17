@@ -100,13 +100,13 @@
                                   <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"style="position:relative;top:10px"> -->
                                   <!-- <div class="navbar-header header-position" > -->
                                       <ul class="nav navbar-nav navbar-right" style="position:absolute;top:15px;right:0px;">
-                                          <li ><a href="#news">Notícias</a></li>
-                                          <li><a href="#abouts">Quem Somos</a></li>
-                                          <li><a href="#feature1">Eventos</a></li>
-                                          <li><a href="#feature">Equipas</a></li>
-                                          <li><a href="#mgmt">Management</a></li>
-                                          <li><a href="#clients">Parceiros</a></li>
-                                          <li><a href="#contactos">Contactos</a></li>
+                                          <li><a class="change_color" href="#news">Notícias</a></li>
+                                          <li><a class="change_color" href="#abouts">Quem Somos</a></li>
+                                          <li><a class="change_color" href="#feature1">Eventos</a></li>
+                                          <li><a class="change_color" href="#feature">Equipas</a></li>
+                                          <li><a class="change_color" href="#mgmt">Management</a></li>
+                                          <li><a class="change_color" href="#clients">Parceiros</a></li>
+                                          <li><a class="change_color" href="#contactos">Contactos</a></li>
                                       </ul>
                                   <!-- </div> -->
 
@@ -589,7 +589,12 @@
                           </div>
                           <div class="col-sm-2">
                               <div class="team-member">
-                                  <a href="" ><img class="mx-auto rounded-circle" style="border-radius: 50%; height:20%; width:75%" src="assets/images/team/diego.png" alt="">
+                                <div class="container_linkedin">
+                                  <img class="image_linkedin" src="assets/images/team/diego.png" alt="Diego">
+                                  <div class="overlay_linkedin">
+                                    <div class="text">LinkedIn</div>
+                                  </div>
+                                </div>
                                   <h5>Diego Hernandez</h5>
                                       <p class="text-muted" >Coordenador de Tecnologias da Informação:</p></a>
                               </div>
@@ -643,28 +648,28 @@
 
       <section  style="background:#ffe13e;">
 
-          <div class="container" id="contactos" style="height:230px;">
-              <!--<div class="row">
-                  <!-- <div style="color: white" class="col-sm-12 text-center"> -->
-                    <!--<div class="heading_title text-center">
-                        <h2 class="contacts_title">Contactos</h2>
-                    </div>-->
-                  <!-- </div> -->
+          <div class="container" id="contactos">
+              <div class="row" style="padding-top:15px">
+                <div class="col-sm-12">
+                    <div class="heading_title text-center">
+                        <h2 style="color:#202242; ">Contactos</h2>
+                    </div>
+                </div>
                   <!-- <div class="col-xs-8 text-center">
                       <h1 class="section-heading">Contacts</h1>
                       <hr class="light">
                   </div> -->
 
-              <!--<div style="color:white;" class="row">
+              <div style="color:white;" class="row">
                   <div class="col-sm-6" align="center">
-                      <div class="panel panel-default">
+                      <div class="panel panel-default" style="margin-top:35px; margin-bottom:75px">
                           <div class="panel-body">
-                              <div id="map-container" class="col-md-6"></div>
+                              <div id="map-container" class="col-md-6" ></div>
                           </div>
                       </div>
-                  </div>-->
+                  </div>
 
-                  <div class="col-sm-6" align="center"  >
+                  <div class="col-sm-6" align="center"  style="margin-top:25px;">
                           <h5 style="color:black;"><i class="fa fa-home" style="color:black ;margin-bottom: 0px;"></i><span style="display:inline-block; width: 10px;"></span><b>Morada:</b></h5>
                           <p>
                               Incubadora de Empresas da Universidade de Aveiro<br/>
@@ -722,7 +727,7 @@
                         <a href="https://pt.linkedin.com/company/best-aveiro" class="fa fa-linkedin" ></a>
                     </div>
                     <div class="main_footer text-center">
-                        <p>Powered by BEST Aveiro IT Team - The-Bugs ©2017</p>
+                        <p  style="color:white">Powered by BEST Aveiro IT Team - The-Bugs ©2017</p>
                     </div>
                 </div>
             </div>
@@ -793,7 +798,7 @@
 
     <!-- Modal content -->
     <div class="modal-content" style="height: 2000px">
-        <span class="close8">&times;</span>
+        <span class="close10">&times;</span>
         <img style="max-width: 100%; min-width:100%" src="assets/images/bextintimg.jpg">
         <h3 style="background-color: #202242; color:white; text-align: center;">EBEC</h3>
         <p style="text-align: justify; color:black; font-size: 14px">
@@ -861,7 +866,7 @@
 
     <!-- Modal content -->
     <div class="modal-content" style="height: 1300px">
-        <span class="close9">&times;</span>
+        <span class="close11">&times;</span>
         <img style="max-width: 100%; min-width:100%" src="assets/images/bextintimg.jpg">
         <h3 style="background-color: #202242; color:white; text-align: center;">Seasonal Course</h3>
         <p style="text-align: justify; color:black; font-size: 14px">De forma a desenvolver os estudantes das universidades com Grupo Local BEST,
@@ -1167,24 +1172,37 @@
             var modal_inter = document.getElementById('myInter');
             var btn_inter= document.getElementById("Inter");
             var span_inter= document.getElementsByClassName("close2")[0];
+
             var modal = document.getElementById('myPt');
             var btn= document.getElementById("Pt");
             var span= document.getElementsByClassName("close")[0];
+
             var modaln1 = document.getElementById('myInter2');
             var btnn1= document.getElementById("news1");
             var spann1= document.getElementsByClassName("close5")[0];
+
             var modaln3 = document.getElementById('myInter4');
             var btnn3= document.getElementById("news3");
             var spann3= document.getElementsByClassName("close7")[0];
+
             var modaln2 = document.getElementById('myInter3');
             var btnn2= document.getElementById("news2");
             var spann2= document.getElementsByClassName("close6")[0];
-            var modaln2 = document.getElementById('myEBEC');
-            var btnn2= document.getElementById("evenebec");
-            var spann2= document.getElementsByClassName("close8")[0];
-            var modaln2 = document.getElementById('mySeasonal');
-            var btnn2= document.getElementById("seasonal");
-            var spann2= document.getElementsByClassName("close9")[0];
+
+            var modal_ebec = document.getElementById('myEBEC');
+            var btn_ebec= document.getElementById("evenebec");
+            var span_ebec= document.getElementsByClassName("close10")[0];
+
+            var modal_ebec = document.getElementById('myEBEC');
+            var btn_ebec= document.getElementById("evenebec");
+            var span_ebec= document.getElementsByClassName("close10")[0];
+
+            var modal_seasonal = document.getElementById('mySeasonal');
+            var btn_seasonal= document.getElementById("seasonal");
+            var span_seasonal= document.getElementsByClassName("close11")[0];
+            // var modaln2 = document.getElementById('mySeasonal');
+            // var btnn2= document.getElementById("seasonal");
+            // var spann2= document.getElementsByClassName("close9")[0];
             btn_inter.onclick = function() {
                 modal_inter.style.display = "block";
             }
@@ -1215,6 +1233,18 @@
             spann2.onclick = function() {
                 modaln2.style.display = "none";
             }
+            btn_ebec.onclick=function(){
+                modal_ebec.style.display="block";
+            }
+            span_ebec.onclick=function(){
+                modal_ebec.style.display="none";
+            }
+            btn_seasonal.onclick=function(){
+                modal_seasonal.style.display="block";
+            }
+            span_seasonal.onclick=function(){
+                modal_seasonal.style.display="none";
+            }
             window.onclick = function(event) {
                 if (event.target == modaln2) {
                     modaln2.style.display = "none";
@@ -1230,6 +1260,12 @@
                 }
                 if (event.target == modal_inter) {
                     modal_inter.style.display = "none";
+                }
+                if (event.target ==modal_ebec){
+                    modal_ebec.style.display="none";
+                }
+                if(event.target==modal_seasonal){
+                  modal_seasonal.style.display="none";
                 }
             }
         </script>
