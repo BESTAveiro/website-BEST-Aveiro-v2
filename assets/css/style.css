@@ -543,6 +543,8 @@ input:-ms-input-placeholder {
     transition: .6s;
     display:none;
 }
+
+
 .main_menu_bg{
     margin-top: 0px;
     background-color: #262626;
