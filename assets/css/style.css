@@ -1141,7 +1141,10 @@ html {
     padding: 0 16px ;
     background-color: #202242;
     color: white;
+    height: 60px;
 }
+
+
 
 .container1::after, .row::after {
     content: "";
@@ -1153,6 +1156,8 @@ html {
     color: grey;
     padding:0 16px;
     color:black;
+    font-size: 0.9rem;
+    font-weight: bolder;
 }
 
 .button1 {
@@ -1555,3 +1560,5 @@ h5
     padding: 0px;
 }.close-heading {margin: 0px; padding: 0px;}
 .close-heading p { margin: 0px; padding: 0px;}
+
+
