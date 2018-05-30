@@ -553,7 +553,7 @@ input:-ms-input-placeholder {
 .main_menu_bg .navbar-default {
     background-color: transparent;
     border-color: transparent;
-    transition:.6s;*/
+    transition:.6s;
     margin: 10px auto;
 }
 
@@ -934,7 +934,7 @@ width: 100%;
     font-size:1.1rem;
     /*font-family: 'sanchezregular';*/
 }
-.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1:hover{
+.feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 img:hover{
     background-color:#ffe13e;
     opacity: 0.5;
 
@@ -1255,6 +1255,19 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+.close12 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close12:hover,
+.close12:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 .close2 {
     color: #aaaaaa;
     float: right;
@@ -1310,7 +1323,32 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+.close10 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
+.close10:hover,
+.close10:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close11 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close11:hover,
+.close11:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 /* Removes the default 20px margin and creates some padding space for the indicators and controls */
 .carousel {
     margin-bottom: 0;
