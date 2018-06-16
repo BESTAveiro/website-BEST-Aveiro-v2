@@ -37,12 +37,13 @@ PRE LOADER
 }
 
 .loaded {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 100px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    background-image: url(../images/loading.gif);
+    left: 45%;
+    top: 45%;
+    /*background-image: url(../images/loading.gif);*/
+    background-image: url(../images/logo_BEST.png);
     background-repeat: no-repeat;
     background-position: center;
     -moz-background-size: cover;
@@ -548,7 +549,7 @@ input:-ms-input-placeholder {
 .main_menu_bg{
     margin-top: 0px;
     background-color: #262626;
-    height: 70px;
+    height: 80px;
 }
 .main_menu_bg .navbar-default {
     background-color: transparent;
@@ -561,7 +562,7 @@ input:-ms-input-placeholder {
     color:white;
 }
 .navbar-default .navbar-nav>li>a:hover{
-    color:yellow;/*#e84c3d;*/
+    color:#ffe13e;/*#e84c3d;*/
 }
 .navbar-default .navbar-nav>li>a:focus{
     color:white;/*#e84c3d;*/
@@ -569,7 +570,7 @@ input:-ms-input-placeholder {
 
 
 .main_menu_bg .navbar {
-    margin-bottom:10px;
+    /*margin-bottom:10px;*/
 }
 
 /*.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
@@ -1588,6 +1589,12 @@ body.modal-open div.modal-backdrop {
     height: 300px;
 
 }
+#map-container1 {
+
+    width: 535px;
+    height: 300px;
+
+}
 .contact2 {
     text-align: center;
     margin-bottom: 50px
@@ -1598,5 +1605,3 @@ h5
     padding: 0px;
 }.close-heading {margin: 0px; padding: 0px;}
 .close-heading p { margin: 0px; padding: 0px;}
-
-
