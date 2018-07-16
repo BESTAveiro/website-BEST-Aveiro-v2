@@ -548,7 +548,8 @@ input:-ms-input-placeholder {
 
 .main_menu_bg{
     margin-top: 0px;
-    background-color: #262626;
+    /*background-color:rgba(0, 0, 0, 0.30);*/
+    background-color: #202242;
     height: 80px;
 }
 .main_menu_bg .navbar-default {
@@ -893,8 +894,8 @@ width: 100%;
 }
 
 .feature .main_feature_content_area .main_feature_content .single_feature p{
-    font-size: 1.0rem;
-    font-family: Book Antiqua;;
+    font-size: 0.85rem;
+    font-family: 'ralewayregular';;
     color:#808080;
 
 }
@@ -942,7 +943,7 @@ width: 100%;
 }
 .feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 p{
     font-size: 1.0rem;
-    font-family: Book Antiqua;;
+    font-family: 'ralewayregular';
     color:#808080;
 
 }
@@ -1192,28 +1193,33 @@ html {
     /*opacity: 0.1;*/
 }
 .fa-facebook {
-    width:6%;
+    width:4%;
+    height:8%;
     background: white;
     color: black;
 }
 .fa-twitter {
-    width:6%;
+    width:4%;
+    height:8%;
     background: white;
     color: black;
 }
 .fa-google {
-    width:6%;
+    width:4%;
+    height:8%;
     background: white;
     color: black;
 }
 
 .fa-linkedin {
-    width:6%;
+    width:4%;
+    height:8%;
     background: white;
     color: black;
 }
 .fa-instagram {
-    width:6%;
+    width:4%;
+    height:8%;
     background: white;
     color: black;
 }
@@ -1581,8 +1587,8 @@ body.modal-open div.modal-backdrop {
   .team-member p {
       color: #808080;
     margin-top: 0;
-  font-size: 1.0rem;
-  font-family: Book Antiqua;}
+  font-size: 0.9rem;
+      font-family: 'ralewayregular';}
 #map-container {
 
     width: 535px;
