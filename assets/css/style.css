@@ -549,30 +549,29 @@ input:-ms-input-placeholder {
 
 .main_menu_bg{
     margin-top: 0px;
-    /*background-color:rgba(0, 0, 0, 0.30);*/
     background-color: #202242;
     height: 80px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    transition:.6s;
-    margin: 10px auto;
+    background-color: #202242;
+    border-color: #202242;
+    /*transition:.6s;*/
+    /*margin: 10px auto;*/
 }
 
 .navbar-default .navbar-nav>li>a{
     color:white;
 }
 .navbar-default .navbar-nav>li>a:hover{
-    color:#ffe13e;/*#e84c3d;*/
+    color:#ffe13e;
 }
 .navbar-default .navbar-nav>li>a:focus{
-    color:white;/*#e84c3d;*/
+    color:#ffe13e;
 }
 
 
 .main_menu_bg .navbar {
-    /*margin-bottom:10px;*/
+    margin-bottom:10px;
 }
 
 /*.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
@@ -586,7 +585,7 @@ input:-ms-input-placeholder {
 
 .main_menu_bg .navbar-nav>li>a {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     text-transform: uppercase;
     font-size: 0.875rem;
     font-family: 'ralewaysemibold';
@@ -597,9 +596,10 @@ input:-ms-input-placeholder {
 
 .navbar-brand>img {
     max-width: 11%;
+
 }
 .navbar-brand {
-    padding: 2px 5px;
+    padding: 5px 8px;
 }
 
 /*call us*/
