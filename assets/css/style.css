@@ -364,6 +364,7 @@ Button
     text-decoration: none;
     border: 1px solid #fff;
 }
+
 .btn2 {
     border: 1px solid #202242;
     display: inline-block;
@@ -937,7 +938,7 @@ width: 100%;
     /*font-family: 'sanchezregular';*/
 }
 .feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 img:hover{
-    background-color:#ffe13e;
+    /*background-color:#ffe13e;*/
     opacity: 0.5;
 
 }
@@ -945,6 +946,7 @@ width: 100%;
     font-size: 1.0rem;
     font-family: 'ralewayregular';
     color:#808080;
+    text-align: center;
 
 }
 
@@ -1179,8 +1181,8 @@ html {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 20px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -1198,6 +1200,14 @@ html {
     background: white;
     color: black;
 }
+
+.fa-flickr {
+    width:4%;
+    height:8%;
+    background: white;
+    color: black;
+}
+
 .fa-twitter {
     width:4%;
     height:8%;
@@ -1377,7 +1387,7 @@ html {
 }
 /* Changes the colour of the indicators */
 .carousel-indicators li {
-	background: #c0c0c0;
+	background:#0c0c0c;
 }
 .carousel-indicators .active {
 background: #333333;
