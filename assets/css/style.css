@@ -550,7 +550,7 @@ input:-ms-input-placeholder {
 .main_menu_bg{
     margin-top: 0px;
     background-color: #202242;
-    height: 80px;
+    height: 17%;
 }
 .main_menu_bg .navbar-default {
     background-color: #202242;
@@ -628,9 +628,9 @@ header_top_bar{
     font-size:0.875rem;
     border: 1px solid #fff;
     display: inline-block;
-    min-width: 125px;
+    min-width: 100%;
     padding: .7em;
-    height: 40px;
+    height: 100%;
     text-align: center;
     color: #fff;
     font-style: normal;
@@ -699,7 +699,7 @@ header_top_bar{
 
 .main_home_searce_domain_content input[type="text"]{
     min-width: 17.1875rem;
-    height: 55px;
+    height: 100%;
     background: #fff;
     color: #202242;
     padding: 10px;
@@ -926,7 +926,8 @@ width: 100%;
     font-size:1.5rem;
     color:#202242;
 }
-.feature1 .main_feature_content_area1 .main_feature_content1{}
+.feature1 .main_feature_content_area1 .main_feature_content1{
+}
 .feature1 .main_feature_content_area1 .main_feature_content1{}
 .feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1{}
 .feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 .single_feature_img1{ margin-left: 5px;}
