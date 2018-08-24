@@ -1601,9 +1601,9 @@ body.modal-open div.modal-backdrop {
     height: 300px;
 
 }
-#map-container1 {
+#map-container1{
 
-    width: 535px;
+    width: 100%;
     height: 300px;
 
 }
