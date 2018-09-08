@@ -74,7 +74,7 @@ a span {
     transition: 0.2s ease-in-out;
 }
 .btn.extra-width {
-    padding: 13px 40px;
+    /*padding: 13px 40px;*/
 }
 .btn:focus,
 .btn:active {
@@ -82,7 +82,7 @@ a span {
 }
 
 .btn2.extra-width {
-    padding: 13px 40px;
+    /*padding: 13px 40px;*/
 }
 .btn2:focus,
 .btn2:active {
@@ -798,32 +798,32 @@ header_top_bar{
 
 /* webhost_service section */
 .webhost_service{
-width: 100%;
-height: 80%;
+/*width: 100%;
+height: 80%;*/
 }
 .main_webhost_service_area{
     color:#fff;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .main_webhost_service_area .single_webhost_left{
     background: #202242;
-    padding-top:115px;
-    padding-bottom: 110px;
+    padding-top:20%;
+    /*padding-bottom: 110px;*/
     /*height: 670px;*/
 
 }
 .main_webhost_service_area .single_webhost_left_img img{
-    max-width: 178px;
-    max-height: 178px;
+    width: 35%;
+    /*height: 20%;*/
 }
 .main_webhost_service_area .single_webhost_left_content{
-    margin-top:50px
+    margin-top:5%;
 }
 .main_webhost_service_area .single_webhost_left_content h2{
     font-size:2.25rem;
     font-family: 'ralewaybold';
-    margin-bottom:20px;
+    /*margin-bottom:20px;*/
 }
 .main_webhost_service_area .single_webhost_left_content p{
     font-size:1rem;
@@ -836,15 +836,15 @@ height: 80%;
 }
 .main_webhost_service_area .single_webhost_right{
     background: #ffe13e;
-    padding-top:115px;
-    padding-bottom: 110px;
+    padding-top:30%;
+    /*padding-bottom: 110px;*/
     /*height: 670px;*/
 }
 
 .main_webhost_service_area .single_webhost_right .single_webhost_right_content h2{
     font-size:2.25rem;
     font-family: 'ralewaybold';
-    margin-bottom:20px;
+    /*margin-bottom:20px;*/
 }
 .main_webhost_service_area .single_webhost_right .single_webhost_right_content p{
     font-size:1rem;
