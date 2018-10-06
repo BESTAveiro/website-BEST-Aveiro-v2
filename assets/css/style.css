@@ -569,7 +569,6 @@ input:-ms-input-placeholder {
     color:#ffe13e;
 }
 
-
 .main_menu_bg .navbar {
     margin-bottom:10px;
 }
@@ -599,7 +598,7 @@ input:-ms-input-placeholder {
 
 }
 .navbar-brand {
-    padding: 5px 8px;
+    padding: 0px 0px ;
 }
 
 /*call us*/
