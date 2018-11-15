@@ -1517,7 +1517,8 @@ body.modal-open div.modal-backdrop {
 
 .team-member {
   margin-bottom: 50px;
-  text-align: center; }
+  text-align: center;
+}
   /*.team-member img {
     width: 200px;
     height: 205px;
@@ -1530,7 +1531,6 @@ body.modal-open div.modal-backdrop {
      }
 
      .image_linkedin {
-       display: block;
        max-width: 150px;
        min-width: 150px;
        max-height: 150px;
