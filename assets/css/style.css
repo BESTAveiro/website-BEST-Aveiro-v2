@@ -1202,7 +1202,7 @@ html {
     background-color: #ffe13e;
     /*opacity: 0.1;*/
 }
-.fa-facebook {
+.fa-facebook-square {
     /*width:4%;*/
     background: white;
     color: black;
@@ -1225,7 +1225,7 @@ html {
     color: black;
 }
 
-.fa-linkedin {
+.fa-linkedin-square {
     /*width:4%;*/
     background: white;
     color: black;
