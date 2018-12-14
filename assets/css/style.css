@@ -426,7 +426,27 @@ Button
     text-decoration: none;
     border: 1px solid black;
 }
-
+.btn3 {
+    border: 1px solid black;
+    display: inline-block;
+    min-width: 160px;
+    padding: .2em;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 300;
+    border-radius: 0;
+    cursor: pointer;
+}
+.btn3:hover {
+    background-color: #ffe13e;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
 .btn-primary {
     color: #fff;
     background-color: rgb(250, 205, 50);
@@ -1649,10 +1669,10 @@ body.modal-open div.modal-backdrop {
 
 /*}*/
 
-/*.team-member img {
-  width: 200px;
-  height: 205px;
-   }*/
+/*.team-member img {*/
+  /*width: 200px;*/
+  /*height: 205px;*/
+   /*}*/
 
 /*.container_linkedin {*/
     /*position: relative;*/
@@ -1660,16 +1680,6 @@ body.modal-open div.modal-backdrop {
 
 /*}*/
 
-.image_linkedin {
-    max-width: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
-    border-radius: 50%;
-
-}
 
 /*.overlay_linkedin {*/
     /*position: absolute;*/
@@ -1738,16 +1748,23 @@ body.modal-open div.modal-backdrop {
     /*font-family: 'ralewayregular';*/
 /*}*/
 
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px; }
-#portfolio .portfolio-item .portfolio-link {
-    position: relative;
+.image_linkedin {
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    /*width: 150px;
+    height: 150px;*/
+    border-radius: 50%;
+}
+
+#portfolio .portfolio-link {
+    position: center;
     display: block;
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 150px;
+    margin: auto;
     cursor: pointer; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-link .portfolio-hover {
     position: absolute;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -1761,9 +1778,9 @@ body.modal-open div.modal-backdrop {
     /*width: 150px;
     height: 150px;*/
     border-radius: 50%;}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-link .portfolio-hover:hover {
     opacity: 0.7; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content {
     font-size: 6em;
     text-align: center;
     margin-top: 30px;
@@ -1776,21 +1793,21 @@ body.modal-open div.modal-backdrop {
     height: 150px;*/
     border-radius: 50%;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0; }
-#portfolio .portfolio-item .portfolio-caption {
+#portfolio .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
     background-color: #fff; }
-#portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-caption h4 {
     margin: 0;
     text-transform: none; }
-#portfolio .portfolio-item .portfolio-caption p {
+#portfolio .portfolio-caption p {
     font-size: 16px;
     margin: 0;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -1798,9 +1815,7 @@ body.modal-open div.modal-backdrop {
 #portfolio * {
     z-index: 2; }
 
-@media (min-width: 767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px; } }
+
 
 .portfolio-modal {
     padding-right: 0px !important; }
