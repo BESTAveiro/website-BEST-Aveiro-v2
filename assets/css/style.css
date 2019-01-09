@@ -1327,10 +1327,10 @@ html {
     border-radius: 50%;
 }
 
-.fa:hover {
-    background-color: rgb(0, 119, 181);
-    /*opacity: 0.1;*/
-}
+/*.fa:hover {*/
+    /*background-color: rgb(0, 119, 181);*/
+    /*!*opacity: 0.1;*!*/
+/*}*/
 
 .fa-facebook-square {
     /*width:4%;*/
