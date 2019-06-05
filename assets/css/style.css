@@ -14,9 +14,11 @@ body {
     padding: 0;
     /*margin:0;*/
     margin-left: 0;
-    margin-right: 0;
+    margin-right: -10px;
     font-family: 'roboto', sans-serif;
     font-weight: 300;
+    left: 0;
+    right: 0;
 }
 
 /*==========================================
@@ -49,6 +51,8 @@ PRE LOADER
     background-size: cover;
     margin: -20px 0 0 -20px;
 }
+
+
 
 img {
     -moz-user-select: none;
@@ -421,8 +425,8 @@ Button
  }
 
 .btn2:hover {
-    background-color: #ffe13e;
-    color: black;
+    background-color: rgb(53,53,53);
+    color: #ffe13e;
     text-decoration: none;
     border: 1px solid black;
 }
@@ -1512,11 +1516,11 @@ html {
 
 /* Reposition the controls slightly */
 .carousel-control {
-    left: -145px;
+    left: -100px;
 }
 
 .carousel-control.right {
-    right: -145px;
+    right: -100px;
 }
 
 /* Changes the position of the indicators */
@@ -1881,7 +1885,11 @@ body.modal-open div.modal-backdrop {
 
     width: 100%;
     height: 300px;
+}
 
+#recrutamento {
+    background-color: #ffe13e;
+    z-index: 3;
 }
 
 .contact2 {
@@ -1902,4 +1910,8 @@ h5 {
 .close-heading p {
     margin: 0px;
     padding: 0px;
+}
+
+.social:hover {
+    background-color: white;
 }

@@ -1,1328 +1,1440 @@
 <!-- <!doctype html> -->
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>BEST Aveiro</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-        <link rel="icon" href="assets/images/logo.png">
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BEST Aveiro</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="icon" href="assets/images/BEST_logomark.png">
 
-        <!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
-        <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+  <!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
+  <link rel="stylesheet" href="assets/css/fonticons.css">
+  <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
 
-        <!--For Plugins external css-->
-        <link rel="stylesheet" href="assets/css/plugins.css" />
+  <!--For Plugins external css-->
+  <link rel="stylesheet" href="assets/css/plugins.css"/>
 
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="assets/css/responsive.css"/>
 
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript">
-          var images = [];
-          images[0] = "assets/images/foto1.jpg";
-          images[1] = "assets/images/foto10.jpg";
-          images[2] = "assets/images/foto11.jpg";
-          var i = 0;
-          setInterval(fadeDivs, 6000);
-          function fadeDivs() {
-             i = i < images.length-1 ? i : 0;
-        		//  $('.home').css('width',100);
+  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+      var images = [];
+      images[0] = "assets/images/foto1.jpg";
+      images[1] = "assets/images/foto10.jpg";
+      images[2] = "assets/images/foto11.jpg";
+      var i = 0;
+      setInterval(fadeDivs, 6000);
 
-             $('.home').fadeOut(300, function(){
-                //  $(this).attr('src', images[i]).fadeIn(100);
-                // $('.home').css('background','url('+images[i]+') no-repeat center left').fadeIn(100);
-                $('.home').css('background-image','url('+images[i]+')').fadeIn(100);
-                $('.home').css('background-size','cover');
-             });
-             i++;
-           }
-        </script>
+      function fadeDivs() {
+          i = i < images.length - 1 ? i : 0;
+          //  $('.home').css('width',100);
 
-    </head>
-    <body id="home" data-spy="scroll" data-target="#navmenu">
-        <!--[if lt IE 8]>
-        <![endif]-->
-		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+          $('.home').fadeOut(300, function () {
+              //  $(this).attr('src', images[i]).fadeIn(100);
+              // $('.home').css('background','url('+images[i]+') no-repeat center left').fadeIn(100);
+              $('.home').css('background-image', 'url(' + images[i] + ')').fadeIn(100);
+              $('.home').css('background-size', 'cover');
+          });
+          i++;
+      }
+  </script>
 
-        <header id="main_menu" class="header navbar-fixed-top" >
+</head>
+<body id="home" data-spy="scroll" data-target="#navmenu" style="left: 0; right: 0">
+<!--[if lt IE 8]>
+<![endif]-->
+<div class='preloader'>
+  <div class='loaded'>&nbsp;</div>
+</div>
 
-            <div class="main_menu_bg" >
-                <div class="container">
-                    <div class="row" >
-                        <div class="nave_menu" style="background:transparent">
-                            <nav class="navbar navbar-default" id="#navmenu1" >
-                                <!--<div class="container-fluid">-->
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-                                    <div class="navbar-header" style="height: 15px;">
-                                        <a class="navbar-brand js-scroll-trigger" href="#home" >
-                                            <img src="assets/images/logobranco.png" width="18%"/>
-                                        </a>
-                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            </button>
-                                    </div>
-                                    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1"
-                                         style="text-align: center; margin-left:30px; vertical-align: text-top; border-top-style:none; margin-top: 20px;">
-                                        <!-- <div class="navbar-header header-position" > -->
-                                        <ul class="nav navbar-nav navbar-right" >
-                                            <li><a class="change_color js-scroll-trigger" href="#news">Notícias</a></li>
-                                            <li><a class="change_color js-scroll-trigger" href="#abouts">Sobre</a></li>
-                                            <li><a class="change_color js-scroll-trigger" href="#feature1">Eventos</a></li>
-                                            <li><a class="change_color js-scroll-trigger" href="#feature">Equipas</a></li>
-                                            <li><a class="change_color js-scroll-trigger" href="#portfolio">Direção</a></li>
-                                            <li><a class="change_color js-scroll-trigger" href="#clients">Parceiros</a></li>
-                                            <li><a class="change_color js-scroll-trigger" href="#contactos">Contactos</a></li>
-                                            <!--<li><a class="change_color js-scroll-trigger" href="index-en.html">EN</a></li>-->
-                                        </ul>
-                                    </div>
-                            </nav>
+<header id="main_menu" class="header navbar-fixed-top">
 
-                        </div>
-                        </div>
-                    </div>
+  <div class="main_menu_bg">
+    <div class="container">
+      <div class="row">
+        <div class="nave_menu" style="background:transparent">
+          <nav class="navbar navbar-default" id="#navmenu1">
+            <!--<div class="container-fluid">-->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="height: 15px;">
+              <a class="navbar-brand js-scroll-trigger" href="#home">
+                <img src="assets/images/logobranco.png" width="18%"/>
+              </a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             </div>
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1"
+                 style="text-align: center; margin-left:30px; vertical-align: text-top; border-top-style:none; margin-top: 20px;">
+              <!-- <div class="navbar-header header-position" > -->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="change_color js-scroll-trigger" href="#news">Notícias</a></li>
+                <li><a class="change_color js-scroll-trigger" href="#abouts">Sobre</a></li>
+                <li><a class="change_color js-scroll-trigger" href="#feature1">Eventos</a></li>
+                <li><a class="change_color js-scroll-trigger" href="#feature">Equipas</a></li>
+                <li><a class="change_color js-scroll-trigger" href="#portfolio">Direção</a></li>
+                <li><a class="change_color js-scroll-trigger" href="#clients">Parceiros</a></li>
+                <li><a class="change_color js-scroll-trigger" href="#contactos">Contactos</a></li>
+                <!--<li><a class="change_color js-scroll-trigger" href="index-en.html">EN</a></li>-->
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--<section id="hom" class="home" style="margin-top: 65px; width: 100%; position: fixed; z-index: 90; left: 0; right: 0">
+  <div class="container" id="recrutamento" style="">
+    <br>
+    <div class="row" style="padding-top:0px">
+
+      <div style="" class="row">
+
+        <div class="col-xs-6" align="center"  style="margin-top:0px;">
+          <h5 style="color:black;"><i style="color:black ;margin-bottom: 0px;"></i><span style="display:inline-block; width: 10px;"></span><b>ESTAMOS A RECRUTAR!</b></h5>
+          <p  style="color:black;">
+            Vais ficar aí sem agarrar novas oportunidades?
+          </p></div>
+        <div class="col-xs-6 col-sm-" align="center"  style="margin-top:0px;">
+          <a  href="https://docs.google.com/forms/d/e/1FAIpQLSec4mebvbem9n2sr_LtnBiPkA1QH2qTwBOay5mm5x1XIMGJaA/closedform" target="_blank" class="btn3"
+          ><p style=" font-family: 'ralewaysemibold'; font-size: 1.0rem; text-transform: uppercase; color: black ">Candidata-te já!</p></a>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
 
 
-        </header>
-        <section id="hom" class="home" style="margin-top: 60px; width: 100%">
-                        <div class="container" id="recrutamento" style="background:rgb(250, 205, 50); width: 100%; ">
-                            <div class="row" style="padding-top:0px">
+<section id="home1" class="home" style="width: 100%">
+  <div class="home_overlay">
+    <div class="container">
+      <div class="row">
+        <div class="main_slider_area">
+          <div class="slider" style="margin-top: -80px">
+            <div class="single_slider"
+                 style="background-color:rgba(0, 0, 0, 0.75); width:75%; padding:50px; margin:auto; margin-top: 150px">
+              <div class="single_slider_img_icon">
+                <img src="assets/images/ii1.png" alt="" style="width:30%"/>
+              </div>
+              <h3>Board of European <br>Students of Technology</h3>
 
-                                <div style="color:white;" class="row">
+              <p style="line-height: 1;">Empowered Diversity - Developing Students</p>
+            </div>
+          </div>
 
-                                    <div class="col-sm-6" align="center"  style="margin-top:0px;">
-                                        <h5 style="color:black;"><i style="color:black ;margin-bottom: 0px;"></i><span style="display:inline-block; width: 10px;"></span><b>ESTAMOS A RECRUTAR!</b></h5>
-                                        <p  style="color:black;">
-                                            Vais ficar aí sem agarrar novas oportunidades?
-                                        </p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End of Banner Section -->
 
-                                    <div class="col-sm-6" align="center"  style="margin-top:0px;">
-                                        <a  href="https://docs.google.com/forms/d/e/1FAIpQLSec4mebvbem9n2sr_LtnBiPkA1QH2qTwBOay5mm5x1XIMGJaA/closedform" target="_blank" class="btn3"
-                                        ><p style=" font-family: 'ralewaysemibold'; font-size: 1.0rem; text-transform: uppercase; color: black ">Candidata-te já!</p></a>
-                                        <br><br>
 
-                                    </div>
-                                </div>
-                            </div>
+<section id="news" class="feature">
+  <div class="feature_overlay">
+    <div class="container-fluid" style="width: 75%">
+      <div class="main_feature_content_area">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="heading_title text-center">
+            <h2 style="color: black">Notícias</h2>
+          </div>
+          <div class="carousel-inner" style="padding-bottom:35px">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-4">
+                  <a id="news1" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
                         </div>
-        </section>
-
-
-
-        <section id="home1" class="home" style="width: 100%">
-            <div class="home_overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_slider_area">
-                            <div class="slider" style="margin-top: -80px">
-                                <div class="single_slider" style="background-color:rgba(0, 0, 0, 0.75); width:75%; padding:50px; margin:auto; margin-top: 150px">
-                                  <div class="single_slider_img_icon">
-                                      <img src="assets/images/ii1.png" alt="" style="width:30%" />
-                                  </div>
-                                    <h3>Board of European  <br>Students of Technology</h3>
-
-                                    <p style="line-height: 1;">Empowered Diversity  -  Developing Students</p>
-                                  </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section><!-- End of Banner Section -->
-
-
-
-        <section id="news" class="feature" >
-            <div class="feature_overlay" >
-              <div class="container-fluid" style="width: 75%" >
-                  <div class="main_feature_content_area">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <div class="heading_title text-center">
-                      <h2 style="color: black">Notícias</h2>
-                  </div>
-                  <div class="carousel-inner" style="padding-bottom:35px">
-                    <div class="item active">
-                      <div class="row" >
-                        <div class="col-sm-4">
-                          <a id="news1" class="button"  style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                      <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-
-                        <div class="col-sm-4">
-                          <a id="news2" class="button"  style="cursor:pointer;">
-                            <div class="column1" >
-                              <div class="card1">
-                                <img src="assets/images/news/PMBogazici.jpg" alt="" style="height:32%;width:100%">
-                                <div class="container1">
-                                  <h5 style="font-size: 1.2rem; font-weight: bolder;">Presidents Meeting Bogazici em Istambul</h5>
-                                </div>
-                                <div ><br>
-                                    <p class="title1">O encontro semestral de representantes de todos os 95 grupos locais BEST ocorreu em novembro.</p>
-                                    <br>
-                                    <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col-sm-4">
-                          <a id="news3" class="button"  style="cursor:pointer;">
-                            <div class="column1" >
-                              <div class="card1">
-                                <img src="assets/images/news/ano2018.jpg" alt="" style="height:32%;width:100%">
-                                <div class="container1">
-                                  <h5 style="font-size: 1.2rem; font-weight: bolder;">Um Feliz Natal e Próspero Ano Novo</h5>
-                                </div>
-                                <div><br>
-                                    <p class="title1">O BEST Aveiro espera que todos tenham tido um bom natal, e deseja-vos e um ótimo 2018!</p>
-                                    <br>
-                                    <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
                         </div>
                       </div>
                     </div>
-
-                    <div class="item">
-                      <div class="row" >
-                        <div class="col-sm-4">
-                          <a id="news4" class="button"  style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                        <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4">
-                          <a id="news5" class="button"  style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem;font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                      <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4">
-                          <a id="news6" class="button"  style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                      <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="row" >
-                        <div class="col-sm-4">
-                          <a id="news7" class="button" style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                      <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4">
-                          <a id="news8" class="button"  style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                      <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4">
-                          <a id="news9" class="button"  style="cursor:pointer;">
-                              <div class="column1" >
-                                <div class="card1">
-                                  <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
-                                  <div class="container1">
-                                    <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard Skills</h5>
-                                  </div>
-                                  <div><br>
-                                      <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
-                                      membros do BEST tiveram oportunidade de aprender e
-                                      desenvolver soft e hard-skills.</p>
-                                      <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Left and right controls -->
-               <a class="left carousel-control" data-target="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0,0,0,.0001) 100%); color: #bfbfbf;">
-                    <span class="glyphicon glyphicon-chevron-left" style="margin-left: 10px;"></span>
-                    <!--<span class="sr-only">Previous</span>-->
                   </a>
-                  <a class="right carousel-control" data-target="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0,0,0,.0001) 100%); color: #bfbfbf;">
-                    <span class="glyphicon glyphicon-chevron-right" style="margin-right: 10px;"></span>
-                    <!-- <span class="sr-only">Next</span> -->
-                 </a>
                 </div>
-                </div>
-              </div>
-            </div>
-        </section>
 
-        <section id="abouts" style="width: 100%;">
-            <div  class="container-fluid" >
-                <div class="row ">
-                    <div class="main_webhost_service_area text-center ">
-                        <div class="col-sm-6 no-padding" style="height:100%;">
-                            <div class="single_webhost_right" style="height:100%;">
-                                <!--<div class="row">-->
-                                    <!--<div class="col-sm-8 col-sm-offset-2" >-->
-                                        <div class="single_webhost_left_img">
-                                            <img style="margin-top: -22%" src="assets/images/teste3.png" alt="" />
-                                        </div>
-                                        <div style="color: black" class="single_webhost_left_content">
-                                            <h3 style="margin-top: -5px">BEST</h3>
-                                            <p align="justify" style="color:black; width:50%; margin:auto;">O BEST é uma organização europeia sem fins
-											lucrativos e apolítica de estudantes de Ciências,
-											Engenharia e Tecnologia, presente em 97 universidades
-											de 34 países, com cerca de 3000 membros e abrangendo
-											aproximadamente 1 milhão de estudantes.</p>
-                                            <a  id="Inter" class="btn2">Ler Mais</a>
-                                        </div>
-                                    <!--</div>-->
-                                <!--</div>-->
-                            </div>
+                <div class="col-sm-4">
+                  <a id="news2" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/news/PMBogazici.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Presidents Meeting Bogazici em
+                            Istambul</h5>
                         </div>
-                        <div class="col-sm-6 no-padding" style="height:100%;">
-                            <div class="single_webhost_left" style="height:100%;">
-                                <!--<div class="row">-->
-                                    <!--<div class="col-sm-8 col-sm-offset-2">-->
-                                        <div class="single_webhost_right_img">
-
-                                            <h1 style="color: white;margin-top: -30px">.pt</h1>
-                                        </div>
-                                        <div class="single_webhost_right_content">
-                                            <br><br><br><h3 style="color: white; margin-top: 0px">BEST Aveiro</h3>
-                                            <p align="justify" style="color: white; width:50%; margin:auto;">O BEST Aveiro é um dos 97 grupos locais do BEST,
-                                           uma organização europeia de estudantes de Ciências, Engenharia e Tecnologia que trabalham
-											cooperativamente para a prestação dos vários serviços
-											que a organização disponibiliza.<br><br></p>
-                                            <a id="Pt" class="btn">Ler Mais</a>
-                                        </div>
-                                    <!--</div>-->
-                                </div>
-                            </div>
+                        <div><br>
+                          <p class="title1">O encontro semestral de representantes de todos os 95 grupos locais BEST
+                            ocorreu em novembro.</p>
+                          <br>
+                          <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
                         </div>
-                    </div>
-                <!--</div>-->
-            </div>
-        </section>
-
-        <section id="feature1" class="feature1">
-            <div class="feature_overlay1">
-                <div class="container" >
-                    <div class="row">
-                        <div class="main_feature_content_area1">
-                            <div class="col-sm-12">
-                                <div class="heading_title1 text-center" >
-                                    <h2 style="color: black">Eventos</h2>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                     <div class="row">
-						<div class="main_feature_content_area1">
-                            <div class="main_feature_content1 text-center" style="margin:auto">
-                                <div class="col-md-4">
-                                    <div class="single_feature1">
-                                        <a id="evenebec" class="button"  style="cursor:pointer;">
-											<div class="single_feature_img1" style="width: 250px; height: 170px; margin-left:auto; margin-right:auto;">
-												<img data-aos="fade-up" src="assets/images/Eventos/ebec.png" alt=" "/>
-											</div>
-											<h3 data-aos="fade-up" style="margin-top: -40px" >EBEC Aveiro</h3>
-                                            <p data-aos="fade-up" >Conhece a maior competição <br>de engenharia da Europa!</p>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="single_feature1">
-                                        <a id="9now" class="button"  style="cursor:pointer;">
-											<div class="single_feature_img1"  style="width: 250px; height: 170px; margin-left:auto; margin-right:auto;">
-                                            <img data-aos="fade-up" src="assets/images/Eventos/innov.png" alt="" />
-                                        </div>
-                                        <h3 data-aos="fade-up" style="margin-top: -40px">Innovation Now!</h3>
-                                            <p data-aos="fade-up">Gostas de inovação? <br>Este é o evento ideal para ti.</p></a>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="single_feature1">
-                                        <a id="seasonal" class="button"  style="cursor: pointer;" >
-                                            <div class="single_feature_img1" style="width: 250px; height: 170px; margin-left: auto; margin-right: auto;">
-                                            <img data-aos="fade-up"src="assets/images/Eventos/cursos.png" style="margin-top: 25px" alt=""/>
-                                        </div>
-                                        <h3 data-aos="fade-up" style="margin-top: -40px">Seasonal Courses</h3>
-                                            <p data-aos="fade-up">A melhor combinação entre <br> aprendizagem e entretenimento.</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br><br>
-                <div class="separator1"></div>
-            </div>
-
-        </section>
-
-        <section id="feature" class="feature" style="margin-top: -130px">
-            <div class="feature_overlay">
-                <div class="container" >
-                    <div class="row">
-                        <div class="main_feature_content_area">
-                            <div class="col-sm-12">
-                                <div class="heading_title text-center">
-                                    <h2 style="color: black;">Equipas</h2>
-                                </div>
-                            </div>
-
-                            <div class="main_feature_content text-center" style="margin:auto">
-                                <div class="col-md-2 col-md-offset-1">
-                                    <div class="single_feature">
-                                        <div class="single_feature_img">
-                                            <img data-aos="fade-up" src="assets/images/ft2.png" alt=" "/>
-                                        </div>
-                                        <div class="separator"></div>
-                                        <h3 data-aos="fade-up">Conteúdo Académico</h3>
-                                            <p data-aos="fade-up" style="margin-top: 52px">Garantir o desenvolvimento do conteúdo académico dos eventos externos da Associação de forma diversificada e inovadora.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-2">
-                                    <div class="single_feature">
-                                        <div class="single_feature_img">
-                                            <img data-aos="fade-up"src="assets/images/ft5.png" alt="" style="saturate: 50%" />
-                                        </div>
-                                        <div class="separator"></div>
-                                        <h3 data-aos="fade-up">Recursos Humanos</h3>
-                                        <p data-aos="fade-up" style="margin-top: 52px">Organizar e estimular atividades de integração e motivação para os membros da Associação.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="single_feature">
-                                        <div class="single_feature_img">
-                                            <img data-aos="fade-up" src="assets/images/ft3.png" alt="" />
-                                        </div>
-                                        <div class="separator"></div>
-                                        <h3 data-aos="fade-up">Marketing e Relações Públicas</h3><br>
-                                        <p style="margin-top: -20px" data-aos="fade-up">Garantir a divulgação e promoção da Associação e suas atividades.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 ">
-                                    <div class="single_feature">
-                                        <div class="single_feature_img">
-                                            <img data-aos="fade-up" src="assets/images/ft1.png" alt="" />
-                                        </div>
-                                        <div class="separator"></div>
-                                        <h3 data-aos="fade-up">Relações Empresariais</h3>
-                                        <p data-aos="fade-up">Criar, manter e gerir as relações corporativas da Associação.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="single_feature">
-                                        <div class="single_feature_img">
-                                            <img data-aos="fade-up" src="assets/images/ft4.png" alt="" />
-                                        </div>
-                                        <div class="separator"></div>
-                                        <h3 data-aos="fade-up" >Tecnologias de Informação</h3>
-                                        <p data-aos="fade-up">Criar, manter e gerir os recursos tecnológicos da Associação.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div><br><br>
-
-                <div class="separator1"></div>
-            </div>
-
-        </section>
-
-        <section class="bg-light" id="portfolio">
-            <div class="feature_overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="heading_title" style="font-family: 'ralewaybold'; font-size: 3rem; color: black; margin-top: -0px">Direção</h2>
-                        <h3 class="section-subheading text-muted"></h3>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 0px">
-                    <div class="col-sm-2 col-md-offset-1">
-                        <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/jorge-silva-203273136/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/jorge.JPG" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Jorge Silva</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Presidente</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2" >
-                        <a class="portfolio-link"  target="_blank" href="https://www.linkedin.com/in/alexandrevala/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/vala1.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Alexandre Vala</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Tesoureiro</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2" >
-                        <a class="portfolio-link"  target="_blank" href="https://www.linkedin.com/in/dinis-bruno-20950015a/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/dinis.JPG" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Dinis Bruno</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Secretário</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 " >
-                        <a class="portfolio-link"  target="_blank" href="https://www.linkedin.com/in/maria-brand%C3%A3o-76a047169/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/maria.JPG" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Maria Brandão</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Vice Presidente para Recursos Humanos</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 " >
-                        <a class="portfolio-link"  target="_blank" href="">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/cat1.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Catarina Lopes</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Vice Presidente para Suporte Interno</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container row" >
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading " style="font-family: 'ralewaybold'; font-size: 2.5rem; color: black;"><br>Coordenadores<br></h2>
-                        <h3 class="section-subheading text-muted"></h3>
-                    </div>
-                    <div class="col-sm-2 col-md-offset-2" >
-                        <a class="portfolio-link"  target="_blank" href="https://www.linkedin.com/in/joaopacheco97/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/pacheco1.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">João Pacheco</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Marketing e Relações Públicas</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <a class="portfolio-link"  target="_blank" href="https://www.linkedin.com/in/mariana-soares-a8652989/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/mariana.JPG" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Mariana Soares</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Conteúdos Académicos</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 ">
-                        <a class="portfolio-link"  target="_blank" href="https://www.linkedin.com/in/mateus-lima-039930178/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/mateus.JPG" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Mateus Lima</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Tecnologias de Informação</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 ">
-                        <a class="portfolio-link"  target="_blank" href="http://www.linkedin.com/in/martins-pedro/">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-linkedin" style="font-size: 1em;"></i>
-                                </div>
-                            </div>
-                            <img class="image_linkedin" src="assets/images/x/pedro1.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Pedro Martins</h4>
-                            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Relações Empresariais</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
-        <section id="clients" class="feature" style="margin-top: 0px;">
-
-            <div class="feature_overlay">
-              <div class="container">
-                  <div class="row">
-                      <div class="main_clients_area">
-
-                          <div class="main_clients_top_content">
-                              <div class="row">
-                                  <div class="col-sm-4">
-                                      <div class="client_left_content text-center" style="margin: auto;">
-                                          <h2>Parceiros</h2>
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4">
-									<div class="single_right_client" style="width: 50%; margin: auto;">
-											  <a href="https://www.ua.pt/" target="_blank"><img src="assets/images/c1.jpg" alt="" /></a>
-									</div>
-                                  </div>
-                                  <div class="col-sm-4">
-
-									  <div class="single_right_client" style="width: 40%; margin: auto;">
-										  <a href="https://www.ipdj.pt/" target="_blank"><img src="assets/images/c2.png" alt=""></a>
-									  </div>
-
-                                  </div>
-                              </div>
-                          </div>
                       </div>
-                  </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a id="news3" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/news/ano2018.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Um Feliz Natal e Próspero Ano Novo</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">O BEST Aveiro espera que todos tenham tido um bom natal, e deseja-vos e um
+                            ótimo 2018!</p>
+                          <br>
+                          <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-          </section>
-        <!-- </section> -->
 
-      <section  style="background:rgb(250, 205, 50);">
-
-          <div class="container" id="contactos">
-              <div class="row" style="padding-top:15px">
-                <div class="col-sm-12">
-                    <div class="heading_title text-center">
-                        <h2 style="color:black; " ><b>Contactos</b></h2>
-                    </div>
-                </div>
-
-              <div style="color:white;" class="row">
-                  <div class="col-sm-6" align="center">
-                      <div class="panel panel-default" style="margin-top:35px; margin-bottom:75px">
-                          <div class="panel-body">
-                              <div  id="map-container" class="col-md-6" ><div class="panel panel-default">
-                                  <div class="panel-body embed-responsive embed-responsive-16by9">
-                                      <iframe class="embed-responsive-item"
-                                              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDM0ZNlzZS6wulKFOv1s6PARvuXmGI-paM&q=BEST Aveiro, Aveiro, PT">
-                                      </iframe>
-                                  </div>
-                              </div></div>
-                          </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-4">
+                  <a id="news4" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
+                        </div>
                       </div>
-                  </div>
-
-                  <div class="col-sm-6" align="center"  style="margin-top:25px;">
-                          <h5 style="color:black;"><i class="fa fa-home" style="color:black ;margin-bottom: 0px;"></i><span style="display:inline-block; width: 10px;"></span><b>Morada:</b></h5>
-                          <p  style="color:black;">
-                              Incubadora de Empresas da Universidade de Aveiro<br/>
-                              Campus Universitário de Santiago, Edifício 1<br/>
-                              3810-193 Aveiro<br/>
-                              Portugal
-                          </p></div>
-
-              <div class="col-sm-6" align="center"  >
-                         <h5 style="color:black;"><a href="mailto:aveiro@BEST.eu.org"><i class="fa fa-envelope" style="color: black;"></i></a><span style="display:inline-block; width: 15px;"></span><b>Email:</b></h5>
-                  <a href="mailto:aveiro@BEST.eu.org"><span  style="color:black;">aveiro@BEST.eu.org</span></a>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a id="news5" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem;font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a id="news6" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px; font-size: 0.9rem">01/02/2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
-              <div class="col-sm-6" align="center"  >
-                         <h5 style="color:black;" ><i class="fa fa-phone" style="color: black;"></i><span style="display:inline-block; width: 15px;"></span><b>Telefone:</b></h5>
-                            <span  style="display:inline-block; width: 15px;"></span><span style="color:black;">(+351) 925 030 168</span>
-                      <br>
+            </div>
 
-                  </div>
-          </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-4">
+                  <a id="news7" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a id="news8" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a id="news9" class="button" style="cursor:pointer;">
+                    <div class="column1">
+                      <div class="card1">
+                        <img src="assets/images/N1.jpg" alt="" style="height:32%;width:100%">
+                        <div class="container1">
+                          <h5 style="font-size: 1.2rem; font-weight: bolder;">Training Weekend: Formações em Soft e Hard
+                            Skills</h5>
+                        </div>
+                        <div><br>
+                          <p class="title1">De 8 a 10 de dezembro ocorreu o Training Weekend onde os
+                            membros do BEST tiveram oportunidade de aprender e
+                            desenvolver soft e hard-skills.</p>
+                          <p align="right" style="color:#777777;margin-right:10px;font-size: 0.9rem">01/02/2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
+            </div>
           </div>
 
-      </section>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" data-target="#myCarousel" data-slide="prev"
+             style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0,0,0,.0001) 100%); color: #bfbfbf;">
+            <span class="glyphicon glyphicon-chevron-left" style="margin-left: -2em;"></span>
+            <!--<span class="sr-only">Previous</span>-->
+          </a>
+          <a class="right carousel-control" data-target="#myCarousel" data-slide="next"
+             style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0,0,0,.0001) 100%); color: #bfbfbf;">
+            <span class="glyphicon glyphicon-chevron-right" style="margin-right: -2em;"></span>
+            <!-- <span class="sr-only">Next</span> -->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-          <script type="text/javascript">
-              function init_map() {
-                  var var_location = new google.maps.LatLng(40.636002,-8.6577);
+<section id="abouts" style="width: 100%;">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="text-center ">
+        <div class="col-sm-6 no-padding" style="height:100%; background-color:rgb(250, 205, 50);">
+          <div class="single_webhost_left_img">
+            <img style="width: 240px; margin-top: 15%" src="assets/images/teste3.png" alt=""/>
+          </div>
+          <div style="color: black" class="single_webhost_left_content">
+            <h3>BEST</h3>
+            <p align="justify" style="color:black; width:50%; margin:auto;">O BEST é uma organização europeia sem fins
+              lucrativos e apolítica de estudantes de Ciências,
+              Engenharia e Tecnologia, presente em 97 universidades
+              de 34 países, com cerca de 3000 membros e abrangendo
+              aproximadamente 1 milhão de estudantes.</p>
+            <a id="Inter" class="btn2">Ler Mais</a>
+          </div>
+        </div>
+      <div class="col-sm-6 no-padding" style="height:100%; background-color:rgba(20, 65, 115, 1) ">
+        <div class="" style="position: center">
+          <img style="width: 240px; margin-top: 15%; text-align: center; " src="assets/images/pt.png" alt=""/>
+        </div>
+        <div class="single_webhost_left_content">
+        <h3 class="" style="color: white; text-align: center">BEST Aveiro</h3>
+        <p align="justify" style="color: white; width:50%; margin:auto;">O BEST Aveiro é um dos 96 grupos locais
+          do BEST, uma organização europeia de estudantes de Ciências, Engenharia e Tecnologia que trabalham
+          cooperativamente para a prestação dos vários serviços
+          que a organização disponibiliza.</p>
+        <a id="Pt" class="btn" style="">Ler Mais</a>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--</div>-->
+  </div>
+</section>
 
-                  var var_mapoptions = {
-                      center: var_location,
-                      zoom: 18
-                  };
+<section id="feature1" class="feature1">
+  <div class="feature_overlay1">
+    <div class="container">
+      <div class="row">
+        <div class="main_feature_content_area1">
+          <div class="col-sm-12">
+            <div class="heading_title1 text-center">
+              <h2 style="color: black">Eventos</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="main_feature_content_area1">
+          <div class="main_feature_content1 text-center" style="margin:auto">
+            <div class="col-md-4">
+              <div class="single_feature1">
+                <a id="evenebec" class="button" style="cursor:pointer;">
+                  <div class="single_feature_img1"
+                       style="width: 250px; height: 170px; margin-left:auto; margin-right:auto;">
+                    <img data-aos="fade-up" src="assets/images/Eventos/ebec.png" alt=" "/>
+                  </div>
+                  <h3 data-aos="fade-up" style="margin-top: -40px">EBEC Aveiro</h3>
+                  <p data-aos="fade-up">Conhece a maior competição <br>de engenharia da Europa!</p>
+                </a>
+              </div>
+            </div>
 
-                  var var_marker = new google.maps.Marker({
-                      position: var_location,
-                      map: var_map,
-                      title:"BEST Aveiro"});
+            <div class="col-md-4">
+              <div class="single_feature1">
+                <a id="9now" class="button" style="cursor:pointer;">
+                  <div class="single_feature_img1"
+                       style="width: 250px; height: 170px; margin-left:auto; margin-right:auto;">
+                    <img data-aos="fade-up" src="assets/images/Eventos/innov.png" alt=""/>
+                  </div>
+                  <h3 data-aos="fade-up" style="margin-top: -40px">Innovation Now!</h3>
+                  <p data-aos="fade-up">Gostas de inovação? <br>Este é o evento ideal para ti.</p></a>
 
-                  var var_map = new google.maps.Map(document.getElementById("map-container"),
-                      var_mapoptions);
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="single_feature1">
+                <a id="seasonal" class="button" style="cursor: pointer;">
+                  <div class="single_feature_img1"
+                       style="width: 250px; height: 170px; margin-left: auto; margin-right: auto;">
+                    <img data-aos="fade-up" src="assets/images/Eventos/cursos.png" style="margin-top: 25px" alt=""/>
+                  </div>
+                  <h3 data-aos="fade-up" style="margin-top: -40px">Seasonal Courses</h3>
+                  <p data-aos="fade-up">A melhor combinação entre <br> aprendizagem e entretenimento.</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="separator1"></div>
+  </div>
 
-                  var_marker.setMap(var_map);
-              }
+</section>
 
-              google.maps.event.addDomListener(window, 'load', init_map);
-          </script>-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        <script src="assets/css/aos.js"></script>
-        <script type="text/javascript">
-            AOS.init({
-                duration:2000
-            });
-        </script>
+<section id="feature" class="feature" style="margin-top: -130px">
+  <div class="feature_overlay">
+    <div class="container">
+      <div class="row">
+        <div class="main_feature_content_area">
+          <div class="col-sm-12">
+            <div class="heading_title text-center">
+              <h2 style="color: black;">Equipas</h2>
+            </div>
+          </div>
 
-
-
-    </body>
-
-        <footer id="footer" class="footer" style="background: rgb(20, 65, 115);">
-            <div class="container" align="center" >
-                <div class="row">
-                    <li>
-                    <div>
-                        <a onmouseover="this.style.backgroundColor='#ffffff'" onmouseout="this.style.backgroundColor=''"
-                        href="https://www.facebook.com/BESTaveiro?fref=ts" target="_blank" class="fa fa-facebook-square"></a>
-                        <a onmouseover="this.style.backgroundColor='#ffffff'" onmouseout="this.style.backgroundColor=''"
-                        href="https://www.instagram.com/best.aveiro/?hl=pt" target="_blank" class="fa fa-instagram"></a>
-                        <a onmouseover="this.style.backgroundColor='#ffffff'" onmouseout="this.style.backgroundColor=''"
-                        href="https://pt.linkedin.com/company/best-aveiro" target="_blank" class="fa fa-linkedin-square" ></a>
-                        <a onmouseover="this.style.backgroundColor='#ffffff'" onmouseout="this.style.backgroundColor=''"
-                        href="https://www.flickr.com/photos/bestaveiro/" target="_blank" class="fa fa-flickr"></a>
-                    </div>
-                    <div class="main_footer text-center" >
-                        <br><p  style="color:white">Powered by BEST Aveiro IT Team - The-Bugs ©2019</p>
-                    </div>
+          <div class="main_feature_content text-center" style="margin:auto">
+            <div class="col-md-2 col-md-offset-1">
+              <div class="single_feature">
+                <div class="single_feature_img">
+                  <img data-aos="fade-up" src="assets/images/ft2.png" alt=" "/>
                 </div>
+                <div class="separator"></div>
+                <h3 data-aos="fade-up">Conteúdo Académico</h3>
+                <p data-aos="fade-up" style="margin-top: 52px">Garantir o desenvolvimento do conteúdo académico dos
+                  eventos externos da Associação de forma diversificada e inovadora.</p>
+              </div>
             </div>
-        </footer><!-- End of footer section -->
 
-        <!-- STRAT SCROLL TO TOP -->
-
-
-
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/isotope.min.js"></script>
-        <script src="assets/js/agency.js"></script>
-
-        <script src="assets/js/jquery.easypiechart.min.js"></script>
-        <script src="assets/js/jquery.mixitup.min.js"></script>
-        <script src="assets/js/jquery.easing.1.3.js"></script>
-
-
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-
-
-        <div id="myInter" class="modal">
-            <!-- Modal content -->
-            <!-- style="height:1500px" -->
-            <div class="modal-content">
-                <span class="close2">&times;</span>
-                <img style="max-width: 100%; min-width:100%; height: 65%" src="assets/images/bextintimg.jpg">
-                <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">BEST</h3>
-                <p style="text-align: justify; color:black; font-size: 0.9rem">
-                    O BEST (Board of European Students of Technology) é uma organização
-                    europeia sem fins lucrativos e apolítica de estudantes de Ciências, Engenharia e Tecnologia,
-                    presente em 96 universidades de 34 países, com cerca de 3000 membros
-                    e abrangendo aproximadamente 1 milhão de estudantes.<br>
-                </p>
-                <br>
-
-                <div style=" width: 45%; margin-left: 0px; float: left;"><font color="rgb(20, 65, 115)" size="5"><b>Missão</b></font>
-                    <!--<font color="#808080" size="4">issão</font>-->
-                    <p style="text-align: justify; color:black; font-size: 0.9rem">
-                        A missão do BEST é desenvolver os estudantes, dando-lhes a oportunidade
-                        de complementar o seu percurso académico e desenvolver soft-skills, num ambiente
-                        multicultural para compreensão da sociedade e melhor adaptação a um mercado
-                        de trabalho globalizado. Assim, o BEST visa, através dos seus eventos,
-                        aproximar estudantes, universidades e empresas.</p>
+            <div class="col-md-2">
+              <div class="single_feature">
+                <div class="single_feature_img">
+                  <img data-aos="fade-up" src="assets/images/ft5.png" alt="" style="saturate: 50%"/>
                 </div>
-                <div style=" width: 47.5%; margin-left: 50px; float: left;"><font color="rgb(20, 65, 115)" size="5"><b>Visão</b></font>
-                    <!--<font color="#808080" size="6">isão</font>-->
-                    <p style="text-align: justify; color:black; font-size: 0.9rem">
-                        A visão do BEST é baseada na criação de um ambiente de diversidade,
-                        entre os estudantes, propício à aprendizagem, compreensão e respeito pelas
-                        diferentes culturas e backgrounds sociais, bem como à preparação dos estudantes para
-                        um mercado de trabalho global. O BEST acredita que os ambientes culturalmente enriquecidos
-                        aumentam a probabilidade de sucesso de um grupo de trabalho.
-                    </p>
-                    <a href="https://best.eu.org/index.jsp" target="_blank" ><h6 style="text-align: right; color: black; font-weight: bold;">Visita a página oficial</h6></a><br><br>
+                <div class="separator"></div>
+                <h3 data-aos="fade-up">Recursos Humanos</h3>
+                <p data-aos="fade-up" style="margin-top: 52px">Organizar e estimular atividades de integração e
+                  motivação para os membros da Associação.</p>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="single_feature">
+                <div class="single_feature_img">
+                  <img data-aos="fade-up" src="assets/images/ft3.png" alt=""/>
                 </div>
-                <a href="https://best.eu.org/index.jsp" target="_blank" ><h6 style="text-align: left; color: white; font-weight: bold;">Visita a página oficial</h6></a>
-                <a href="https://best.eu.org/index.jsp" target="_blank" ><h6 style="text-align: right; color: white;"><br><br><br><br>
-                    Visita a página oficial</h6></a>
-
-
+                <div class="separator"></div>
+                <h3 data-aos="fade-up">Marketing e Relações Públicas</h3><br>
+                <p style="margin-top: -20px" data-aos="fade-up">Garantir a divulgação e promoção da Associação e suas
+                  atividades.</p>
+              </div>
             </div>
-        </div>
-
-
-<div id="myEBEC" class="modal" >
-
-    <!-- Modal content -->
-    <div class="modal-content" >
-        <span class="close10">&times;</span>
-        <img style="max-width:100%; min-width:100%; height: 75%" src="assets/images/ebec.jpg">
-        <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">EBEC Aveiro</h3>
-        <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px">
-
-            O BEST é a entidade responsável pela organização da EBEC - European BEST Engineering Competition - a maior competição de engenharia a nível europeu. Esta competição é direcionada para estudantes das áreas de foco do BEST, e permite aos mesmos aplicar ou aperfeiçoar uma grande variedade de competências sociais, comunicativas, técnicas e a sua capacidade de trabalho em equipa. Existem várias categorias, sendo que o LBG aveirense organiza as de Team Design e de Case Study.
-
-            <br><br>Esta competição tem vindo a crescer bastante e agrada a todas as partes, uma vez que serve também como plataforma de interação entre alunos e empresas. Realiza-se uma vez ao longo de cada ano letivo.
-            <br>
-            <a href="http://bestaveiro.web.ua.pt/ebec-challenge/" target="_blank" style="margin-left: 35px; margin-top: 100px; color: black"><h6>Visita a página oficial</h6></a>
-        </p>
-
-
-        <div style=" margin-left: 0px; float: left;">
-            <div class="panel-heading" style="background-color: #989bcd; color: black; margin-left: 35px">
-            <h3 class="panel-title">Case Study</h3>
-            </div><br>
-            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na resolução de um problema teórico sobre problemas técnicos e/ou de gestão, baseados em fatos reais e fornecido por uma empresa. Para resolver a prova, deverás usar toda a informação que te é facultada. Poderás pesquisar em fontes externas, se tal for permitido pelo regulamento da tua prova. No final do desafio, a tua equipa apresentará as soluções encontradas durante as 24h de prova numa pequena apresentação.</p>
-            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Além de desenvolveres o trabalho/discussão de ideias em equipa e as tuas capacidades intelectuais, esta será também uma ótima oportunidade para entrares em contacto com as empresas parceiras da competição.</p>
-            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A título de exemplo, alguns dos problemas postos nesta categoria, em anos anteriores, são: resolução de problemas de gestão de tráfego em cidades subdesenvolvidas, supply-chain de empresas, planeamento de Jogos Olímpicos em cidades com condições adversas, promoção de produtos, etc.</p>
-            <div style="width: 45%; float: left;">
-        <img style="width: 400px;height: 250px; margin-left: 45px;" class="img-responsive img-center" src="assets/images/case_study.jpg" alt="">
+            <div class="col-md-2 ">
+              <div class="single_feature">
+                <div class="single_feature_img">
+                  <img data-aos="fade-up" src="assets/images/ft1.png" alt=""/>
+                </div>
+                <div class="separator"></div>
+                <h3 data-aos="fade-up">Relações Empresariais</h3>
+                <p data-aos="fade-up">Criar, manter e gerir as relações corporativas da Associação.</p>
+              </div>
             </div>
-            <div style="width: 45%; margin-left: 50px; float: left;">
-                <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/ebec_pyramid.png" alt="">
-            </div>
-            <br>
-            <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na resolução de um problema teórico sobre problemas técnicos e/ou de gestão, baseados em fatos reais e fornecido por uma empresa. Para resolver a prova, deverás usar toda a informação que te é facultada. Poderás pesquisar em fontes externas, se tal for permitido pelo regulamento da tua prova. No final do desafio, a tua equipa apresentará as soluções encontradas durante as 24h de prova numa pequena apresentação.</p>-->
-            <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Além de desenvolveres o trabalho/discussão de ideias em equipa e as tuas capacidades intelectuais, esta será também uma ótima oportunidade para entrares em contacto com as empresas parceiras da competição.</p>-->
-            <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A título de exemplo, alguns dos problemas postos nesta categoria, em anos anteriores, são: resolução de problemas de gestão de tráfego em cidades subdesenvolvidas, supply-chain de empresas, planeamento de Jogos Olímpicos em cidades com condições adversas, promoção de produtos, etc.</p>-->
-            <br><br><br>
-            <!--<img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/ebec_pyramid.png" alt="">-->
-            <br>
-
-        </div>
-        <div style=" width: 47.5%; margin-left: 50px; float: left;">
-            <div class="panel-heading" style="background-color: #989bcd;color: black; margin-left: 35px">
-            <h3 class="panel-title">Team Design</h3>
-        </div><br>
-            <img style="width: 400px;height: 250px; margin-left: 45px; align: center;" class="img-responsive img-center" src="assets/images/team_design.png" alt="">
-            <br>
-            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na construção de um protótipo, com materiais limitados, para a resolução de um problema técnico proposto. Os materiais e as ferramentas serão fornecidos pelo BEST Aveiro, bem como toda a informação necessária para a prova. Terás de encontrar uma solução técnica, em conjunto com os membros da tua equipa, dentro das 24h de competição, que seja capaz de superar as provas.</p>
-            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Esta é portanto uma prova que exige toda a tua criatividade, toda a tua capacidade técnica e intelectual para, em equipa, chegares a uma solução bem-sucedida.</p>
-        <p align="justify"style="color: black; font-size: 14px; margin-left: 35px">Exemplos de competições anteriores: construção de um barco movido com uma lamparina; construção de um lançador de projéteis capaz de superar diversos desafios.</p>
-            <br><br><br><br><br><br><br>
-            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px"><b>Este concurso tem 3 fases:</b></p>
-            <ul >
-                <li style="color: black; font-size: 14px; margin-left: 35px">Competição local da EBEC, organizada por cada LBG membro;</li>
-                <br>
-                <li style="color: black; font-size: 14px; margin-left: 35px">Fase nacional da EBEC. No caso do nosso país toma lugar à realização a <a href="http://ebecportugal.pt/" target="_blank">EBEC Portugal</a> que é uma final Nacional organizada por 5 Grupos Locais do BEST de norte a sul do país .</li>
-                <br>
-                <li style="color: black; font-size: 14px; margin-left: 35px">EBEC Final - final europeia onde são apurados os vencedores de cada país.</li>
-            </ul>
-            <br><br><br>
-        </div>
-
-        <!--<a href="https://best.eu.org/index.jsp" target="_blank" style="margin-top: 20px"><h6 style="text-align: right; color: white;">Visita a página oficial</h6></a>-->
-        <a href="https://best.eu.org/index.jsp" target="_blank" style="margin-top: 100px"><h6 style="text-align: right; color: white;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Visita a página oficial</h6></a>
-
-
+            <div class="col-md-2">
+              <div class="single_feature">
+                <div class="single_feature_img">
+                  <img data-aos="fade-up" src="assets/images/ft4.png" alt=""/>
+                </div>
+                <div class="separator"></div>
+                <h3 data-aos="fade-up">Tecnologias de Informação</h3>
+                <p data-aos="fade-up">Criar, manter e gerir os recursos tecnológicos da Associação.</p>
+              </div>
             </div>
 
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <div class="separator1"></div>
+  </div>
+
+</section>
+
+<section class="bg-light" id="portfolio">
+  <div class="feature_overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="heading_title" style="font-family: 'ralewaybold'; font-size: 3rem; color: black; margin-top: -0px">
+            Direção</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 0px">
+        <div class="col-sm-2 col-md-offset-1">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/jorge-silva-203273136/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/jorge.JPG" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Jorge Silva</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">
+              Presidente</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/alexandrevala/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/vala1.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Alexandre Vala</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">
+              Tesoureiro</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/dinis-bruno-20950015a/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/dinis.JPG" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Dinis Bruno</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">
+              Secretário</p>
+          </div>
+        </div>
+        <div class="col-sm-2 ">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/maria-brand%C3%A3o-76a047169/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/maria.JPG" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Maria Brandão</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Vice
+              Presidente para Recursos Humanos</p>
+          </div>
+        </div>
+        <div class="col-sm-2 ">
+          <a class="portfolio-link" target="_blank" href="">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/cat1.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Catarina Lopes</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Vice
+              Presidente para Suporte Interno</p>
+          </div>
+        </div>
+      </div>
+      <div class="container row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading " style="font-family: 'ralewaybold'; font-size: 2.5rem; color: black;"><br>Coordenadores<br>
+          </h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="col-sm-2 col-md-offset-2">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/joaopacheco97/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/pacheco1.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">João Pacheco</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Marketing e
+              Relações Públicas</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/mariana-soares-a8652989/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/mariana.JPG" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Mariana Soares</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Conteúdos
+              Académicos</p>
+          </div>
+        </div>
+        <div class="col-sm-2 ">
+          <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/mateus-lima-039930178/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/mateus.JPG" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Mateus Lima</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Tecnologias
+              de Informação</p>
+          </div>
+        </div>
+        <div class="col-sm-2 ">
+          <a class="portfolio-link" target="_blank" href="http://www.linkedin.com/in/martins-pedro/">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+              </div>
+            </div>
+            <img class="image_linkedin" src="assets/images/x/pedro1.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 style="font-weight: bolder; color: black; font-size: 1.1rem;">Pedro Martins</h4>
+            <p class="text-muted" style="font-size: 0.85rem; font-family: 'ralewayregular'; color: #808080;">Relações
+              Empresariais</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clients" class="feature" style="margin-top: 0px;">
+
+  <div class="feature_overlay">
+    <div class="container">
+      <div class="row">
+        <div class="main_clients_area">
+
+          <div class="main_clients_top_content">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="client_left_content text-center" style="margin: auto;">
+                  <h2>Parceiros</h2>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="single_right_client" style="width: 50%; margin: auto;">
+                  <a href="https://www.ua.pt/" target="_blank"><img src="assets/images/c1.jpg" alt=""/></a>
+                </div>
+              </div>
+              <div class="col-sm-4">
+
+                <div class="single_right_client" style="width: 40%; margin: auto;">
+                  <a href="https://www.ipdj.pt/" target="_blank"><img src="assets/images/c2.png" alt=""></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section style="background:rgb(250, 205, 50);">
+
+  <div class="container" id="contactos">
+    <div class="row" style="padding-top:15px">
+      <div class="col-sm-12">
+        <div class="heading_title text-center">
+          <h2 style="color:black; "><b>Contactos</b></h2>
+        </div>
+      </div>
+
+      <div style="color:white; margin: 0px" class="row">
+        <div class="col-sm-6" align="center">
+          <div class="panel panel-default" style="margin-top:35px; margin-bottom:75px">
+            <div class="panel-body">
+              <div id="map-container" class="col-md-6">
+                <div class="panel panel-default">
+                  <div class="panel-body embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDM0ZNlzZS6wulKFOv1s6PARvuXmGI-paM&q=BEST Aveiro, Aveiro, PT">
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <div class="col-sm-6" align="center" style="margin-top:25px;">
+          <h5 style="color:black;"><i class="fa fa-home" style="color:black ;margin-bottom: 0px;"></i><span
+            style="display:inline-block; width: 10px;"></span><b>Morada:</b></h5>
+          <p style="color:black;">
+            Incubadora de Empresas da Universidade de Aveiro<br/>
+            Campus Universitário de Santiago, Edifício 1<br/>
+            3810-193 Aveiro<br/>
+            Portugal
+          </p></div>
 
-<div id="mySeasonal" class="modal" >
+        <div class="col-sm-6" align="center">
+          <h5 style="color:black;"><a href="mailto:aveiro@BEST.eu.org"><i class="fa fa-envelope"
+                                                                          style="color: black;"></i></a><span
+            style="display:inline-block; width: 15px;"></span><b>Email:</b></h5>
+          <a href="mailto:aveiro@BEST.eu.org"><span style="color:black;">aveiro@BEST.eu.org</span></a>
+        </div>
+        <div class="col-sm-6" align="center">
+          <h5 style="color:black;"><i class="fa fa-phone" style="color: black;"></i><span
+            style="display:inline-block; width: 15px;"></span><b>Telefone:</b></h5>
+          <span style="display:inline-block; width: 15px;"></span><span style="color:black;">(+351) 925 030 168</span>
+          <br>
 
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close11">&times;</span>
-        <img style="max-width: 100%; min-width:100%" src="assets/images/curso.jpg">
-        <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Seasonal Course</h3>
-        <p style="text-align: justify; color:black; font-size: 14px">De forma a desenvolver os estudantes das universidades com Grupo Local BEST,
-            são organizados vários eventos que visam o desenvolvimento das suas competências em contexto internacional,
-            estabelecendo variadas redes de contactos e melhorando as capacidades comunicativas dos alunos. <br><br>
-            Entre estes eventos destacam-se os eventos sazonais, que são organizados nas várias estações
-            do ano com a duração de aproximadamente 10 dias. <br><br>
-            Dentro dos eventos sazonais incluem-se os BEST Courses, BEST Events on Education e BEST Leisure Events.<br><br>
-            O LBG de Aveiro organiza, por norma, BEST Seasonal Courses ou cursos sazonais, que para além dos
-            objetivos acima referidos, incorporam uma componente de aprendizagem, com palestras, workshops e diversas actividades acerca da temática do curso.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript">
+      function init_map() {
+          var var_location = new google.maps.LatLng(40.636002,-8.6577);
+
+          var var_mapoptions = {
+              center: var_location,
+              zoom: 18
+          };
+
+          var var_marker = new google.maps.Marker({
+              position: var_location,
+              map: var_map,
+              title:"BEST Aveiro"});
+
+          var var_map = new google.maps.Map(document.getElementById("map-container"),
+              var_mapoptions);
+
+          var_marker.setMap(var_map);
+      }
+
+      google.maps.event.addDomListener(window, 'load', init_map);
+  </script>-->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="assets/css/aos.js"></script>
+<script type="text/javascript">
+    AOS.init({
+        duration: 2000
+    });
+</script>
 
 
-        <a href="http://bestaveiro.web.ua.pt/summercourse_2018/" target="_blank"><h6 style="text-align: right; color: black;"> Visita a nossa Página do curso </h6></a>
+</body>
+
+<footer id="footer" class="footer" style="background: rgb(20, 65, 115);">
+  <div class="container" align="center">
+    <div class="row">
+      <li>
+        <div>
+          <a href="https://www.facebook.com/BESTaveiro?fref=ts" target="_blank" class="fa fa-facebook-square social"></a>
+          <a href="https://www.instagram.com/best.aveiro/?hl=pt" target="_blank" class="fa fa-instagram social"></a>
+          <a href="https://pt.linkedin.com/company/best-aveiro" target="_blank" class="fa fa-linkedin-square social"></a>
+          <a href="https://www.flickr.com/photos/bestaveiro/" target="_blank" class="fa fa-flickr social"></a>
+        </div>
+        <div class="main_footer text-center">
+          <br>
+          <p style="color:white">Powered by BEST Aveiro IT Team - The-Bugs ©2019</p>
+        </div>
+    </div>
+  </div>
+</footer><!-- End of footer section -->
+
+<!-- STRAT SCROLL TO TOP -->
+
+
+<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/isotope.min.js"></script>
+<script src="assets/js/agency.js"></script>
+
+<script src="assets/js/jquery.easypiechart.min.js"></script>
+<script src="assets/js/jquery.mixitup.min.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+
+
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+<div id="myInter" class="modal">
+  <!-- Modal content -->
+  <!-- style="height:1500px" -->
+  <div class="modal-content">
+    <span class="close2">&times;</span>
+    <img style="max-width: 100%; min-width:100%; height: 65%" src="assets/images/bextintimg.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">BEST</h3>
+    <p style="text-align: justify; color:black; font-size: 0.9rem">
+      O BEST (Board of European Students of Technology) é uma organização
+      europeia sem fins lucrativos e apolítica de estudantes de Ciências, Engenharia e Tecnologia,
+      presente em 96 universidades de 34 países, com cerca de 3000 membros
+      e abrangendo aproximadamente 1 milhão de estudantes.<br>
+    </p>
+    <br>
+
+    <div style=" width: 45%; margin-left: 0px; float: left;"><font color="rgb(20, 65, 115)"
+                                                                   size="5"><b>Missão</b></font>
+      <p style="text-align: justify; color:black; font-size: 0.9rem">
+        A missão do BEST é desenvolver os estudantes, dando-lhes a oportunidade
+        de complementar o seu percurso académico e desenvolver soft-skills, num ambiente
+        multicultural para compreensão da sociedade e melhor adaptação a um mercado
+        de trabalho globalizado. Assim, o BEST visa, através dos seus eventos,
+        aproximar estudantes, universidades e empresas.</p>
+    </div>
+    <div style=" width: 47.5%; margin-left: 50px; float: left;"><font color="rgb(20, 65, 115)"
+                                                                      size="5"><b>Visão</b></font>
+      <!--<font color="#808080" size="6">isão</font>-->
+      <p style="text-align: justify; color:black; font-size: 0.9rem">
+        A visão do BEST é baseada na criação de um ambiente de diversidade,
+        entre os estudantes, propício à aprendizagem, compreensão e respeito pelas
+        diferentes culturas e backgrounds sociais, bem como à preparação dos estudantes para
+        um mercado de trabalho global. O BEST acredita que os ambientes culturalmente enriquecidos
+        aumentam a probabilidade de sucesso de um grupo de trabalho.
+      </p>
+      <a href="https://best.eu.org/index.jsp" target="_blank"><h6
+        style="text-align: right; color: black; font-weight: bold;">Visita a página oficial</h6></a><br><br>
+    </div>
+    <a href="https://best.eu.org/index.jsp" target="_blank"><h6
+      style="text-align: left; color: white; font-weight: bold;">Visita a página oficial</h6></a>
+    <a href="https://best.eu.org/index.jsp" target="_blank"></a>
+
+
+  </div>
+</div>
+
+
+<div id="myEBEC" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close10">&times;</span>
+    <img style="max-width:100%; min-width:100%; height: 75%" src="assets/images/ebec.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">EBEC Aveiro</h3>
+    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px">
+
+      O BEST é a entidade responsável pela organização da EBEC - European BEST Engineering Competition - a maior
+      competição de engenharia a nível europeu. Esta competição é direcionada para estudantes das áreas de foco do BEST,
+      e permite aos mesmos aplicar ou aperfeiçoar uma grande variedade de competências sociais, comunicativas, técnicas
+      e a sua capacidade de trabalho em equipa. Existem várias categorias, sendo que o LBG aveirense organiza as de Team
+      Design e de Case Study.
+
+      <br><br>Esta competição tem vindo a crescer bastante e agrada a todas as partes, uma vez que serve também como
+      plataforma de interação entre alunos e empresas. Realiza-se uma vez ao longo de cada ano letivo.
+      <br>
+      <a href="http://bestaveiro.web.ua.pt/ebec-challenge/" target="_blank"
+         style="margin-left: 35px; margin-top: 100px; color: black"><h6>Visita a página oficial</h6></a>
+    </p>
+
+
+    <div style=" margin-left: 0px; float: left;">
+      <div class="panel-heading" style="background-color: #989bcd; color: black; margin-left: 35px">
+        <h3 class="panel-title">Case Study</h3>
+      </div>
+      <br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na resolução de um problema
+        teórico sobre problemas técnicos e/ou de gestão, baseados em fatos reais e fornecido por uma empresa. Para
+        resolver a prova, deverás usar toda a informação que te é facultada. Poderás pesquisar em fontes externas, se
+        tal for permitido pelo regulamento da tua prova. No final do desafio, a tua equipa apresentará as soluções
+        encontradas durante as 24h de prova numa pequena apresentação.</p>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Além de desenvolveres o
+        trabalho/discussão de ideias em equipa e as tuas capacidades intelectuais, esta será também uma ótima
+        oportunidade para entrares em contacto com as empresas parceiras da competição.</p>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A título de exemplo, alguns dos
+        problemas postos nesta categoria, em anos anteriores, são: resolução de problemas de gestão de tráfego em
+        cidades subdesenvolvidas, supply-chain de empresas, planeamento de Jogos Olímpicos em cidades com condições
+        adversas, promoção de produtos, etc.</p>
+      <div style="width: 45%; float: left;">
+        <img style="width: 400px;height: 250px; margin-left: 45px;" class="img-responsive img-center"
+             src="assets/images/case_study.jpg" alt="">
+      </div>
+      <div style="width: 45%; margin-left: 50px; float: left;">
+        <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center"
+             src="assets/images/ebec_pyramid.png" alt="">
+      </div>
+      <br>
+      <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na resolução de um problema teórico sobre problemas técnicos e/ou de gestão, baseados em fatos reais e fornecido por uma empresa. Para resolver a prova, deverás usar toda a informação que te é facultada. Poderás pesquisar em fontes externas, se tal for permitido pelo regulamento da tua prova. No final do desafio, a tua equipa apresentará as soluções encontradas durante as 24h de prova numa pequena apresentação.</p>-->
+      <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Além de desenvolveres o trabalho/discussão de ideias em equipa e as tuas capacidades intelectuais, esta será também uma ótima oportunidade para entrares em contacto com as empresas parceiras da competição.</p>-->
+      <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A título de exemplo, alguns dos problemas postos nesta categoria, em anos anteriores, são: resolução de problemas de gestão de tráfego em cidades subdesenvolvidas, supply-chain de empresas, planeamento de Jogos Olímpicos em cidades com condições adversas, promoção de produtos, etc.</p>-->
+      <br><br><br>
+      <!--<img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/ebec_pyramid.png" alt="">-->
+      <br>
 
     </div>
+    <div style=" width: 47.5%; margin-left: 50px; float: left;">
+      <div class="panel-heading" style="background-color: #989bcd;color: black; margin-left: 35px">
+        <h3 class="panel-title">Team Design</h3>
+      </div>
+      <br>
+      <img style="width: 400px;height: 250px; margin-left: 45px; align: center;" class="img-responsive img-center"
+           src="assets/images/team_design.png" alt="">
+      <br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na construção de um
+        protótipo, com materiais limitados, para a resolução de um problema técnico proposto. Os materiais e as
+        ferramentas serão fornecidos pelo BEST Aveiro, bem como toda a informação necessária para a prova. Terás de
+        encontrar uma solução técnica, em conjunto com os membros da tua equipa, dentro das 24h de competição, que seja
+        capaz de superar as provas.</p>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Esta é portanto uma prova que exige
+        toda a tua criatividade, toda a tua capacidade técnica e intelectual para, em equipa, chegares a uma solução
+        bem-sucedida.</p>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Exemplos de competições anteriores:
+        construção de um barco movido com uma lamparina; construção de um lançador de projéteis capaz de superar
+        diversos desafios.</p>
+      <br><br><br><br><br><br><br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px"><b>Este concurso tem 3 fases:</b></p>
+      <ul>
+        <li style="color: black; font-size: 14px; margin-left: 35px">Competição local da EBEC, organizada por cada LBG
+          membro;
+        </li>
+        <br>
+        <li style="color: black; font-size: 14px; margin-left: 35px">Fase nacional da EBEC. No caso do nosso país toma
+          lugar à realização a <a href="http://ebecportugal.pt/" target="_blank">EBEC Portugal</a> que é uma final
+          Nacional organizada por 5 Grupos Locais do BEST de norte a sul do país .
+        </li>
+        <br>
+        <li style="color: black; font-size: 14px; margin-left: 35px">EBEC Final - final europeia onde são apurados os
+          vencedores de cada país.
+        </li>
+      </ul>
+      <br><br><br>
+    </div>
+
+    <!--<a href="https://best.eu.org/index.jsp" target="_blank" style="margin-top: 20px"><h6 style="text-align: right; color: white;">Visita a página oficial</h6></a>-->
+    <a href="https://best.eu.org/index.jsp" target="_blank" style="margin-top: 100px"><h6
+      style="text-align: right; color: white;">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Visita a página
+      oficial</h6></a>
+
+
+  </div>
+
 </div>
 
-<div id="myInnov" class="modal" >
 
-    <!-- Modal content -->
-    <div class="modal-content" >
-        <span class="close12">&times;</span>
-        <img style="max-width: 100%; min-width:100%; height: 75%" src="assets/images/nnov.jpg">
-        <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Innovation Now</h3>
-        <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px">
+<div id="mySeasonal" class="modal">
 
-            Como a inovação tecnológica é um dos impulsionadores do progresso científico, o Innovation Now! surge na Universidade de Aveiro como um simpósio para partilhar ideias, conhecimentos e experiências entre profissionais e estudantes que vivem a inovação no seu dia a dia.
-        <br><br>
-            O evento abrange várias visões de profissionais da área, permitindo uma aproximação dos alunos de Aveiro à realidade empresarial e também aos oradores de renome nacional, especialistas em diversas áreas técnicas, onde a inovação está presente todos os dias.
-        <br><br>
-            Em 2017 o evento contará com palestras, mesas redondas, um concurso de pitching, grupos de discussão e um showroom. Neste evento, conceitos como interdisciplinaridade, espírito criativo e empreendedorismo são valorizados.
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close11">&times;</span>
+    <img style="max-width: 100%; min-width:100%" src="assets/images/curso.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Seasonal Course</h3>
+    <p style="text-align: justify; color:black; font-size: 14px">De forma a desenvolver os estudantes das universidades
+      com Grupo Local BEST,
+      são organizados vários eventos que visam o desenvolvimento das suas competências em contexto internacional,
+      estabelecendo variadas redes de contactos e melhorando as capacidades comunicativas dos alunos. <br><br>
+      Entre estes eventos destacam-se os eventos sazonais, que são organizados nas várias estações
+      do ano com a duração de aproximadamente 10 dias. <br><br>
+      Dentro dos eventos sazonais incluem-se os BEST Courses, BEST Events on Education e BEST Leisure Events.<br><br>
+      O LBG de Aveiro organiza, por norma, BEST Seasonal Courses ou cursos sazonais, que para além dos
+      objetivos acima referidos, incorporam uma componente de aprendizagem, com palestras, workshops e diversas
+      actividades acerca da temática do curso.</p>
 
-        </div>
+
+    <a href="http://bestaveiro.web.ua.pt/summercourse_2018/" target="_blank"><h6
+      style="text-align: right; color: black;"> Visita a nossa Página do curso </h6></a>
+
+  </div>
+</div>
+
+<div id="myInnov" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close12">&times;</span>
+    <img style="max-width: 100%; min-width:100%; height: 75%" src="assets/images/nnov.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Innovation Now</h3>
+    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px">
+
+      Como a inovação tecnológica é um dos impulsionadores do progresso científico, o Innovation Now! surge na
+      Universidade de Aveiro como um simpósio para partilhar ideias, conhecimentos e experiências entre profissionais e
+      estudantes que vivem a inovação no seu dia a dia.
+      <br><br>
+      O evento abrange várias visões de profissionais da área, permitindo uma aproximação dos alunos de Aveiro à
+      realidade empresarial e também aos oradores de renome nacional, especialistas em diversas áreas técnicas, onde a
+      inovação está presente todos os dias.
+      <br><br>
+      Em 2017 o evento contará com palestras, mesas redondas, um concurso de pitching, grupos de discussão e um
+      showroom. Neste evento, conceitos como interdisciplinaridade, espírito criativo e empreendedorismo são
+      valorizados.
+
+  </div>
 </div>
 
 
+<div id="myInter2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close5">&times;</span>
+    <img style="max-width: 100%; min-width:100%;" src="assets/images/N1_2.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Training Weekend: Formações em Soft
+      e Hard Skills</h3>
+    <br>
+    <p style="text-align: justify; color:black;">
+      O Training Weekend, organizado pelo BEST Aveiro, decorreu de 8 a 10 de
+      dezembro na Universidade de Aveiro. O evento trata-se de um fim de semana em que os membros
+      têm oportunidade de participar em sessões de formação preparadas por
+      formadores e tutores certificados pelo BEST e membros experientes.<br><br>
+      Os membros que estiveram presentes puderam usufruir das seguintes formações:<br><br>
+      <b>Soft Skills:</b>
+      <br>
+    <ul style="text-align: justify; color:black;">
+      <li>Gestão de tempo</li>
+      <li>Como promover o BEST</li>
+      <li>Planejamento Estratégico</li>
+      <li>Feedback</li>
+      <li>Persuação/Negociação</li>
+      <li>Reuniões Eficazes e Facilitação</li>
+    </ul>
+    <br>
+    <b style="text-align: justify; color:black;">Informação e Tecnologia:</b>
+    <br>
+    <ul style="text-align: justify; color:black;">
+      <li>JAVA</li>
+      <li>Android</li>
+    </ul>
+    <b style="text-align: justify; color:black;">Design Gráfico:</b>
+    <br>
+    <ul style="text-align: justify; color:black;">
+      <li>Adobe Premiere Pro</li>
+      <li>Adobe Illustrator</li>
+    </ul>
+    <br>
+    <font style="text-align: justify; color:black;">
+      Para além destas sessões, o evento contou ainda com diversos momentos de
+      descontração e atividades de team building. No evento também estiveram presentes membros de
+      outros grupos BEST de Portugal, nomeadamente Coimbra, com o objetivo de promover
+      a partilha de conhecimento entre os diferentes grupos da associação.
+    </font>
+    </p>
+
+    <!--<div class="container2">
+<div class="inner">
+<p>BEST Internacional</p>
+</div>
+</div>-->
+  </div>
+
+</div>
+<div id="myInter3" class="modal">
+  <div class="modal-content">
+    <span class="close6">&times;</span>
+    <img style="max-width: 100%; min-width:100%;" src="assets/images/news/PMBogazici_2.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Presidents Meeting Bogazici em
+      Istambul</h3>
+    <p align="justify">
+      De 8 a 14 de novembro, realizou-se o Encontro Internacional de Presidentes (BEST Presidents Meeting) em Istambul,
+      Turquia. Esta foi a 23.ª edição deste evento que contou com a presença de representantes dos 95 grupos locais
+      BEST, da direção do BEST Internacional, delegados dos departamentos internacionais do BEST e de membros de
+      associações parceiras, como a EESTEC, AEGEE, BONGING e CFES.
+    </p>
+    <p align="justify">
+      Durante este evento ocorreram diversas apresentações de projetos, discussões e votações que permitem a
+      continuidade e desenvolvimento do BEST internamente. Para além disto, foram também realizadas formações e grupos
+      de discussão que permitiram uma maior partilha de experiências e desenvolvimento das competências dos
+      participantes.
+    </p>
+    <p align="justify">
+      Em representação do grupo local de Aveiro esteve a Ana Malta Carvalho, Vice Presidente de Recursos Humanos do BEST
+      Aveiro.
+    </p>
+  </div>
+
+</div>
+
+<div id="myInter4" class="modal">
+  <div class="modal-content">
+    <span class="close7">&times;</span>
+    <img style="max-width: 100%; min-width:100%;" src="assets/images/news/ano2018_2.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Um Feliz Natal e Próspero Ano
+      Novo</h3>
+    <p align="justify">
+      O mês natalício não passou em branco no BEST Aveiro e o espírito de natal esteve presente no jogo “amigo secreto”
+      organizado no mês de dezembro.
+    </p>
+    <p align="justify">
+      No último dia do ano foram ainda organizadas algumas atividades para comemorar o ano novo e os presentes puderam
+      ainda desfrutar do espetáculo de fogo-de-artifício na Ria de Aveiro, aproveitando os primeiros momentos do ano da
+      melhor maneira.
+    </p>
+  </div>
+
+</div>
+
+<div id="myPt" class="modal">
+
+  <!-- Modal content -->
+  <!-- style="height:1500px" -->
+  <div id="myPt1" class="modal-content">
+    <span class="close">&times;</span>
+    <img style="max-width: 100%; min-width:100%; height: 85%" src="assets/images/bestaveiromodal.jpg">
+    <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">BEST Aveiro</h3>
+    <!-- modify div size jquery-->
 
 
+    <h3 style="color: rgb(20, 65, 115); font-weight: bolder; margin-left: 35px;">Organização</h3>
+    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px; width: 88%">
+      O BEST Aveiro é um dos 96 grupos locais do BEST - Board of European Students of Technology,
+      uma organização europeia de estudantes de Ciências, Engenharia e Tecnologia, presente em 97 universidades
+      de 34 países, que trabalham cooperativamente para a prestação dos vários serviços que a organização disponibiliza.<br>
+    </p>
+    <br>
+    <div style=" float: left; width: 42%">
+      <img style="width: 400px;height: 250px; margin-left: 35px" src="assets/images/a1.jpg" alt="">
+      <br><br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">O grupo local do BEST em Aveiro foi
+        fundado em 2008, sob a liderança de Eric Bosne, que tinha como objetivo desenvolver as suas capacidades
+        académicas, partilhar experiências e conhecer novas pessoas, tanto em Portugal como no estrangeiro, contagiando
+        alguns colegas com a mesma vontade. </p>
+    </div>
+    <div style="float: left; width: 42%; margin-left: 70px">
+      <img style="width: 400px;height: 250px; margin-left: 35px" src="assets/images/a2.jpg" alt="">
+      <br><br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Esta é uma organização de e para
+        estudantes, trabalhando em prol do desenvolvimento pessoal, académico e cultural dos mesmos, oferecendo diversas
+        oportunidades de formação complementar e intercâmbio. Para tal, o BEST Aveiro organiza anualmente:</p>
+      <ul style="color: black; font-size: 14px;">
+        <li>Curso Sazonal</li>
+        <li>Competição de engenharia EBEC Aveiro (European BEST Engineering Competition)</li>
+        <li>BEST Training Days, durante todo o ano</li>
+        <li>Aveiro BEST Competititons (ABCs)</li>
+        <li>Workshops</li>
+      </ul>
 
-        <div id="myInter2" class="modal">
+    </div>
+    <div style="float: left; width: 100%;">
+      <h3 style="color: rgb(20, 65, 115); font-weight: bolder; margin-left: 35px; ">Cidade</h3>
+      <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px; width: 88%">
+        Aveiro é uma pitoresca cidade portuguesa, conhecida como a "Veneza de Portugal".
+        Capital do distrito de Aveiro, situa-se na região Centro, com cerca de
+        60 000 habitantes. Foi elevada a cidade em 1759 por D.José I.</p><br>
+    </div>
 
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close5">&times;</span>
-                <img style="max-width: 100%; min-width:100%;" src="assets/images/N1_2.jpg">
-                <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Training Weekend: Formações em Soft e Hard Skills</h3>
-                <br><p style="text-align: justify; color:black;">
-                O Training Weekend, organizado pelo BEST Aveiro, decorreu de 8 a 10 de
-                dezembro na Universidade de Aveiro. O evento trata-se de um fim de semana em que os membros
-                têm oportunidade de participar em sessões de formação preparadas por
-                formadores e tutores certificados pelo BEST e membros experientes.<br><br>
-                Os membros que estiveram presentes puderam usufruir das seguintes formações:<br><br>
-                <b>Soft Skills:</b>
-                <br>
-                <ul style="text-align: justify; color:black;">
-                <li>Gestão de tempo</li>
-                <li>Como promover o BEST</li>
-                <li>Planejamento Estratégico</li>
-                <li>Feedback</li>
-                <li>Persuação/Negociação</li>
-                <li>Reuniões Eficazes e Facilitação</li>
-            </ul>
-                <br>
-                <b style="text-align: justify; color:black;">Informação e Tecnologia:</b>
-                <br>
-                <ul style="text-align: justify; color:black;">
-                    <li>JAVA</li>
-                    <li>Android</li>
-                </ul>
-                <b style="text-align: justify; color:black;">Design Gráfico:</b>
-                <br>
-                <ul style="text-align: justify; color:black;">
-                    <li>Adobe Premiere Pro</li>
-                    <li>Adobe Illustrator</li>
-                </ul>
-                <br>
-                <font style="text-align: justify; color:black;">
-                    Para além destas sessões, o evento contou ainda com diversos momentos de
-                descontração e atividades de team building. No evento também estiveram presentes membros de
-                outros grupos BEST de Portugal, nomeadamente Coimbra, com o objetivo de promover
-                a partilha de conhecimento entre os diferentes grupos da associação.
-                </font>
-                </p>
-
-                                <!--<div class="container2">
-                    <div class="inner">
-                        <p>BEST Internacional</p>
-                    </div>
-                </div>-->
-            </div>
-
-        </div>
-        <div id="myInter3" class="modal">
-            <div class="modal-content">
-                <span class="close6">&times;</span>
-                <img style="max-width: 100%; min-width:100%;" src="assets/images/news/PMBogazici_2.jpg">
-                <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Presidents Meeting Bogazici em Istambul</h3>
-                <p align="justify">
-                  De 8 a 14 de novembro, realizou-se o Encontro Internacional de Presidentes (BEST Presidents Meeting) em Istambul, Turquia. Esta foi a 23.ª edição deste evento que contou com a presença de representantes dos 95 grupos locais BEST, da direção do BEST Internacional, delegados dos departamentos internacionais do BEST e de membros de associações parceiras, como a EESTEC, AEGEE, BONGING e CFES.
-                </p>
-                <p align="justify">
-                  Durante este evento ocorreram diversas apresentações de projetos, discussões e votações que permitem a continuidade e desenvolvimento do BEST internamente. Para além disto, foram também realizadas formações e grupos de discussão que permitiram uma maior partilha de experiências e desenvolvimento das competências dos participantes.
-                </p>
-                <p align="justify">
-                  Em representação do grupo local de Aveiro esteve a Ana Malta Carvalho, Vice Presidente de Recursos Humanos do BEST Aveiro.
-                </p>
-            </div>
-
-        </div>
-
-        <div id="myInter4" class="modal">
-            <div class="modal-content">
-                <span class="close7">&times;</span>
-                <img style="max-width: 100%; min-width:100%;" src="assets/images/news/ano2018_2.jpg">
-                <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Um Feliz Natal e Próspero Ano Novo</h3>
-                <p align="justify">
-                  O mês natalício não passou em branco no BEST Aveiro e o espírito de natal esteve presente no jogo “amigo secreto” organizado no mês de dezembro.
-                </p>
-                <p align="justify">
-                  No último dia do ano foram ainda organizadas algumas atividades para comemorar o ano novo e os presentes puderam ainda desfrutar do espetáculo de fogo-de-artifício na Ria de Aveiro, aproveitando os primeiros momentos do ano da melhor maneira.
-                </p>
-            </div>
-
-        </div>
-
-        <div id="myPt" class="modal" >
-
-            <!-- Modal content -->
-            <!-- style="height:1500px" -->
-            <div id="myPt1" class="modal-content">
-                <span class="close">&times;</span>
-                <img style="max-width: 100%; min-width:100%; height: 85%" src="assets/images/bestaveiromodal.jpg">
-                <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">BEST Aveiro</h3>
-<!-- modify div size jquery-->
+    <!-- More about Aveiro Moliceiros -->
+    <div style="float: left; width: 42%">
+      <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center"
+           src="assets/images/moliceiros.jpg" alt="">
+      <br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A atribuição da alcunha de “Veneza
+        Portuguesa” deve-se ao facto de a cidade apresentar um território descontínuo, com um grande número de ramais da
+        Ria de Aveiro a fazer a divisão do território. Esta zona pertence à bacia do Rio Vouga, que ao chegar a Aveiro
+        se divide em inúmeros canais criando uma paisagem única. A existência destes canais deu origem à atividade da
+        “apanha do moliço”, que era usado nos séculos passados para a produção de adubo que fornecia as terras agrícolas
+        da região. Esta atividade era realizada com recurso aos barcos moliceiros que ainda hoje se podem encontrar no
+        centro da cidade, embora sejam utilizados apenas para fins turísticos. Estes barcos são um dos ex-libris desta
+        região, sendo muito apreciados pelas suas cores e pela decoração que é normalmente humorística, fazendo alusão a
+        situações do quotidiano.</p>
 
 
-                    <h3 style="color: rgb(20, 65, 115); font-weight: bolder; margin-left: 35px;">Organização</h3>
-                    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px; width: 88%">
-                    O BEST Aveiro é um dos 97 grupos locais do BEST - Board of European Students of Technology,
-                    uma organização europeia de estudantes de Ciências, Engenharia e Tecnologia, presente em 97 universidades
-                    de 34 países, que trabalham cooperativamente para a prestação dos vários serviços que a organização disponibiliza.<br>
-                    </p>
-                    <br>
-                        <div style=" float: left; width: 42%">
-                            <img style="width: 400px;height: 250px; margin-left: 35px" src="assets/images/a1.jpg" alt="">
-                            <br><br>
-                            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">O grupo local do BEST em Aveiro foi fundado em 2008, sob a liderança de Eric Bosne, que tinha como objetivo desenvolver as suas capacidades académicas, partilhar experiências e conhecer novas pessoas, tanto em Portugal como no estrangeiro, contagiando alguns colegas com a mesma vontade. </p>
-                        </div>
-                        <div style="float: left; width: 42%; margin-left: 70px">
-                            <img  style="width: 400px;height: 250px; margin-left: 35px" src="assets/images/a2.jpg" alt="">
-                            <br><br>
-                            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Esta é uma organização de e para estudantes, trabalhando em prol do desenvolvimento pessoal, académico e cultural dos mesmos, oferecendo diversas oportunidades de formação complementar e intercâmbio. Para tal, o BEST Aveiro organiza anualmente:</p>
-                            <ul style="color: black; font-size: 14px;">
-                                <li >Curso Sazonal</li>
-                                <li>Competição de engenharia EBEC Aveiro (European BEST Engineering Competition)</li>
-                                <li>BEST Training Days, durante todo o ano</li>
-                                <li>Aveiro BEST Competititons (ABCs)</li>
-                                <li>Workshops</li>
-                            </ul>
+      <!-- More about Aveiro, ovos moles -->
 
-                        </div>
-                <div style="float: left; width: 100%;">
-                    <h3 style="color: rgb(20, 65, 115); font-weight: bolder; margin-left: 35px; ">Cidade</h3>
-                    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px; width: 88%">
-                        Aveiro é uma pitoresca cidade portuguesa, conhecida como a "Veneza de Portugal".
-                        Capital do distrito de Aveiro, situa-se na região Centro, com cerca de
-                        60 000 habitantes. Foi elevada a cidade em 1759 por D.José I.</p><br>
-                </div>
-
-                        <!-- More about Aveiro Moliceiros -->
-                        <div style="float: left; width: 42%">
-                            <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/moliceiros.jpg" alt="">
-                            <br>
-                            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A atribuição da alcunha de “Veneza Portuguesa” deve-se ao facto de a cidade apresentar um território descontínuo, com um grande número de ramais da Ria de Aveiro a fazer a divisão do território. Esta zona pertence à bacia do Rio Vouga, que ao chegar a Aveiro se divide em inúmeros canais criando uma paisagem única. A existência destes canais deu origem à atividade da “apanha do moliço”, que era usado nos séculos passados para a produção de adubo que fornecia as terras agrícolas da região. Esta atividade era realizada com recurso aos barcos moliceiros que ainda hoje se podem encontrar no centro da cidade, embora sejam utilizados apenas para fins turísticos. Estes barcos são um dos ex-libris desta região, sendo muito apreciados pelas suas cores e pela decoração que é normalmente humorística, fazendo alusão a situações do quotidiano.</p>
+      <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center"
+           src="assets/images/ovos_moles.jpg" alt="">
+      <br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A doçaria de Aveiro é também bastante
+        reconhecida, principalmente devido aos ovos moles
+        exclusivamente produzidos na cidade.<br><br></p>
+    </div>
 
 
-                        <!-- More about Aveiro, ovos moles -->
+    <div style="float: left; width: 42%; margin-left: 70px">
+      <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center"
+           src="assets/images/salinas.jpg" alt="">
+      <br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Outra das marcas da cidade Aveirense
+        são as salinas, que eram utilizadas para a produção de sal ainda antes da fundação de Portugal. Devido à
+        produção e comercialização de sal a zona portuária de Aveiro cresceu e tornou-se também o principal ponto
+        nacional ao nível da pesca e seca do bacalhau. Atualmente as salinas estão na sua maioria desativadas, ou
+        convertidas em viveiros piscícolas. Os antigos armazéns de sal no canal de São Roque estão hoje a ser
+        convertidos principalmente em bares e restaurantes, de forma a preservar o património cultural da cidade.</p>
 
-                            <img style="width: 400px;height: 250px; margin-left: 35px"class="img-responsive img-center" src="assets/images/ovos_moles.jpg" alt="">
-                            <br>
-                            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A doçaria de Aveiro é também bastante reconhecida, principalmente devido aos ovos moles
-                                exclusivamente produzidos na cidade.<br><br></p>
-                        </div>
+      <!-- More about Aveiro Porto -->
+      <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center"
+           src="assets/images/porto_aveiro.jpg" alt=""/>
+      <br>
+      <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Para além do reconhecimento como
+        cidade marítima, Aveiro tem uma forte identidade
+        industrial e um porto bastante importante.</p>
+    </div>
+    <h3 style=" width: 18%; color: rgb(20, 65, 115); text-align: left; font-weight: bolder; margin-left: 35px;">
+      Universidade</h3>
+    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px; width: 88%">
+      A Universidade de Aveiro, com cerca de 15 000 alunos e fundada em 1973,
+      é uma universidade de renome nacional, assim como de renome europeu, devido à
+      alta qualidade da sua investigação em diversas áreas (sendo que, em média,
+      cada docente publica 1,5 artigos científicos por ano), do seu corpo docente e das suas infraestruturas.<br><br>
+      A área do seu campus é equivalente a cerca de 92 campos de futebol,
+      com 65 edifícios (alguns dos quais grandes obras arquitetónicas) e
+      15 blocos de residências. Incluem-se:</p>
+
+    <div class="imagem1">
+      <img style="width: 400px;height: 200px; margin-left: 35px" src="assets/images/a3.jpg">
+    </div>
+    <div class="conteudo">
+      <div class="texto" style="margin-left: 75px">
+        <!--A área do seu campus é equivalente a cerca de 92 campos de futebol,
+        com 65 edifícios (alguns dos quais grandes obras arquitetónicas) e
+        15 blocos de residências. Incluem-se:-->
+
+        <ul>
+          <li>Refeitórios</li>
+          <li>Bibliotecas</li>
+          <li>Livrarias</li>
+          <li>Salas para conferências e espetáculos</li>
+          <li>Galerias para exposições</li>
+          <li>Pavilhão desportivo</li>
+          <li>Pista de atletismo</li>
+          <li>Lavandarias</li>
+          <li>Correios</li>
+          <li>Banco</li>
+          <li>Lojas</li>
+        </ul>
 
 
-                    <div style="float: left; width: 42%; margin-left: 70px">
-                            <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/salinas.jpg" alt="">
-                            <br>
-                            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Outra das marcas da cidade Aveirense são as salinas, que eram utilizadas para a produção de sal ainda antes da fundação de Portugal. Devido à produção e comercialização de sal a zona portuária de Aveiro cresceu e tornou-se também o principal ponto nacional ao nível da pesca e seca do bacalhau. Atualmente as salinas estão na sua maioria desativadas, ou convertidas em viveiros piscícolas. Os antigos armazéns de sal no canal de São Roque estão hoje a ser convertidos principalmente em bares e restaurantes, de forma a preservar o património cultural da cidade.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-                        <!-- More about Aveiro Porto -->
-                            <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/porto_aveiro.jpg" alt=""/>
-                            <br>
-                            <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Para além do reconhecimento como cidade marítima, Aveiro tem uma forte identidade
-                                industrial e um porto bastante importante.</p>
-                        </div>
-                    <h3 style=" width: 18%; color: rgb(20, 65, 115); text-align: left; font-weight: bolder; margin-left: 35px;">Universidade</h3>
-                    <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px; width: 88%">
-                        A Universidade de Aveiro, com cerca de 15 000 alunos e fundada em 1973,
-                        é uma universidade de renome nacional, assim como de renome europeu, devido à
-                        alta qualidade da sua investigação em diversas áreas (sendo que, em média,
-                        cada docente publica 1,5 artigos científicos por ano), do seu corpo docente e das suas infraestruturas.<br><br>
-                        A área do seu campus é equivalente a cerca de 92 campos de futebol,
-                        com 65 edifícios (alguns dos quais grandes obras arquitetónicas) e
-                        15 blocos de residências. Incluem-se:</p>
+<script>
+    var modal_inter = document.getElementById('myInter');
+    var btn_inter = document.getElementById("Inter");
+    var span_inter = document.getElementsByClassName("close2")[0];
 
-                    <div class="imagem1">
-                        <img  style="width: 400px;height: 200px; margin-left: 35px" src="assets/images/a3.jpg">
-                    </div>
-                    <div class="conteudo" >
-                        <div class="texto" style="margin-left: 75px">
-                            <!--A área do seu campus é equivalente a cerca de 92 campos de futebol,
-                            com 65 edifícios (alguns dos quais grandes obras arquitetónicas) e
-                            15 blocos de residências. Incluem-se:-->
+    var modal = document.getElementById('myPt');
+    var btn = document.getElementById("Pt");
+    var span = document.getElementsByClassName("close")[0];
 
-                            <ul>
-                                <li>Refeitórios</li>
-                                <li>Bibliotecas</li>
-                                <li>Livrarias</li>
-                                <li>Salas para conferências e espetáculos</li>
-                                <li>Galerias para exposições</li>
-                                <li>Pavilhão desportivo</li>
-                                <li>Pista de atletismo</li>
-                                <li>Lavandarias</li>
-                                <li>Correios</li>
-                                <li>Banco</li>
-                                <li>Lojas</li>
-                            </ul>
+    var modaln1 = document.getElementById('myInter2');
+    var btnn1 = document.getElementById("news1");
+    var spann1 = document.getElementsByClassName("close5")[0];
 
+    var modaln3 = document.getElementById('myInter4');
+    var btnn3 = document.getElementById("news3");
+    var spann3 = document.getElementsByClassName("close7")[0];
 
-                        </div>
-                    </div></div>
-        </div>
-        </div>
+    var modaln2 = document.getElementById('myInter3');
+    var btnn2 = document.getElementById("news2");
+    var spann2 = document.getElementsByClassName("close6")[0];
 
-        <script>
-            var modal_inter = document.getElementById('myInter');
-            var btn_inter= document.getElementById("Inter");
-            var span_inter= document.getElementsByClassName("close2")[0];
+    var modal_ebec = document.getElementById('myEBEC');
+    var btn_ebec = document.getElementById("evenebec");
+    var span_ebec = document.getElementsByClassName("close10")[0];
 
-            var modal = document.getElementById('myPt');
-            var btn= document.getElementById("Pt");
-            var span= document.getElementsByClassName("close")[0];
+    var modal_innov = document.getElementById('myInnov');
+    var btn_innov = document.getElementById("9now");
+    var span_innov = document.getElementsByClassName("close12")[0];
 
-            var modaln1 = document.getElementById('myInter2');
-            var btnn1= document.getElementById("news1");
-            var spann1= document.getElementsByClassName("close5")[0];
+    var modal_seasonal = document.getElementById('mySeasonal');
+    var btn_seasonal = document.getElementById("seasonal");
+    var span_seasonal = document.getElementsByClassName("close11")[0];
+    // var modaln2 = document.getElementById('mySeasonal');
+    // var btnn2= document.getElementById("seasonal");
+    // var spann2= document.getElementsByClassName("close9")[0];
+    btn_inter.onclick = function () {
+        modal_inter.style.display = "block";
+    };
+    span_inter.onclick = function () {
+        modal_inter.style.display = "none";
+    };
+    btn.onclick = function () {
+        modal.style.display = "block";
+    };
+    span.onclick = function () {
+        modal.style.display = "none";
+    };
+    btnn1.onclick = function () {
+        modaln1.style.display = "block";
+    };
+    spann1.onclick = function () {
+        modaln1.style.display = "none";
+    };
+    btnn3.onclick = function () {
+        modaln3.style.display = "block";
+    };
+    spann3.onclick = function () {
+        modaln3.style.display = "none";
+    };
+    btnn2.onclick = function () {
+        modaln2.style.display = "block";
+    };
+    spann2.onclick = function () {
+        modaln2.style.display = "none";
+    };
+    btn_ebec.onclick = function () {
+        modal_ebec.style.display = "block";
+    };
+    span_ebec.onclick = function () {
+        modal_ebec.style.display = "none";
+    };
+    btn_innov.onclick = function () {
+        modal_innov.style.display = "block";
+    };
+    span_innov.onclick = function () {
+        modal_innov.style.display = "none";
+    };
+    btn_seasonal.onclick = function () {
+        modal_seasonal.style.display = "block";
+    };
+    span_seasonal.onclick = function () {
+        modal_seasonal.style.display = "none";
+    };
 
-            var modaln3 = document.getElementById('myInter4');
-            var btnn3= document.getElementById("news3");
-            var spann3= document.getElementsByClassName("close7")[0];
+    window.onclick = function (event) {
+        if (event.target == modaln2) {
+            modaln2.style.display = "none";
+        }
+        if (event.target == modaln1) {
+            modaln1.style.display = "none";
+        }
+        if (event.target == modaln3) {
+            modaln3.style.display = "none";
+        }
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        if (event.target == modal_inter) {
+            modal_inter.style.display = "none";
+        }
+        if (event.target == modal_ebec) {
+            modal_ebec.style.display = "none";
+        }
+        if (event.target == modal_innov) {
+            modal_innov.style.display = "none";
+        }
+        if (event.target == modal_seasonal) {
+            modal_seasonal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
 
-            var modaln2 = document.getElementById('myInter3');
-            var btnn2= document.getElementById("news2");
-            var spann2= document.getElementsByClassName("close6")[0];
-
-            var modal_ebec = document.getElementById('myEBEC');
-            var btn_ebec= document.getElementById("evenebec");
-            var span_ebec= document.getElementsByClassName("close10")[0];
-
-            var modal_innov = document.getElementById('myInnov');
-            var btn_innov= document.getElementById("9now");
-            var span_innov= document.getElementsByClassName("close12")[0];
-
-            var modal_seasonal = document.getElementById('mySeasonal');
-            var btn_seasonal= document.getElementById("seasonal");
-            var span_seasonal= document.getElementsByClassName("close11")[0];
-            // var modaln2 = document.getElementById('mySeasonal');
-            // var btnn2= document.getElementById("seasonal");
-            // var spann2= document.getElementsByClassName("close9")[0];
-            btn_inter.onclick = function() {
-                modal_inter.style.display = "block";
-            };
-            span_inter.onclick = function() {
-                modal_inter.style.display = "none";
-            };
-            btn.onclick = function() {
-                modal.style.display = "block";
-            };
-            span.onclick = function() {
-                modal.style.display = "none";
-            };
-            btnn1.onclick = function() {
-                modaln1.style.display = "block";
-            };
-            spann1.onclick = function() {
-                modaln1.style.display = "none";
-            };
-            btnn3.onclick = function() {
-                modaln3.style.display = "block";
-            };
-            spann3.onclick = function() {
-                modaln3.style.display = "none";
-            };
-            btnn2.onclick = function() {
-                modaln2.style.display = "block";
-            };
-            spann2.onclick = function() {
-                modaln2.style.display = "none";
-            };
-            btn_ebec.onclick=function(){
-                modal_ebec.style.display="block";
-            };
-            span_ebec.onclick=function(){
-                modal_ebec.style.display="none";
-            };
-            btn_innov.onclick=function(){
-                modal_innov.style.display="block";
-            };
-            span_innov.onclick=function(){
-                modal_innov.style.display="none";
-            };
-            btn_seasonal.onclick=function(){
-                modal_seasonal.style.display="block";
-            };
-            span_seasonal.onclick=function(){
-                modal_seasonal.style.display="none";
-            };
-
-            window.onclick = function(event) {
-                if (event.target == modaln2) {
-                    modaln2.style.display = "none";
-                }
-                if (event.target == modaln1) {
-                    modaln1.style.display = "none";
-                }
-                if (event.target == modaln3) {
-                    modaln3.style.display = "none";
-                }
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-                if (event.target == modal_inter) {
-                    modal_inter.style.display = "none";
-                }
-                if (event.target ==modal_ebec){
-                    modal_ebec.style.display="none";
-                }
-                if (event.target ==modal_innov){
-                    modal_innov.style.display="none";
-                }
-                if(event.target==modal_seasonal){
-                  modal_seasonal.style.display="none";
-                }
-            }
-        </script>
-        <script>
-            function openCity(evt, cityName) {
-                var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                document.getElementById(cityName).style.display = "block";
-                evt.currentTarget.className += " active";
-            }
-
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 
 
 </html>
