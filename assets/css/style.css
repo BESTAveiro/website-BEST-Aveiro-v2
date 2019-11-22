@@ -1068,7 +1068,7 @@ header_top_bar {
 
 .feature1 .main_feature_content_area1 .main_feature_content1 .single_feature1 img:hover {
     /*background-color:#ffe13e;*/
-    opacity: 0.5;
+
 
 }
 
@@ -1914,4 +1914,8 @@ h5 {
 
 .social:hover {
     background-color: white;
+}
+
+.column1 {
+    margin-bottom: 10%;
 }
