@@ -1748,75 +1748,6 @@ body.modal-open div.modal-backdrop {
     /*font-family: 'ralewayregular';*/
 /*}*/
 
-.image_linkedin {
-    max-width: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
-    border-radius: 50%;
-}
-
-#portfolio .portfolio-link {
-    position: center;
-    display: block;
-    max-width: 150px;
-    margin: auto;
-    cursor: pointer; }
-#portfolio .portfolio-link .portfolio-hover {
-    position: absolute;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    opacity: 0;
-    background: rgb(0, 119, 181);
-    max-width: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
-    border-radius: 50%;}
-#portfolio .portfolio-link .portfolio-hover:hover {
-    opacity: 0.7; }
-#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content {
-    font-size: 6em;
-    text-align: center;
-    margin-top: 30px;
-    color: white;
-    max-width: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
-    border-radius: 50%;
-}
-#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px; }
-#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0; }
-#portfolio .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-    background-color: #fff; }
-#portfolio .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none; }
-#portfolio .portfolio-caption p {
-    font-size: 16px;
-    margin: 0;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
-#portfolio * {
-    z-index: 2; }
-
-
-
 .portfolio-modal {
     padding-right: 0px !important; }
 .portfolio-modal .modal-dialog {
@@ -1918,4 +1849,88 @@ h5 {
 
 .column1 {
     margin-bottom: 10%;
+}
+
+/*
+MANAGEMENT
+*/
+
+.image_linkedin {
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    /*width: 150px;
+    height: 150px;*/
+    border-radius: 50%;
+}
+
+#portfolio .portfolio-link {
+    position: center;
+    display: block;
+    max-width: 150px;
+    margin: auto;
+    cursor: pointer; 
+}
+#portfolio .portfolio-link .portfolio-hover {
+    position: absolute;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgb(0, 119, 181);
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    /*width: 150px;
+    height: 150px;*/
+    border-radius: 50%;
+}
+#portfolio .portfolio-link .portfolio-hover:hover {
+    opacity: 0.7; 
+}
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    /*width: 150px;
+    height: 150px;*/
+    border-radius: 50%;
+}
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px; 
+}
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0; 
+}
+#portfolio .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff; 
+}
+#portfolio .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none; 
+    font-weight: bolder;
+    color: black; 
+    font-size: 1.1rem;
+}
+#portfolio .portfolio-caption p {
+    margin: 0;
+    font-size: 0.85rem; 
+    font-family: 'ralewayregular', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    color: #808080;
+}
+
+#portfolio * {
+    z-index: 2; 
 }
