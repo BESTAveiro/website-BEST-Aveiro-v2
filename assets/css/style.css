@@ -1903,10 +1903,7 @@ MANAGEMENT
 #portfolio .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px; 
 }
-#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0; 
-}
+
 #portfolio .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
