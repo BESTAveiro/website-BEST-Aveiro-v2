@@ -225,16 +225,6 @@ p:last-child {
     margin-bottom: 0px;
 }
 
-/*.home-wrap h1,*/
-.home-wrap h2,
-.home-wrap h3,
-.home-wrap h4,
-.home-wrap h5,
-.home-wrap p {
-    color: #ffffff;
-    /*font-family: 'roboto', sans-serif;*/
-}
-
 .text {
     color: #333333;
 }
@@ -1899,3 +1889,16 @@ MANAGEMENT
 
 @media (min-width: 992px) { }
 
+.headingSection {
+    color:black; 
+    padding-top:80px;
+    text-align: center;
+}
+
+.text-black {
+    color:black; 
+}
+
+.text-bold {
+    font-weight: bold;
+}
