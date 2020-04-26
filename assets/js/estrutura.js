@@ -1,3 +1,10 @@
+/*
+Depedendecies:
+in index.html:
+
+
+*/
+
 $(document).ready(function () {
 
     var language = {
@@ -10,7 +17,7 @@ $(document).ready(function () {
             partners: "Parceiros",
             contacts: "Contactos",
             language: "EN",
-            pageLanguage: "index-en1.html"
+            pageLanguage: "indexEn.html"
         },
         abouts: {
             text01: "O BEST é uma organização europeia sem fins "+
