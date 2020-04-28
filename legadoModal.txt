@@ -1,0 +1,276 @@
+<div id="myEBEC" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close10">&times;</span>
+      <img style="max-width:100%; min-width:100%; height: 75%" src="assets/images/ebec.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">EBEC Aveiro</h3>
+      <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px">
+  
+        O BEST é a entidade responsável pela organização da EBEC - European BEST Engineering Competition - a maior
+        competição de engenharia a nível europeu. Esta competição é direcionada para estudantes das áreas de foco do BEST,
+        e permite aos mesmos aplicar ou aperfeiçoar uma grande variedade de competências sociais, comunicativas, técnicas
+        e a sua capacidade de trabalho em equipa. Existem várias categorias, sendo que o LBG aveirense organiza as de Team
+        Design e de Case Study.
+  
+        <br><br>Esta competição tem vindo a crescer bastante e agrada a todas as partes, uma vez que serve também como
+        plataforma de interação entre alunos e empresas. Realiza-se uma vez ao longo de cada ano letivo.
+        <br>
+        <a href="http://bestaveiro.web.ua.pt/ebec-challenge/" target="_blank"
+           style="margin-left: 35px; margin-top: 100px; color: black"><h6>Visita a página oficial</h6></a>
+      </p>
+  
+  
+      <div style=" margin-left: 0px; float: left;">
+        <div class="panel-heading" style="background-color: #989bcd; color: black; margin-left: 35px">
+          <h3 class="panel-title">Case Study</h3>
+        </div>
+        <br>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na resolução de um problema
+          teórico sobre problemas técnicos e/ou de gestão, baseados em fatos reais e fornecido por uma empresa. Para
+          resolver a prova, deverás usar toda a informação que te é facultada. Poderás pesquisar em fontes externas, se
+          tal for permitido pelo regulamento da tua prova. No final do desafio, a tua equipa apresentará as soluções
+          encontradas durante as 24h de prova numa pequena apresentação.</p>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Além de desenvolveres o
+          trabalho/discussão de ideias em equipa e as tuas capacidades intelectuais, esta será também uma ótima
+          oportunidade para entrares em contacto com as empresas parceiras da competição.</p>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A título de exemplo, alguns dos
+          problemas postos nesta categoria, em anos anteriores, são: resolução de problemas de gestão de tráfego em
+          cidades subdesenvolvidas, supply-chain de empresas, planeamento de Jogos Olímpicos em cidades com condições
+          adversas, promoção de produtos, etc.</p>
+        <div style="width: 45%; float: left;">
+          <img style="width: 400px;height: 250px; margin-left: 45px;" class="img-responsive img-center"
+               src="assets/images/case_study.jpg" alt="">
+        </div>
+        <div style="width: 45%; margin-left: 50px; float: left;">
+          <img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center"
+               src="assets/images/ebec_pyramid.png" alt="">
+        </div>
+        <br>
+        <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na resolução de um problema teórico sobre problemas técnicos e/ou de gestão, baseados em fatos reais e fornecido por uma empresa. Para resolver a prova, deverás usar toda a informação que te é facultada. Poderás pesquisar em fontes externas, se tal for permitido pelo regulamento da tua prova. No final do desafio, a tua equipa apresentará as soluções encontradas durante as 24h de prova numa pequena apresentação.</p>-->
+        <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Além de desenvolveres o trabalho/discussão de ideias em equipa e as tuas capacidades intelectuais, esta será também uma ótima oportunidade para entrares em contacto com as empresas parceiras da competição.</p>-->
+        <!--<p align="justify" style="color: black; font-size: 14px; margin-left: 35px">A título de exemplo, alguns dos problemas postos nesta categoria, em anos anteriores, são: resolução de problemas de gestão de tráfego em cidades subdesenvolvidas, supply-chain de empresas, planeamento de Jogos Olímpicos em cidades com condições adversas, promoção de produtos, etc.</p>-->
+        <br><br><br>
+        <!--<img style="width: 400px;height: 250px; margin-left: 35px" class="img-responsive img-center" src="assets/images/ebec_pyramid.png" alt="">-->
+        <br>
+  
+      </div>
+      <div style=" width: 47.5%; margin-left: 50px; float: left;">
+        <div class="panel-heading" style="background-color: #989bcd;color: black; margin-left: 35px">
+          <h3 class="panel-title">Team Design</h3>
+        </div>
+        <br>
+        <img style="width: 400px;height: 250px; margin-left: 45px; align: center;" class="img-responsive img-center"
+             src="assets/images/team_design.png" alt="">
+        <br>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Consiste na construção de um
+          protótipo, com materiais limitados, para a resolução de um problema técnico proposto. Os materiais e as
+          ferramentas serão fornecidos pelo BEST Aveiro, bem como toda a informação necessária para a prova. Terás de
+          encontrar uma solução técnica, em conjunto com os membros da tua equipa, dentro das 24h de competição, que seja
+          capaz de superar as provas.</p>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Esta é portanto uma prova que exige
+          toda a tua criatividade, toda a tua capacidade técnica e intelectual para, em equipa, chegares a uma solução
+          bem-sucedida.</p>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px">Exemplos de competições anteriores:
+          construção de um barco movido com uma lamparina; construção de um lançador de projéteis capaz de superar
+          diversos desafios.</p>
+        <br><br><br><br><br><br><br>
+        <p align="justify" style="color: black; font-size: 14px; margin-left: 35px"><b>Este concurso tem 3 fases:</b></p>
+        <ul>
+          <li style="color: black; font-size: 14px; margin-left: 35px">Competição local da EBEC, organizada por cada LBG
+            membro;
+          </li>
+          <br>
+          <li style="color: black; font-size: 14px; margin-left: 35px">Fase nacional da EBEC. No caso do nosso país toma
+            lugar à realização a <a href="http://ebecportugal.pt/" target="_blank">EBEC Portugal</a> que é uma final
+            Nacional organizada por 5 Grupos Locais do BEST de norte a sul do país .
+          </li>
+          <br>
+          <li style="color: black; font-size: 14px; margin-left: 35px">EBEC Final - final europeia onde são apurados os
+            vencedores de cada país.
+          </li>
+        </ul>
+        <br><br><br>
+      </div>
+  
+      <!--<a href="https://best.eu.org/index.jsp" target="_blank" style="margin-top: 20px"><h6 style="text-align: right; color: white;">Visita a página oficial</h6></a>-->
+      <a href="https://best.eu.org/index.jsp" target="_blank" style="margin-top: 100px"><h6
+        style="text-align: right; color: white;">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Visita a página
+        oficial</h6></a>
+  
+  
+    </div>
+  
+  </div>
+  
+  
+  <div id="mySeasonal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close11">&times;</span>
+      <img style="max-width: 100%; min-width:100%" src="assets/images/curso.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Seasonal Course</h3>
+      <p style="text-align: justify; color:black; font-size: 14px">De forma a desenvolver os estudantes das universidades
+        com Grupo Local BEST,
+        são organizados vários eventos que visam o desenvolvimento das suas competências em contexto internacional,
+        estabelecendo variadas redes de contactos e melhorando as capacidades comunicativas dos alunos. <br><br>
+        Entre estes eventos destacam-se os eventos sazonais, que são organizados nas várias estações
+        do ano com a duração de aproximadamente 10 dias. <br><br>
+        Dentro dos eventos sazonais incluem-se os BEST Courses, BEST Events on Education e BEST Leisure Events.<br><br>
+        O LBG de Aveiro organiza, por norma, BEST Seasonal Courses ou cursos sazonais, que para além dos
+        objetivos acima referidos, incorporam uma componente de aprendizagem, com palestras, workshops e diversas
+        actividades acerca da temática do curso.</p>
+  
+  
+      <a href="http://bestaveiro.web.ua.pt/summercourse_2018/" target="_blank"><h6
+        style="text-align: right; color: black;"> Visita a nossa Página do curso </h6></a>
+  
+    </div>
+  </div>
+  
+  <div id="myInnov" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close12">&times;</span>
+      <img style="max-width: 100%; min-width:100%; height: 75%" src="assets/images/nnov.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Innovation Now</h3>
+      <p style="text-align: justify; color:black; font-size: 14px; margin-left: 35px">
+  
+        Como a inovação tecnológica é um dos impulsionadores do progresso científico, o Innovation Now! surge na
+        Universidade de Aveiro como um simpósio para partilhar ideias, conhecimentos e experiências entre profissionais e
+        estudantes que vivem a inovação no seu dia a dia.
+        <br><br>
+        O evento abrange várias visões de profissionais da área, permitindo uma aproximação dos alunos de Aveiro à
+        realidade empresarial e também aos oradores de renome nacional, especialistas em diversas áreas técnicas, onde a
+        inovação está presente todos os dias.
+        <br><br>
+        Em 2017 o evento contará com palestras, mesas redondas, um concurso de pitching, grupos de discussão e um
+        showroom. Neste evento, conceitos como interdisciplinaridade, espírito criativo e empreendedorismo são
+        valorizados.
+  
+    </div>
+  </div>
+  
+  
+  <div id="myInter2" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close5">&times;</span>
+      <img style="max-width: 100%; min-width:100%;" src="assets/images/N1_2.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Training Weekend: Formações em Soft
+        e Hard Skills</h3>
+      <br>
+      <p style="text-align: justify; color:black;">
+        O Training Weekend, organizado pelo BEST Aveiro, decorreu de 24 a 26 de
+        maio na Universidade de Aveiro. O evento trata-se de um fim de semana em que os membros
+        têm oportunidade de participar em sessões de formação preparadas por
+        formadores e tutores certificados pelo BEST e membros experientes.<br><br>
+        Os membros que estiveram presentes puderam usufruir das seguintes formações:<br><br>
+        <b>Soft Skills:</b>
+        <br>
+      <ul style="text-align: justify; color:black;">
+        <li>Motivação</li>
+        <li>Como promover o BEST</li>
+        <li>Feedback</li>
+        <li><i>Public Speaking</i></li>
+        <li>Gestão da mudança</li>
+      </ul>
+      <br>
+      <b style="text-align: justify; color:black;">Informação e Tecnologia:</b>
+      <br>
+      <ul style="text-align: justify; color:black;">
+        <li>Android</li>
+      </ul>
+      <br>
+      <b style="text-align: justify; color:black;">Relações empresariais</b>
+      <ul style="text-align: justify; color:black;">
+        <li>Como promover o BEST</li>
+      </ul>
+      <br>
+      <font style="text-align: justify; color:black;">
+        Para além destas sessões, o evento contou ainda com diversos momentos de
+        descontração e atividades de team building. No evento também estiveram presentes tanto membros de outros grupos
+        BEST de Portugal como de uma outra associação de estudantes, a ESTIEM, com o objetivo de promover a partilha de
+        conhecimento entre diferentes grupos locais e associações.
+      </font>
+      </p>
+  
+      <!--<div class="container2">
+  <div class="inner">
+  <p>BEST Internacional</p>
+  </div>
+  </div>-->
+    </div>
+  
+  </div>
+  <div id="myInter3" class="modal">
+    <div class="modal-content">
+      <span class="close6">&times;</span>
+      <img style="max-width: 100%; min-width:100%;" src="assets/images/news/PMBogazici_2.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">BEST Symposium on Education Aveiro:
+        Diversidade de géneros na educação STEM
+      </h3>
+      <p align="justify">
+        Entre os dias 23 e 31 de agosto do presente ano, o BEST Aveiro irá realizar na Universidade de Aveiro, um BEST
+        Symposium on Education, com a temática “Diversidade de géneros na educação STEM (Science, Technology, Engineering
+        and Mathematics)”. Este evento é sazonal e internacional, e consiste em várias sessões de partilha e discussão
+        sobre a Educação.
+      </p>
+      <p align="justify">
+        Neste evento, não só estarão presentes estudantes, mas também docentes, investigadores na área da
+        indústria/associações, várias instituições de ensino superior e representantes de empresas, com o objetivo de
+        debater ideias que possam melhorar a Educação. No final das discussões, será feito um relatório que,
+        posteriormente, será analisado. Caso o mesmo seja aceite, este irá será apresentado em várias conferências
+        internacionais de educação, tais como na Conferência Anual da Sociedade Europeia de Educação na Engenharia (SEFI
+        AC), no Fórum Mundial de Educação na Engenharia (WEEF), no grupo de educação do ICL e outras.
+      </p>
+      <p align="justify">
+        Para além das sessões de discussão, os participantes também terão atividades culturais e sociais com os membros
+        organizadores do evento.
+      </p>
+    </div>
+  </div>
+  
+  <div id="myInter4" class="modal">
+    <div class="modal-content">
+      <span class="close7">&times;</span>
+      <img style="max-width: 100%; min-width:100%;" src="assets/images/news/ano2018_2.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">EBEC Aveiro: A maior competição de
+        engenharia está de volta</h3>
+      <p align="justify">
+        Este evento iniciou-se no dia 14 de março com um <i>Cocktail Network</i>, os quais permitiram um momento de
+        contacto entre os estudantes e as empresas.
+      </p>
+      <p align="justify">
+        A competição teve início no dia 16 de março e contou com uma competição com a duração de 24 horas consecutivas. As
+        equipas escolheram e participaram numa das seguintes modalidades:
+      </p>
+      <ul style="text-align: justify; color:black;">
+        <li><b>Team Design:</b> Desenvolvimento e construção de um protótipo, com acesso a materiais e recursos limitados.
+          Uma prova com a duração de 24 horas.
+        <li><b>Case Study:</b> Resolução e solucionamento de problemas teóricos propostos por empresas. Dividido em duas
+          provas com duração de 12 horas cada.
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="myInter5" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+       aria-hidden="true">
+    <div class="modal-content">
+      <span class="close7">&times;</span>
+      <img style="max-width: 100%; min-width:100%;" src="assets/images/news/ano2018_2.jpg">
+      <h3 style="background-color: rgb(20, 65, 115); color:white; text-align: center;">Fim de Semana de Motivação - Casa
+        da Nininha
+      </h3>
+      <p align="justify">
+        No passado fim de semana de 10,11 e 12 de maio o BEST Aveiro realizou um fim de semana de motivação, este evento é
+        realizado uma vez por semestre e contou com a participação de 30 membros do BEST Aveiro.
+      </p>
+    </div>
+  </div>
