@@ -5,6 +5,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
 html,
 body {
     background-color: transparent;
