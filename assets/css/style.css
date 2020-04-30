@@ -43,7 +43,6 @@ PRE LOADER
     position: absolute;
     left: 45%;
     top: 45%;
-    /*background-image: url(../images/loading.gif);*/
     background-image: url(../images/logo_BEST.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -310,35 +309,34 @@ h1 span {
     font-weight: 400;
 }
 
-/* navbar section */
-.menu-scroll {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 300;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, .55);
-    -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, .55);
+.navbar-default {
     background-color: black;
+    border: 0 solid black;
 }
 
-.main_menu_bg {
-    margin-top: 0px;
-    background-color:black;
-    /*height: 17%;*/
+.navbar-default .navbar-header {
+    height: 70px;
 }
 
-.main_menu_bg .navbar-default {
-    background-color: black;
-    border-color: black;
-    /*transition:.6s;*/
-    /*margin: 10px auto;*/
+.navbar-default .navbar-header img {
+    height: 100%;
+    width: auto;
+    padding: 7px 15px;
+}
+
+.navbar-default .navbar-toggle {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
 }
 
 .navbar-default .navbar-nav > li > a {
+    font-family: 'ralewaysemibold';
+    text-transform: uppercase;
+    font-size: 0.875rem;
     color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -349,25 +347,18 @@ h1 span {
     color: rgb(250, 205, 50);
 }
 
-.main_menu_bg .navbar {
-    margin-bottom: 10px;
+.navbar-default .navbar-collapse.in {
+    overflow-y: visible !important;
 }
 
-.main_menu_bg .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    font-family: 'ralewaysemibold';
+@media(max-width:767px) {
+    .navbar-default .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 }
 
-.navbar-brand > img {
-    max-width: 11%;
-}
-
-.navbar-brand {
-    padding: 0px 0px;
-}
 
 /*call us*/
 .text-center {
@@ -488,21 +479,21 @@ h1 span {
 
 /*clients section*/
 
-.clients {
+#clients {
     background: #fff;
     overflow: hidden;
 }
 
-.clients .main_clients_area .main_clients_top_content {
+#clients .main_clients_area .main_clients_top_content {
     padding: 80px 0px;
 }
 
-.clients .main_clients_area .main_clients_top_content .client_left_content h2 {
+#clients .main_clients_area .main_clients_top_content .client_left_content h2 {
     font-size: 2.25rem;
     font-family: 'ralewaybold';
 }
 
-.clients .main_clients_area .main_clients_top_content .client_left_content p {
+#clients .main_clients_area .main_clients_top_content .client_left_content p {
     font-size: 0.875rem;
     font-family: 'ralewaylight';
     max-width: 70%;
@@ -655,39 +646,6 @@ html {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-
-
-/* Removes the default 20px margin and creates some padding space for the indicators and controls */
-.carousel {
-    margin-bottom: 0;
-    padding: 0 0px 0px 0px;
-}
-
-/* Reposition the controls slightly */
-.carousel-control {
-    left: -100px;
-}
-
-.carousel-control.right {
-    right: -100px;
-}
-
-/* Changes the position of the indicators */
-.carousel-indicators {
-    right: 50%;
-    top: auto;
-    bottom: 0px;
-    margin-right: -19px;
-}
-
-/* Changes the colour of the indicators */
-.carousel-indicators li {
-    background: #0c0c0c;
-}
-
-.carousel-indicators .active {
-    background: #333333;
 }
 
 .tab {
@@ -903,21 +861,56 @@ MANAGEMENT
     width: 100%;
 }
 
-#abouts .columns {
+#abouts .col-sm-6 {
      height: 700px;
 
 }
 
-@media (min-width: 992px) { }
+#abouts .col-sm-6 img {
+    width: 240px; 
+    margin-top: 15%;
+}
 
-.headingSection {
-    color:black; 
-    padding-top:80px;
-    text-align: center;
+#abouts .col-sm-6 p {
+    width:50%; 
+    margin:auto;
+    text-align: justify;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #abouts .col-sm-6 p {
+        width: 70%; 
+        margin:auto;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 571px) and (max-width: 767px) {
+    #abouts .col-sm-6 {
+        height: 600px;
+   
+   }
+    #abouts .col-sm-6 p {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 570px) {
+    #abouts .col-sm-6 {
+        height: 550px;
+   
+    }
+    #abouts .col-sm-6 p {
+        width: 100%;
+    }
 }
 
 .text-black {
     color:black; 
+}
+
+.text-white {
+    color:white; 
 }
 
 .text-bold {
@@ -930,4 +923,39 @@ MANAGEMENT
 
 .bg-blue {
     background-color:rgba(20, 65, 115, 1);
+}
+
+#contactos .fa {
+    padding: 0;
+    margin: 0;
+}
+
+
+#contactos .header h2 {
+    color:black; 
+    padding-top:80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contactos .body {
+    margin-top:35px; 
+    margin-bottom:75px;
+}
+
+#contactos .text-body {
+    text-align: center;
+    color: black;
+}
+
+@media (max-width: 992px) {
+    #contactos .text-body {
+        margin-top: 35px;
+    }
+}
+
+
+
+#contactos .text-body h5 {
+    font-weight: bold;
 }
