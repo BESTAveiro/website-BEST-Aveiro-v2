@@ -57,8 +57,8 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right" data-bind="using: navbar">
             <li><a href="#abouts" data-bind="text: abouts"></a></li>
-            <li><a href="#feature1" data-bind="text: events"></a></li>
-            <li><a href="#feature" data-bind="text: teams"></a></li>
+            <li><a href="#teams" data-bind="text: events"></a></li>
+            <li><a href="#equipas" data-bind="text: teams"></a></li>
             <li><a href="#portfolio" data-bind="text: board"></a></li>
             <li><a href="#clients" data-bind="text: partners"></a></li>
             <li><a href="#contactos" data-bind="text: contacts"></a></li>
@@ -110,146 +110,115 @@
     </div>
   </section>
   
-  <section id="feature1" class="feature1" data-bind="using: events">
-    <div class="feature_overlay">
-      <div class="container">
+  <section id="teams" data-bind="using: events">
+    <div class="container">
 
         <div class="row">
-          <div class="main_feature_content_area1">
-            <div class="col-sm-12">
-              <div class="heading_title1 text-center">
-                <h2 style="color: black" data-bind="text: title"></h2>
-              </div>
-            </div>
+          <div class="col-sm-12 heading">
+              <h2 data-bind="text: title"></h2>
           </div>
         </div>
 
-        <div class="row">
-          <div class="main_feature_content_area1">
-            <div class="main_feature_content1 text-center" style="margin:auto">
-
-              <div class="col-md-4">
-                <div class="single_feature1">
-                  <a href="http://bestaveiro.web.ua.pt/ebec/">
-                    <div class="single_feature_img1"
-                         style="width: 250px; height: 170px; margin-left:auto; margin-right:auto;">
-                      <img src="assets/images/Eventos/ebec.png" alt=" "/>
-                    </div>                  
-                    <h3 style="margin-top: -40px">EBEC Aveiro</h3>
-                  </a>
-                  <p data-bind="html: textEbec"></p>
-                </div>
-              </div>
+        <div class="row body text-center" style="margin:auto">
+          <div class="col-md-4">
+            <a href="http://bestaveiro.web.ua.pt/ebec/">
+              <div class="image">
+                <img src="assets/images/Eventos/ebec.png" alt=" ">
+              </div>                  
+              <h3>EBEC Aveiro</h3>
+            </a>
+            <p data-bind="html: textEbec"></p>
+          </div>
   
-              <div class="col-md-4">
-                <div class="single_feature1">
-                  <a href="http://bestaveiro.web.ua.pt/innovation-now2020/" class="button">
-                    <div class="single_feature_img1"
-                         style="width: 250px; height: 170px; margin-left:auto; margin-right:auto;">
-                      <img src="assets/images/Eventos/innov.png" alt=""/>
-                    </div>
-                    <h3  style="margin-top: -40px">Innovation Now!</h3>
-                  </a>
-                  <p data-bind="html: textInnov"></p>
-                </div>
+          <div class="col-md-4">
+            <a href="http://bestaveiro.web.ua.pt/innovation-now2020/" class="button">
+              <div class="image">
+                <img src="assets/images/Eventos/innov.png" alt="">
               </div>
-              <div class="col-md-4">
-                <div class="single_feature1">
-                  <a id="seasonal" class="button">
-                    <div class="single_feature_img1"
-                         style="width: 250px; height: 170px; margin-left: auto; margin-right: auto;">
-                      <img src="assets/images/Eventos/cursos.png" style="margin-top: 25px" alt=""/>
-                    </div>
-                    <h3 style="margin-top: -40px">Seasonal Courses</h3>
-                    <p data-bind="html: textCourses"></p></a>
-                </div>
+              <h3>Innovation Now!</h3>
+            </a>
+            <p data-bind="html: textInnov"></p>
+          </div>
+
+          <div class="col-md-4">
+            <a id="seasonal" class="button">
+              <div class="image">
+                <img src="assets/images/Eventos/cursos.png" style="margin-top: 25px" alt="">
               </div>
-            </div>
+              <h3>Seasonal Courses</h3>
+              <p data-bind="html: textCourses"></p>
+            </a>
           </div>
         </div>
-      </div>
-      <br><br>
-      <div class="separator1"></div>
+
     </div>
-  
+    <br><br>
+    <div class="separator1"></div>
   </section>
   
-  <section id="feature" class="feature" style="margin-top: -130px" data-bind="using:teams">
-    <div class="feature_overlay">
+  <section id="equipas" data-bind="using:teams">
+
       <div class="container">
-        <div class="row">
-          <div class="main_feature_content_area">
-            <div class="col-sm-12">
-              <div class="heading_title text-center">
-                <h2 style="color: black;" data-bind="text: title"></h2>
-              </div>
-            </div>
-  
-            <div class="main_feature_content text-center" style="margin:auto">
-              <div class="col-md-2 col-md-offset-1">
-                <div class="single_feature">
-                  <div class="single_feature_img">
-                    <img src="assets/images/ft2.png" alt=" "/>
-                  </div>
-                  <div class="separator"></div>
-                  <h3 data-bind="text: titleCnt"></h3>
-                  <p data-bind="text: textCnt" style="margin-top: 52px"></p>
-                </div>
-              </div>
-  
-              <div class="col-md-2">
-                <div class="single_feature">
-                  <div class="single_feature_img">
-                    <img src="assets/images/ft5.png" alt="" style="saturate: 50%"/>
-                  </div>
-                  <div class="separator"></div>
-                  <h3 data-bind="text: titleHR"></h3>
-                  <p data-bind="text: textHR" style="margin-top: 52px"></p>
-                </div>
-              </div>
-              <div class="col-md-2">
-                <div class="single_feature">
-                  <div class="single_feature_img">
-                    <img src="assets/images/ft3.png" alt=""/>
-                  </div>
-                  <div class="separator"></div>
-                  <h3 data-bind="text: titleMkt"></h3><br>
-                  <p style="margin-top: -20px" data-bind="text: textMkt"></p>
-                </div>
-              </div>
-              <div class="col-md-2 ">
-                <div class="single_feature">
-                  <div class="single_feature_img">
-                    <img src="assets/images/ft1.png" alt=""/>
-                  </div>
-                  <div class="separator"></div>
-                  <h3 data-bind="text: titleFR"></h3>
-                  <p data-bind="text: textFR"></p>
-                </div>
-              </div>
-              <div class="col-md-2">
-                <div class="single_feature">
-                  <div class="single_feature_img">
-                    <img src="assets/images/ft4.png" alt=""/>
-                  </div>
-                  <div class="separator"></div>
-                  <h3 data-bind="text: titleIT"></h3>
-                  <p data-bind="text: textIT"></p>
-                </div>
-              </div>
-  
-            </div>
+
+        <div class="row heading">
+          <div class="col-sm-12 ">
+            <h2 data-bind="text: title"></h2>
           </div>
         </div>
+
+        <div class="row body">
+
+          <div class="col-md-2 col-md-offset-1">
+            <div class="image">
+              <img src="assets/images/ft2.png">
+            </div>
+            <div class="separator"></div>
+            <h3 data-bind="text: titleCnt"></h3>
+            <p data-bind="text: textCnt" style="margin-top: 52px"></p>
+          </div>
+  
+          <div class="col-md-2">
+            <div class="image">
+              <img src="assets/images/ft5.png">
+            </div>
+            <div class="separator"></div>
+            <h3 data-bind="text: titleHR"></h3>
+            <p data-bind="text: textHR" style="margin-top: 52px"></p>
+          </div>
+
+          <div class="col-md-2">
+            <div class="image">
+              <img src="assets/images/ft3.png">
+            </div>
+            <div class="separator"></div>
+            <h3 data-bind="text: titleMkt"></h3>
+            <p style="margin-top: -20px" data-bind="text: textMkt"></p>
+          </div>
+
+          <div class="col-md-2">
+            <div class="image">
+              <img src="assets/images/ft1.png">
+            </div>
+            <div class="separator"></div>
+            <h3 data-bind="text: titleFR"></h3>
+            <p data-bind="text: textFR"></p>
+          </div>
+
+          <div class="col-md-2">
+            <div class="image">
+              <img src="assets/images/ft4.png">
+            </div>
+            <div class="separator"></div>
+            <h3 data-bind="text: titleIT"></h3>
+            <p data-bind="text: textIT"></p>
+          </div>
+
+        </div>
       </div>
-  
       <div class="separator1"></div>
-    </div>
-  
   </section>
   
-  <section class="bg-light" id="portfolio" data-bind="using: mgmt">
-    <div class="feature_overlay">
+  <section class="bg-light feature_overlay" id="portfolio" data-bind="using: mgmt">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -394,39 +363,32 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
   
-  <section id="clients" class="feature" style="margin-top: 0px;" data-bind="using: partners">
-  
-    <div class="feature_overlay">
-      <div class="container">
-        <div class="row">
-          <div class="main_clients_area">
-  
-            <div class="main_clients_top_content">
+  <section id="clients" data-bind="using: partners">
+    <div class="container">
+      <div class="row body">
 
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="client_left_content text-center" style="margin: auto;">
-                    <h2 data-bind="text: title"></h2>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="single_right_client" style="width: 50%; margin: auto;">
-                    <a href="https://www.ipdj.pt/" target="_blank"><img src="assets/images/c1.jpg" alt=""/></a>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="single_right_client" style="width: 40%; margin: auto;">
-                    <a href="https://www.ua.pt/" target="_blank"><img src="assets/images/c2.png" alt=""></a>
-                  </div>
-                </div>
-              </div>
+        <div class="col-sm-4 heading">
+          <h2 data-bind="text: title"></h2>
+        </div>
 
-            </div>
+        <div class="col-sm-4">
+          <div class="partners" style="width: 50%;">
+            <a href="https://www.ipdj.pt/" target="_blank">
+              <img src="assets/images/c1.jpg">
+            </a>
           </div>
         </div>
+
+        <div class="col-sm-4">
+          <div class="partners" style="width: 40%;">
+            <a href="https://www.ua.pt/" target="_blank">
+              <img src="assets/images/c2.png">
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
