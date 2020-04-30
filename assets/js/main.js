@@ -3,10 +3,14 @@
 
 jQuery(document).ready(function ($) {
 
-	$(window).load(function () {
-		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
-	});
+    jQuery(document).ready(function ($) {
+    
+        $(window).on('load', function () {
+            $(".loaded").fadeOut();
+            $(".preloader").delay(1000).fadeOut("slow");
+        });
+        
+    });
 
 
     /*---------------------------------------------*
@@ -27,14 +31,31 @@ jQuery(document).ready(function ($) {
             }
         }
     });
+
+
+
+    /*---------------------------------------------*
+     * STICKY scroll
+     ---------------------------------------------*/
+
+    $.localScroll();
+
+	jQuery(window).scroll(function () {
+	  var top = jQuery(document).scrollTop();
+		var height = 300;
+	  
+	  if (top > height) {
+		jQuery('.navbar-fixed-top').addClass('menu-scroll');
+	  } else {
+	   jQuery('.navbar-fixed-top').removeClass('menu-scroll');
+	  }
+	});	 
 	
 // scroll Up
 
     $(window).scroll(function(){
-        alert('louca');
         if ($(this).scrollTop() > 600) {
             $('.scrollup').fadeIn('slow');
-            alert('louc');
         } else {
             $('.scrollup').fadeOut('slow');
         }

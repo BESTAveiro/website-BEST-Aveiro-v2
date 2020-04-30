@@ -37,7 +37,7 @@
 </head>
 <body id="home" data-bind="with: body">
 
-  <div class="preloader hidden">
+  <div class="preloader">
     <div class="loaded">&nbsp;</div>
   </div>
   
@@ -50,19 +50,19 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="js-scroll-trigger" href="#">
+        <a href="#">
           <img src="assets/images/logobranco.png">
         </a>
       </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right" data-bind="using: navbar">
-            <li><a class="js-scroll-trigger" href="#abouts" data-bind="text: abouts"></a></li>
-            <li><a class="js-scroll-trigger" href="#feature1" data-bind="text: events"></a></li>
-            <li><a class="js-scroll-trigger" href="#feature" data-bind="text: teams"></a></li>
-            <li><a class="js-scroll-trigger" href="#portfolio" data-bind="text: board"></a></li>
-            <li><a class="js-scroll-trigger" href="#clients" data-bind="text: partners"></a></li>
-            <li><a class="js-scroll-trigger" href="#contactos" data-bind="text: contacts"></a></li>
-            <li><a class="js-scroll-trigger" href="" data-bind="text: language, attr: {href: pageLanguage}"></a></li>
+            <li><a href="#abouts" data-bind="text: abouts"></a></li>
+            <li><a href="#feature1" data-bind="text: events"></a></li>
+            <li><a href="#feature" data-bind="text: teams"></a></li>
+            <li><a href="#portfolio" data-bind="text: board"></a></li>
+            <li><a href="#clients" data-bind="text: partners"></a></li>
+            <li><a href="#contactos" data-bind="text: contacts"></a></li>
+            <li><a href="" data-bind="text: language, attr: {href: pageLanguage}"></a></li>
           </ul>
         </div>
     </div>
@@ -98,13 +98,13 @@
           <img class="" src="assets/images/teste3.png">
           <h3>BEST</h3>
           <p data-bind="text: text01"></p>
-          <a class="btn2" data-bind="text: btn" data-toggle="modal" data-target="#modalBEST"></a>
+          <a class="btn-black btn" data-bind="text: btn" data-toggle="modal" data-target="#modalBEST"></a>
         </div>
         <div class="col-sm-6 bg-blue text-white">
           <img class="" src="assets/images/pt.png">            
           <h3>BEST Aveiro</h3>
           <p data-bind="text: text02"></p>
-          <a class="btn" data-bind="text: btn2" data-toggle="modal" data-target="#modalLBG"></a>
+          <a class="btn-white btn" data-bind="text: btn2" data-toggle="modal" data-target="#modalLBG"></a>
         </div>
       </div>
     </div>
@@ -641,8 +641,7 @@
     </div>
   </div>
 </footer>
-<script src="assets/js/agency.js"></script>
-<!----><script src="assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 <script src="assets/js/estrutura.js"></script>
 
 </body>
