@@ -32,10 +32,8 @@
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css"/>
 
-        <script type="text/javascript" src="assets/js/changeImg.js"></script>
-
 </head>
-<body id="home" data-bind="with: body">
+<body data-bind="with: body">
 
   <div class="preloader">
     <div class="loaded">&nbsp;</div>
@@ -68,28 +66,17 @@
     </div>
   </nav>
   
-  <section id="home1" class="home" style="width: 100%">
-    <div class="home_overlay">
-      <div class="container">
-        <div class="row">
-          <div class="main_slider_area">
-            <div class="slider" style="margin-top: -80px">
-              <div class="single_slider"
-                   style="background-color:rgba(0, 0, 0, 0.75); width:75%; padding:50px; margin:auto; margin-top: 150px">
-                <div style="margin-bottom: 55px;">
-                  <img src="assets/images/ii1.png" alt="" style="width:30%"/>
-                </div>
-                <h3>Board of European <br>Students of Technology</h3>
-  
-                <p style="line-height: 1;">Empowered Diversity - Developing Students</p>
-              </div>
-            </div>
-  
-          </div>
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="slider">
+          <img src="assets/images/ii1.png">
+          <h3>Board of European <br>Students of Technology</h3>
+          <p>Empowered Diversity - Developing Students</p>
         </div>
       </div>
     </div>
-  </section><!-- End of Banner Section -->
+  </section>
   
   <section id="abouts" data-bind="using: abouts">
     <div class="container-fluid">
@@ -168,7 +155,7 @@
 
         <div class="row body">
 
-          <div class="col-md-2 col-md-offset-1">
+          <div class="col-md-2 col-md-offset-1 division">
             <div class="image">
               <img src="assets/images/ft2.png">
             </div>
@@ -177,7 +164,7 @@
             <p data-bind="text: textCnt" style="margin-top: 52px"></p>
           </div>
   
-          <div class="col-md-2">
+          <div class="col-md-2 division">
             <div class="image">
               <img src="assets/images/ft5.png">
             </div>
@@ -186,7 +173,7 @@
             <p data-bind="text: textHR" style="margin-top: 52px"></p>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 division">
             <div class="image">
               <img src="assets/images/ft3.png">
             </div>
@@ -195,7 +182,7 @@
             <p style="margin-top: -20px" data-bind="text: textMkt"></p>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 division">
             <div class="image">
               <img src="assets/images/ft1.png">
             </div>
@@ -204,7 +191,7 @@
             <p data-bind="text: textFR"></p>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 division">
             <div class="image">
               <img src="assets/images/ft4.png">
             </div>
@@ -218,156 +205,168 @@
       <div class="separator1"></div>
   </section>
   
-  <section class="bg-light feature_overlay" id="portfolio" data-bind="using: mgmt">
+  <section id="portfolio" data-bind="using: mgmt">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="heading_title" data-bind="text: boardtitle"
-            style="font-family: 'ralewaybold'; font-size: 3rem; color: black; margin-top: -0px"></h2>
-            <h3 class="section-subheading text-muted"></h3>
+
+        <div class="row header">
+          <div class="col-lg-12">
+            <h2 data-bind="text: boardtitle"></h2>
           </div>
         </div>
-        <div class="row" style="margin-top: 0px">
+
+        <div class="row body">
+
           <div class="col-md-offset-1 col-md-2 col-sm-4">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/diogo-prata-327b51175/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/prata.jpg" alt="">
+              <img src="assets/images/x/prata.jpg">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Diogo Prata</h4>
               <p class="text-muted" data-bind="text: president"></p>
             </div>
           </div>
+
           <div class="col-md-2 col-sm-4">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/catarina-gomes97/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/catarina.jpg" alt="">
+              <img src="assets/images/x/catarina.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Catarina Gomes</h4>
               <p class="text-muted" data-bind="text: treasurer"></p>
             </div>
           </div>
+
           <div class="col-md-2 col-sm-4">
             <a class="portfolio-link" target="_blank" >
               <div class="portfolio-hover hidden">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/vlad.jpg" alt="">
+              <img src="assets/images/x/vlad.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Vladimir Ghilas</h4>
               <p class="text-muted" data-bind="text: secretary"></p>
             </div>
           </div>
+
           <div class="col-md-offset-0 col-md-2 col-sm-offset-2 col-sm-4">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/luís-aguiar-249b1b176/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
               <img class="image_linkedin" src="assets/images/x/luis.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Luís Aguiar</h4>
               <p class="text-muted" data-bind="text: vphr"></p>
             </div>
           </div>
+
           <div class="col-md-2 col-sm-4">
             <a class="portfolio-link" target="_blank">
               <div class="portfolio-hover hidden">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/rita.jpg" alt="">
+              <img src="assets/images/x/rita.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Ana Rita Almeida</h4>
               <p class="text-muted" data-bind="text: vpis"></p>
             </div>
           </div>
         </div>
-        <div class="container row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-bold" style="font-family: 'ralewaybold'; font-size: 2.5rem; color: black;" data-bind="text: mgmttitle">
-            </h2>
-            <h3 class="section-subheading text-muted"></h3>
+
+        <div class="row header-2">
+          <div class="col-lg-12">
+            <h2 data-bind="text: mgmttitle"></h2>
           </div>
+        </div>
+
+        <div class="row body">
+
           <div class="col-md-2 col-md-offset-2 col-sm-3">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/ana-rita-oliveira-4a19321a7/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/anaRita.jpg" alt="">
+              <img src="assets/images/x/anaRita.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Ana Rita Oliveira</h4>
               <p class="text-muted" data-bind="text: mkt"></p>
             </div>
           </div>
+
           <div class="col-md-2 col-sm-3">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/pedro-david-gomes/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/david.jpg" alt="">
+              <img src="assets/images/x/david.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>David Gomes</h4>
               <p class="text-muted" data-bind="text: cnt"></p>
             </div>
           </div>
+
           <div class="col-md-2 col-sm-3">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/renan-alves-ferreira-253292125/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/renan.jpg" alt="">
+              <img src="assets/images/x/renan.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Renan Ferreira</h4>
               <p class="text-muted" data-bind="text: it"></p>
             </div>
           </div>
+
           <div class="col-md-2 col-sm-3">
             <a class="portfolio-link" target="_blank" href="https://www.linkedin.com/in/nélia-ferreira-862105195/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-linkedin" style="font-size: 1em;"></i>
+                  <i class="fa fa-linkedin"></i>
                 </div>
               </div>
-              <img class="image_linkedin" src="assets/images/x/nelia.jpg" alt="">
+              <img src="assets/images/x/nelia.jpg" alt="">
             </a>
-            <div class="portfolio-caption">
+            <div class="subtitle">
               <h4>Nélia Ferreira</h4>
               <p class="text-muted" data-bind="text: fr"></p>
             </div>
           </div>
+
         </div>
       </div>
   </section>
   
   <section id="clients" data-bind="using: partners">
     <div class="container">
-      <div class="row body">
+      <div class="row">
 
         <div class="col-sm-4 heading">
           <h2 data-bind="text: title"></h2>
@@ -413,19 +412,19 @@
         </div>
         <div class="col-md-6 col-sm-12 text-body">
           <h5>
-            <i class="fa fa-home" style="color:black;"></i>
+            <i class="fa fa-home"></i>
             <span data-bind="text: addresstitle"></span>
           </h5>
           <p data-bind="html: address"></p>
           <h5>
-            <i class="fa fa-envelope" style="color: black;"></i>            
+            <i class="fa fa-envelope"></i>            
             <span>Email:</span>
           </h5>
           <p><a href="mailto:aveiro@BEST.eu.org" class="text-black">
-            aveiro@BEST.eu.org
+            <span>aveiro@BEST.eu.org</span>
           </a></p>
           <h5>
-            <i class="fa fa-phone" style="color: black;"></i>         
+            <i class="fa fa-phone"></i>         
             <span data-bind="text: teltitle"></span>
           </h5>
           <p>(+351) 925 030 168</p>
@@ -598,10 +597,11 @@
     </div>
     <div class="row">
         <br>
-        <p style="color:white">Powered by BEST Aveiro IT Team - The-Bugs ©2019</p>
+        <p class="text-white">Powered by BEST Aveiro IT Team - The-Bugs ©2019</p>
     </div>
   </div>
 </footer>
+
 <script src="assets/js/main.js"></script>
 <script src="assets/js/estruturaEn.js"></script>
 

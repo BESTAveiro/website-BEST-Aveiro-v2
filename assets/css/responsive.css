@@ -10,7 +10,7 @@ Author URI: http://bootstrapthemes.co
     body {
         font-size: 1rem;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature h3 {
+    #equipas .body .division h3 {
         font-size: 1.575rem;
     }
 
@@ -22,7 +22,7 @@ Author URI: http://bootstrapthemes.co
     html {
         font-size: 90%;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature h3 {
+    #equipas .body .division h3 {
         font-size: 1.175rem;
     }
 
@@ -32,29 +32,34 @@ Author URI: http://bootstrapthemes.co
     html {
         font-size: 80%;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature {
+    #equipas .body .division {
         margin-bottom: 30px;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature p {
+    #equipas .body .division p {
         max-width: 50%;
         margin: 0 auto;
     }
 
-    .clients .main_clients_area .main_clients_top_content .client_left_content {
+    #clients .heading {
         text-align: center;
         margin: 0 auto;
         max-width: 60%;
     }
-    .clients .main_clients_area .main_clients_top_content .client_left_content p {
+    #clients .heading p {
         font-size: 0.875rem;
         font-family: 'ralewaylight';
         max-width: 70%;
         margin: 0 auto;
     }
 
-    .clients .main_clients_area .main_clients_top_content .single_right_client{
+    #clients .partners {
         text-align: center;
         margin-top:20px;
+    }
+
+    .slider img {
+        width:80%; 
+        margin-bottom: 30px;
     }
 
 }
@@ -66,30 +71,30 @@ Author URI: http://bootstrapthemes.co
     html {
         font-size: 65%;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature {
+    #equipas .body .division {
         margin-bottom: 30px;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature p {
+    #equipas .body .division p {
         max-width: 50%;
         margin: 0 auto;
     }
-    .clients .main_clients_area .main_clients_top_content .client_left_content {
+    #clients .heading {
         text-align: center;
         margin: 0 auto;
         max-width: 60%;
     }
-    .clients .main_clients_area .main_clients_top_content .client_left_content p {
+    #clients .heading p {
         font-size: 0.875rem;
         font-family: 'ralewaylight';
         max-width: 70%;
         margin: 0 auto;
     }
 
-    .clients .main_clients_area .main_clients_top_content .single_right_client{
+    #clients .partners {
         text-align: center;
         margin-top:20px;
     }
-	.slider .single_slider h3 {
+	.slider h3 {
         font-size: 2.5rem;
 	}
 }
@@ -101,27 +106,27 @@ Author URI: http://bootstrapthemes.co
     html {
         font-size: 60.5%;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature {
+    #equipas .body .division {
         margin-bottom: 30px;
     }
-    .feature .main_feature_content_area .main_feature_content .single_feature p {
+    #equipas .body .division p {
         max-width: 50%;
         margin: 0 auto;
     }
 
-    .clients .main_clients_area .main_clients_top_content .client_left_content {
+    #clients .heading {
         text-align: center;
         margin: 0 auto;
         max-width: 60%;
     }
-    .clients .main_clients_area .main_clients_top_content .client_left_content p {
+    #clients .heading p {
         font-size: 0.875rem;
         font-family: 'ralewaylight';
         max-width: 70%;
         margin: 0 auto;
     }
 
-    .clients .main_clients_area .main_clients_top_content .single_right_client{
+    #clients .partners {
         text-align: center;
         margin-top:20px;
     }

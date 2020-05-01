@@ -49,7 +49,7 @@ PRE LOADER
     top: 45%;
     background-image: url(../images/logo_BEST.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     -moz-background-size: cover;
     background-size: cover;
     margin: -20px 0 0 -20px;
@@ -192,7 +192,7 @@ Section
     margin-top: 50px;
 }
 
-.sections.footer {
+.sections .footer {
     padding-bottom: 80px;
 }
 
@@ -200,11 +200,6 @@ Section
     margin-bottom: 4rem;
 }
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    min-height: 750px;
-}
 
 /*
 Separator
@@ -287,34 +282,81 @@ nav {
 }
 
 /* Home Section */
-.home {
+#home {
     /*background: url(../images/homebg.jpg) no-repeat center left;*/
+    margin: 0;
+    padding: 0;
+    background: transparent;
     background-image: url(../images/homebg.jpg);
     background-size: cover;
     position: relative;
-    /*background-image: url("../img/salmonfarm.jpg");*/
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: 100%;
+    width: 100%;
 }
 
-.slider .single_slider h3 {
+#home .row {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    margin-top: -80px;
+}
+
+.slider {
+    background-color:rgba(0, 0, 0, 0.75); 
+    text-align: center;
+    width:75%; 
+
+    padding:50px; 
+    padding-bottom: 90px;
+    margin:auto; 
+    margin-top: 150px;
+}
+
+.slider img {
+    width:35%; 
+    margin-bottom: 55px;
+}
+
+.slider h3 {
     color: #fff;
     font-size: 3rem;
     font-family: 'sanchezregular';
     margin-bottom: 40px;
 }
 
-.slider .single_slider p {
+.slider p {
     font-size: 2.5rem;
     color: #fff;
     font-family: 'ralewaylight';
-    margin-bottom: 40px;
+    line-height: 1;
 }
 
-.main_slider_area {
-    padding: 250px 0px;
-    text-align: center;
+@media (max-width: 768px) {
+    #home .row {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        margin-top: -40px;
+    }
+
+    .slider {
+        width:90%; 
+
+        padding:50px;
+        padding-bottom: 75px; 
+        margin:auto; 
+        margin-top: 100px;
+    }
+
+    .slider img {
+        width:100%; 
+        margin-bottom: 30px;
+    }
+
+    .slider h3 {
+        margin-bottom: 30px;
+    }
 }
 
 /*our features section*/
@@ -324,10 +366,6 @@ nav {
     margin-top: -130px;
 }
 
-.feature_overlay {
-    padding: 90px 0px 100px 0px;
-    background-color: #fdfdff;
-}
 
 #equipas .heading {
     margin-bottom: 80px;
@@ -429,31 +467,32 @@ nav {
     margin-top: 0px;
 }
 
-#clients .body {
+#clients .row {
     padding: 80px 0px;
 }
 
-#clients .body .heading {
+#clients .heading {
     margin: auto;
     text-align: center;
 }
 
-#clients .body .heading h2 {
+#clients .heading h2 {
     font-size: 2.25rem;
     font-family: 'ralewaybold';
 }
 
-#clients .body .heading p {
+#clients .heading p {
     font-size: 0.875rem;
     font-family: 'ralewaylight';
     max-width: 70%;
 }
 
-#clients .body .partners { 
+#clients .partners { 
     margin: auto;    
 }
 
 /*footer*/
+
 .footer {
     overflow: hidden;
     padding: 20px 0px;
@@ -562,42 +601,6 @@ html {
     color: black;
 }
 
-.tab {
-    float: left;
-    border: 0;
-    background-color: white;
-    width: 20%;
-    height: 300px;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    display: block;
-    background-color: inherit;
-    color: black;
-    padding: 22px 16px;
-    width: 100%;
-    height: 20%;
-    vertical-align: center;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 25px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    color: black;
-    background-color: #fff099;
-}
-
-/* Create an active/current "tab button" class */
-.tab button.active {
-    color: black;
-    background-color: rgb(250, 205, 50);
-}
 
 
 .texto {
@@ -692,13 +695,36 @@ h5 {
 MANAGEMENT
 */
 
-.image_linkedin {
+#portfolio {
+    padding: 90px 0px 100px 0px;
+    background-color: #fdfdff;
+}
+
+#portfolio .header h2 {
+    font-family: 'ralewaybold'; 
+    font-size: 3rem; 
+    color: black; 
+    margin-top: -0px;
+    text-align: center;
+}
+
+#portfolio .header-2 h2 {
+    font-family: 'ralewaybold'; 
+    font-size: 2.5rem; 
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#portfolio .body {
+    margin-top: 0px;
+}
+
+#portfolio .body img {
     max-width: 150px;
     min-width: 150px;
     max-height: 150px;
     min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
     border-radius: 50%;
 }
 
@@ -720,8 +746,6 @@ MANAGEMENT
     min-width: 150px;
     max-height: 150px;
     min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
     border-radius: 50%;
 }
 #portfolio .portfolio-link .portfolio-hover:hover {
@@ -736,29 +760,28 @@ MANAGEMENT
     min-width: 150px;
     max-height: 150px;
     min-height: 150px;
-    /*width: 150px;
-    height: 150px;*/
     border-radius: 50%;
 }
 #portfolio .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px; 
+    font-size: 1em;
 }
 
-#portfolio .portfolio-caption {
+#portfolio .subtitle {
     max-width: 400px;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
     background-color: #fff; 
 }
-#portfolio .portfolio-caption h4 {
+#portfolio .subtitle h4 {
     margin: 0;
     text-transform: none; 
     font-weight: bolder;
     color: black; 
     font-size: 1.1rem;
 }
-#portfolio .portfolio-caption p {
+#portfolio .subtitle p {
     margin: 0;
     font-size: 0.85rem; 
     font-family: 'ralewayregular', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -896,6 +919,7 @@ Button
 #contactos .fa {
     padding: 0;
     margin: 0;
+    color: black;
 }
 
 
