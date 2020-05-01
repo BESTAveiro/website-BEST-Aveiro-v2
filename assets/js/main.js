@@ -1,11 +1,7 @@
 jQuery(document).ready(function ($) {
-    jQuery(document).ready(function ($) {
-    
-        $(window).on('load', function () {
-            $(".loaded").fadeOut();
-            $(".preloader").delay(1000).fadeOut("slow");
-        });
-        
+    $(window).on('load', function () {
+        $(".loaded").fadeOut();
+        $(".preloader").delay(1000).fadeOut("slow");
     });
 });
 
