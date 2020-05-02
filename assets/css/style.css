@@ -38,14 +38,15 @@ PRE LOADER
     width: 200px;
     height: 100px;
     position: absolute;
-    left: 45%;
-    top: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     background-image: url(../images/logo_BEST.png);
     background-repeat: no-repeat;
     background-position: center center;
     -moz-background-size: cover;
     background-size: cover;
-    margin: -20px 0 0 -20px;
 }
 
 
@@ -255,7 +256,7 @@ nav {
 }
 
 /* Home Section */
-#home {
+header {
     margin: 0;
     padding: 0;
     background: transparent;
@@ -269,12 +270,12 @@ nav {
     width: 100%;
 }
 
-#home .row {
+header .row {
     padding-top: 320px;
     padding-bottom: 250px;
 }
 
-#home .slider {
+header .slider {
     background-color:rgba(0, 0, 0, 0.75); 
     text-align: center;
     width:75%; 
@@ -284,19 +285,19 @@ nav {
     margin:auto; 
 }
 
-#home .slider img {
+header .slider img {
     width:35%; 
     margin-bottom: 55px;
 }
 
-#home .slider h3 {
+header .slider h3 {
     color: #fff;
     font-size: 3rem;
     font-family: 'sanchezregular';
     margin-bottom: 40px;
 }
 
-#home .slider p {
+header .slider p {
     font-size: 2.5rem;
     color: #fff;
     font-family: 'ralewaylight';
@@ -304,24 +305,24 @@ nav {
 }
 
 @media (max-width: 768px) {
-    #home .row {
+    header .row {
         padding-top: 220px;
         padding-bottom: 150px;
     }
 
-    #home .slider {
+    header .slider {
         width:90%; 
 
         padding:50px;
         padding-bottom: 75px; 
     }
 
-    #home .slider img {
+    header .slider img {
         width:100%; 
         margin-bottom: 30px;
     }
 
-    #home .slider h3 {
+    header .slider h3 {
         margin-bottom: 30px;
     }
 }
