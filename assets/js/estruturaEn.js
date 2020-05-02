@@ -107,7 +107,8 @@ $(document).ready(function () {
                  "the moliceiros boats that still today can be found in the center of the city, although they are used only for "+
                  "tourist purposes. These boats are one of the ex-libris of this region, being highly appreciated for their colors "+
                  "and decoration that is usually humorous, alluding to everyday situations.",
-            p3c: "Other Aveirense's city brands are salinas, which were used for salt production even before the founding of Portugal. Due to the production and "+
+            p3c: "A doçaria de Aveiro é também bastante reconhecida, principalmente devido aos ovos moles exclusivamente produzidos na cidade.",
+            p4c: "Other Aveirense's city brands are salinas, which were used for salt production even before the founding of Portugal. Due to the production and "+
                  "commercialization of salt, the port area of Aveiro has grown to become the main national fishing and drought "+
                  "site for cod. Currently the salinas are mostly deactivated, or converted to fish farms. The old salt warehouses "+
                  "on the São Roque canal are now being converted mainly into bars and restaurants, in order to preserve the city's "+
