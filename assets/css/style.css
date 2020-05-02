@@ -41,7 +41,7 @@ PRE LOADER
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
     background-image: url(../images/logo_BEST.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -57,7 +57,7 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
+    max-width: 100%;
 }
 
 a,
@@ -88,10 +88,6 @@ a span {
 
 p {
     margin: 0 0 15px;
-}
-
-img {
-    max-width: 100%;
 }
 
 h1,
