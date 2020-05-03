@@ -5,17 +5,11 @@ html {
 
 html,
 body {
-    background-color: transparent;
-    font-size: 15px;
-    color: #565656;
     width: 100%;
     padding: 0;
-    margin-left: 0;
-    margin-right: -10px;
+    font-size: 15px;
     font-family: 'roboto', sans-serif;
     font-weight: 300;
-    left: 0;
-    right: 0;
 }
 
 /*==========================================
@@ -49,8 +43,6 @@ PRE LOADER
     background-size: cover;
 }
 
-
-
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -58,6 +50,10 @@ img {
     user-select: none;
     -webkit-user-drag: none;
     max-width: 100%;
+}
+
+.img-responsive {
+    margin: auto;
 }
 
 a,
@@ -76,8 +72,6 @@ a span {
     transition: 0.2s ease-in-out;
 }
 
-
-
 *,
 *:before,
 *:after {
@@ -88,6 +82,8 @@ a span {
 
 p {
     margin: 0 0 15px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 h1,
@@ -121,7 +117,6 @@ h2 {
 }
 
 h3 {
-    font-weight: 300;
     margin-bottom: .9rem;
     font-size: 2.1rem;
     line-height: 2.5rem;
@@ -143,21 +138,8 @@ h6 {
     margin-bottom: .9rem;
 }
 
-p {
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-}
-
 p:last-child {
     margin-bottom: 0px;
-}
-
-.text {
-    color: #333333;
-}
-
-.text-center {
-    text-align: center !important;
 }
 
 .text-black {
@@ -168,10 +150,6 @@ p:last-child {
     color:white; 
 }
 
-.text-bold {
-    font-weight: bold;
-}
-
 .bg-orange {
     background-color:rgb(250, 205, 50);
 }
@@ -180,10 +158,6 @@ p:last-child {
     background-color:rgba(20, 65, 115, 1);
 }
 
-/*
-Separator
-*/
-
 .separator1 {
     height: 1px;
     width: 80%;
@@ -191,10 +165,16 @@ Separator
     background: #8d8d99;
 }
 
-h1 span {
-    color: #f56363;
-    font-weight: 400;
+.texto {
+    color: black;
+    display: table-cell;
+    float: left;
+    width: 400px;
+    text-align: justify;
+    font-size: 14px;
 }
+
+/*Navbar*/
 
 nav {
     box-shadow: 0 6px 6px rgba(0, 0, 0, .55);
@@ -249,21 +229,26 @@ nav {
         padding-bottom: 10px;
     }
 
+    .navbar-default .navbar-header img {
+        padding: 1px 7px;
+    }
+
 }
 
 /* Home Section */
 header {
+    position: relative;
+    background-size: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+
     background: transparent;
     background-image: url(../images/homebg.jpg);
     background-size: cover;
-    position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
-    width: 100%;
 }
 
 header .row {
@@ -331,19 +316,19 @@ header .slider p {
 }
 
 
-#equipas .heading {
+#equipas .header {
     margin-bottom: 80px;
     text-align: center;
 
 }
 
-#equipas .heading h2 {
+#equipas .header h2 {
     font-family: 'ralewaybold';
     font-size: 3rem;
     color: black;
 }
 
-#equipas .heading p {
+#equipas .header p {
     font-family: 'ralewaylight';
     font-size: 1.5rem;
     color: rgba(20, 65, 115, 1);
@@ -352,10 +337,6 @@ header .slider p {
 #equipas .body {
     margin:auto;
     text-align: center;
-}
-
-#equipas .body .image {
-    margin-left: 5px;
 }
 
 #equipas .body h3 {
@@ -375,44 +356,42 @@ header .slider p {
     width: 70px;
     margin: 30px auto;
     background: #8d8d99;
+    text-align: auto;
 }
 
 #teams {
     padding: 90px 0px 100px 0px;
     background-color: #fdfdff;
+    text-align: center;
 }
 
-#teams .heading {
+#teams .header {
     margin-bottom: 80px;
     text-align: center;
 }
 
 
-#teams .heading h2 {
+#teams .header h2 {
     font-family: 'ralewaybold';
     font-size: 3rem;
     color: black;
 }
 
-#teams .heading p {
+#teams .header p {
     font-family: 'ralewaylight';
     font-size: 1.5rem;
     color: rgba(20, 65, 115, 1);
 }
 
-#teams .body .image {
-    margin-left: 5px;
-    width: 250px; 
-    height: 170px; 
-    margin-left:auto; 
-    margin-right:auto;
+#teams .body img {
+    width: 70%;
 }
 
 #teams .body h3 {
     font-weight: bolder;
     color: black;
     font-size: 1.1rem;
-    margin-top: -40px
+    margin-top: 40px
 }
 
 #teams .body p {
@@ -435,17 +414,17 @@ header .slider p {
     padding: 80px 0px;
 }
 
-#clients .heading {
+#clients .header {
     margin: auto;
     text-align: center;
 }
 
-#clients .heading h2 {
+#clients .header h2 {
     font-size: 2.25rem;
     font-family: 'ralewaybold';
 }
 
-#clients .heading p {
+#clients .header p {
     font-size: 0.875rem;
     font-family: 'ralewaylight';
     max-width: 70%;
@@ -460,11 +439,11 @@ header .slider p {
 footer {
     overflow: hidden;
     padding: 30px 0px;
-    background: white;
+    background-color:rgba(20, 65, 115, 1);
+    text-align: center;
 }
 
 footer p a {
-    color: rgb(250, 205, 50);
     padding: 0px 10px;
 }
 
@@ -495,19 +474,6 @@ footer .fa {
 .fa-instagram {
     background: white;
     color: black;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-.texto {
-    color: black;
-    display: table-cell;
-    float: left;
-    width: 400px;
-    text-align: justify;
-    font-size: 14px;
 }
 
 /*
@@ -611,21 +577,26 @@ MANAGEMENT
     z-index: 2; 
 }
 
-/*         Abouts Section         */
+/*Abouts Section*/
 
 #abouts {
     width: 100%;
+    text-align: center;
 }
 
 #abouts .col-sm-6 {
-     height: 700px;
-
+     height: 730px;
+     padding-top: 60px;
 }
 
 #abouts .col-sm-6 img {
     width: 240px; 
-    margin-top: 15%;
 }
+
+#abouts .col-sm-6 h3 {
+    margin-top: 30px; 
+}
+
 
 #abouts .col-sm-6 p {
     width:50%; 
@@ -644,7 +615,8 @@ MANAGEMENT
 @media (min-width: 571px) and (max-width: 767px) {
     #abouts .col-sm-6 {
         height: 600px;
-   
+        padding-top: 30px;
+
    }
     #abouts .col-sm-6 p {
         width: 90%; 
@@ -708,6 +680,10 @@ MANAGEMENT
     background-color: rgb(53,53,53);
     color: #ffe13e;
     border-color:black;
+}
+
+#contactos {
+    background-color:rgb(250, 205, 50);
 }
 
 #contactos .fa {
