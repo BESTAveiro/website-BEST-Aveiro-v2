@@ -56,6 +56,10 @@ img {
     margin: auto;
 }
 
+.mgmt-photos{
+    object-fit: cover;
+}
+
 a,
 a:hover,
 a:active,

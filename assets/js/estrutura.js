@@ -57,7 +57,7 @@ $(document).ready(function () {
             boardtitle: "Direção",
             president: "Presidente",
             treasurer: "Tesoureira",
-            secretary: "Secretário",
+            secretary: "Secretária",
             vphr: "Vice Presidente para Recursos Humanos",
             vpis: "Vice Presidente para Suporte Interno",
             mgmttitle: "Coordenadores",
