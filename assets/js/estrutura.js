@@ -62,7 +62,7 @@ $(document).ready(function () {
             vpis: "Vice Presidente para Suporte Interno",
             mgmttitle: "Coordenadores",
             mkt: "Marketing e Relações Públicas",
-            cnt: "Conteúdos Académicos",
+            cnt: "Conteúdo Académico",
             it: "Tecnologias de Informação",
             fr: "Relações Empresariais"
         },

@@ -50,7 +50,7 @@ $(document).ready(function () {
             vphr: "Vice President for Human Resources",
             vpis: "Vice President for Internal Support",
             mgmttitle: "Coordinators",
-            mkt: "Marketing e Public Relations",
+            mkt: "Marketing and Public Relations",
             cnt: "Academic Content",
             it: "Information Technology",
             fr: "Corporate Relations"
