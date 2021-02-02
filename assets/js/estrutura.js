@@ -22,10 +22,10 @@ $(document).ready(function () {
         abouts: {
             text01: "O BEST é uma organização europeia sem fins "+
                     "lucrativos e apolítica de estudantes de Ciências, "+
-                    "Engenharia e Tecnologia, presente em 97 universidades "+
-                    "de 34 países, com cerca de 3000 membros e abrangendo "+
+                    "Engenharia e Tecnologia, presente, através de 93 grupos locais, "+
+                    "em 34 países, com cerca de 3000 membros e abrangendo "+
                     "aproximadamente 1 milhão de estudantes.",
-            text02: "O BEST Aveiro é um dos 96 grupos locais "+
+            text02: "O BEST Aveiro é um dos 93 grupos locais "+
                     "do BEST, uma organização europeia de estudantes de Ciências, Engenharia e Tecnologia que trabalham "+
                     "cooperativamente para a prestação dos vários serviços "+
                     "que a organização disponibiliza.",

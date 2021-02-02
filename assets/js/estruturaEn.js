@@ -13,9 +13,9 @@ $(document).ready(function () {
         },
         abouts: {
             text01: "BEST is a non-profit and apolitical European "+
-                    "organization of science, engineering and technology students, 97 universities in 34 countries with "+
+                    "organization of science, engineering and technology students, present, through 93 local groups, in 34 countries with "+
                     "approximately 3000 members and covering approximately 1 million students.",
-            text02: "BEST Aveiro is one of the 97 local groups "+
+            text02: "BEST Aveiro is one of the 93 local groups "+
                     "of BEST, a European organization of students of Sciences, Engineering and Technology who work cooperatively to "+
                     "provide various services that the organization offers.",
             btn: "Read More",
